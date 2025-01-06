@@ -1,16 +1,3 @@
-<script setup lang="ts">
-const { x, y } = useMouse({ touch: false });
-
-const getParallaxStyles = computed(() => {
-  const offsetX = (x.value / window.innerWidth - 0.5) * 30;
-  const offsetY = (y.value / window.innerHeight - 0.5) * 30;
-
-  return {
-    transform: `translate(${offsetX}px, ${offsetY}px)`,
-  };
-});
-</script>
-
 <template>
   <section>
     <div>
@@ -23,14 +10,7 @@ const getParallaxStyles = computed(() => {
       <ShinningStars />
 
       <div class="absolute top-1/4 flex w-full flex-col items-center">
-        <ClientOnly>
-          <img
-            src="../assets/images/logo-uwu.png"
-            alt="logo VueJS"
-            class="transition-transform duration-300 ease-out md:h-96"
-            :style="getParallaxStyles"
-          />
-        </ClientOnly>
+        <AnimatedLogo />
         <div class="flex flex-col items-center gap-5">
           <h1 class="text-center text-3xl text-white sm:text-5xl">
             Rejoignez la communauté Vue.js Paris !
