@@ -19,9 +19,11 @@ const slug = computed(() => slugify(props.talk.snippet.title));
         class="aspect-video w-full rounded-t-lg object-cover transition-all group-hover:scale-105"
       />
       <div class="h-full max-h-40 min-h-40 p-4">
-        <h3 class="text-lg font-semibold">
-          {{ decodeHTML(talk.snippet.title) }}
-        </h3>
+        <ClientOnly>
+          <h3 class="text-lg font-semibold">
+            {{ decodeHTML(talk.snippet.title) }}
+          </h3>
+        </ClientOnly>
         <p class="mt-2 line-clamp-3 text-sm text-gray-500">
           {{ talk.snippet.description }}
         </p>
