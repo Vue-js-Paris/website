@@ -17,8 +17,11 @@ const getParallaxStyles = computed(() => {
       <img
         src="../assets/images/fakeHero.webp"
         alt="fakeHeroImage"
-        class="h-screen w-full object-cover"
+        class="relative h-screen w-full object-cover"
       />
+      <ShootingStars />
+      <ShinningStars />
+
       <div class="absolute top-1/4 flex w-full flex-col items-center">
         <ClientOnly>
           <img
