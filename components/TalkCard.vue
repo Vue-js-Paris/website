@@ -11,7 +11,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
 <template>
   <NuxtLink :to="`/talks/${slug}`" role="navigation">
     <article
-      class="group flex flex-col items-start rounded-lg bg-white shadow-md transition-shadow hover:shadow-lg"
+      class="group flex flex-col items-start overflow-hidden rounded-lg bg-white shadow-md transition-shadow hover:shadow-lg"
     >
       <img
         :src="talk.snippet.thumbnails.high.url"
