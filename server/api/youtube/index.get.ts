@@ -31,7 +31,7 @@ export default defineEventHandler(async (event) => {
     // On extrait tous les IDs
     const videoIds = searchResponse.items
       .map((item) => item.id.videoId)
-      .filter(Boolean) // au cas où
+      .filter(Boolean)
       .join(",");
 
     if (!videoIds) {
@@ -57,7 +57,7 @@ export default defineEventHandler(async (event) => {
     const pureVideos: YouTubeVideo[] = filteredItems.map((item) => {
       return {
         id: {
-          videoId: item.id, // la seule différence : ici c’est une string directe
+          videoId: item.id,
         },
         snippet: {
           title: item.snippet.title,

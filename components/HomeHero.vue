@@ -2,6 +2,10 @@
 const { x, y } = useMouse({ touch: false });
 
 const getParallaxStyles = computed(() => {
+  if (typeof window === "undefined") {
+    return { transform: "none" };
+  }
+
   const offsetX = (x.value / window.innerWidth - 0.5) * 30;
   const offsetY = (y.value / window.innerHeight - 0.5) * 30;
 
