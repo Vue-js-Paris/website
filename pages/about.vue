@@ -3,7 +3,9 @@
     <h1 class="mt-10 text-center text-5xl font-semibold text-secondary">
       Les organisateurs de Paris Vue.js
     </h1>
-    <div class="mx-10 mt-10 flex flex-col justify-between gap-10 md:flex-row">
+    <div
+      class="mt-10 flex flex-col justify-between gap-10 md:mx-20 md:flex-row"
+    >
       <AboutCard
         image="/images/Eduardo.webp"
         alt="Eduardo San Martin Morote"

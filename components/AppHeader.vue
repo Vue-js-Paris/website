@@ -4,12 +4,12 @@ const route = useRoute();
 
 <template>
   <header
-    class="text-secondary sticky top-0 z-30 flex w-full items-center justify-center bg-white py-10 shadow-md lg:px-20"
+    class="sticky top-0 z-30 flex w-full items-center justify-center bg-white py-5 text-secondary shadow-md lg:px-20"
   >
     <nav>
       <ul class="flex gap-5 text-xl sm:text-3xl">
         <li
-          class="hover:border-primary rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:duration-200"
+          class="rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:border-primary hover:duration-200"
           :class="{
             'border-primary font-bold': route.path === '/',
           }"
@@ -17,7 +17,7 @@ const route = useRoute();
           <NuxtLink to="/"> Accueil </NuxtLink>
         </li>
         <li
-          class="hover:border-primary rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:duration-200"
+          class="rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:border-primary hover:duration-200"
           :class="{ 'border-primary font-bold': route.path === '/talks' }"
         >
           <NuxtLink to="/talks"> Talks </NuxtLink>
@@ -30,7 +30,7 @@ const route = useRoute();
           </NuxtLink>
         </li> -->
         <li
-          class="hover:border-primary rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:duration-200"
+          class="rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:border-primary hover:duration-200"
           :class="{ 'border-primary font-bold': route.path === '/about' }"
         >
           <NuxtLink to="/about"> À propos </NuxtLink>
