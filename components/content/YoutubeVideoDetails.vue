@@ -9,16 +9,16 @@ defineProps<{
 <template>
   <div class="flex w-screen justify-center">
     <article class="mx-5 flex w-full flex-col md:mx-0 md:w-1/2">
-      <h1 class="mt-10 text-center text-2xl md:text-3xl">
+      <h1 class="mb-10 mt-10 text-center text-2xl text-secondary md:text-3xl">
         {{ videoTitle }}
       </h1>
       <iframe
-        class="mx-auto aspect-video w-full rounded-2xl"
+        class="mx-auto aspect-video w-full rounded-xl"
         :src="`https://www.youtube.com/embed/${videoId}`"
         frameborder="0"
         allowfullscreen
       />
-      <p class="text-xl">
+      <p class="text-xl text-secondary">
         <slot />
       </p>
     </article>
