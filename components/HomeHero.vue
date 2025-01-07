@@ -2,14 +2,16 @@
   <section class="relative h-screen">
     <div>
       <img
-        src="../assets/images/fakeHero.webp"
+        src="../assets/images/Paristheme.webp"
         alt="fakeHeroImage"
         class="h-screen w-full object-cover"
+        width="1920"
+        height="1080"
       />
       <ShootingStars />
       <ShinningStars />
 
-      <div class="absolute top-1/4 flex w-full flex-col items-center">
+      <div class="absolute inset-0 flex flex-col items-center justify-center">
         <AnimatedLogo />
         <div class="flex flex-col items-center gap-5">
           <h1 class="text-center text-3xl text-white sm:text-5xl">
