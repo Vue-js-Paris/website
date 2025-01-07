@@ -1,10 +1,10 @@
 <template>
-  <section>
+  <section class="relative h-screen">
     <div>
       <img
         src="../assets/images/fakeHero.webp"
         alt="fakeHeroImage"
-        class="relative h-screen w-full object-cover"
+        class="h-screen w-full object-cover"
       />
       <ShootingStars />
       <ShinningStars />

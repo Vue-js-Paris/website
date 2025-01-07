@@ -4,29 +4,23 @@ const route = useRoute();
 
 <template>
   <header
-    class="sticky top-0 z-30 text-white"
-    :class="route.path === '/' ? 'h-0' : 'h-fit'"
+    class="text-secondary sticky top-0 z-30 flex w-full items-center justify-center bg-white py-10 shadow-md lg:px-20"
   >
-    <nav
-      class="flex h-20 w-full items-center justify-center bg-gradient-to-b from-[#1c1c1c6e] to-transparent py-20 lg:px-20"
-    >
+    <nav>
       <ul class="flex gap-5 text-xl sm:text-3xl">
         <li
-          class="transition-all hover:scale-110 hover:text-slate-100 hover:duration-200"
+          class="hover:border-primary rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:duration-200"
+          :class="{
+            'border-primary font-bold': route.path === '/',
+          }"
         >
-          <NuxtLink to="/" :class="{ 'font-bold': route.path === '/' }">
-            Accueil
-          </NuxtLink>
+          <NuxtLink to="/"> Accueil </NuxtLink>
         </li>
         <li
-          class="transition-all hover:scale-110 hover:text-slate-100 hover:duration-200"
+          class="hover:border-primary rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:duration-200"
+          :class="{ 'border-primary font-bold': route.path === '/talks' }"
         >
-          <NuxtLink
-            to="/talks"
-            :class="{ 'font-bold': route.path === '/talks' }"
-          >
-            Talks
-          </NuxtLink>
+          <NuxtLink to="/talks"> Talks </NuxtLink>
         </li>
         <!-- <li
           class="transition-all hover:scale-110 hover:text-slate-100 hover:duration-200"
@@ -36,14 +30,10 @@ const route = useRoute();
           </NuxtLink>
         </li> -->
         <li
-          class="transition-all hover:scale-110 hover:text-slate-100 hover:duration-200"
+          class="hover:border-primary rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:duration-200"
+          :class="{ 'border-primary font-bold': route.path === '/about' }"
         >
-          <NuxtLink
-            to="/about"
-            :class="{ 'font-bold': route.path === '/about' }"
-          >
-            À propos
-          </NuxtLink>
+          <NuxtLink to="/about"> À propos </NuxtLink>
         </li>
       </ul>
     </nav>

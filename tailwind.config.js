@@ -10,6 +10,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#42b883",
+        secondary: "#35495e",
+      },
       keyframes: {
         fadeInOut: {
           "0%, 100%": { opacity: 0 },

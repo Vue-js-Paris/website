@@ -20,7 +20,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
       />
       <div class="h-full max-h-40 min-h-40 p-4">
         <ClientOnly>
-          <h3 class="text-lg font-semibold">
+          <h3 class="text-secondary text-lg font-semibold">
             {{ decodeHTML(talk.snippet.title) }}
           </h3>
         </ClientOnly>
