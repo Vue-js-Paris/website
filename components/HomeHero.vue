@@ -14,7 +14,7 @@
       <div class="absolute inset-0 flex flex-col items-center justify-center">
         <AnimatedLogo />
         <div class="flex flex-col items-center gap-5">
-          <h1 class="text-center text-3xl text-white sm:text-5xl">
+          <h1 class="text-center text-3xl font-semibold text-white sm:text-5xl">
             Rejoignez la communauté Vue.js Paris !
           </h1>
           <AppButton
