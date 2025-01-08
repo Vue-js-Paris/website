@@ -17,7 +17,7 @@ defineProps({
 
 <template>
   <article class="flex w-full flex-col items-start gap-5">
-    <img :src="image" :alt="alt" class="rounded-2xl" />
+    <img :src="image" :alt="alt" class="w-full rounded-2xl object-cover" />
     <h2
       class="w-full border-b-2 border-secondary pb-5 text-3xl font-semibold text-secondary"
     >
