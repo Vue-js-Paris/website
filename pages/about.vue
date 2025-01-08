@@ -44,9 +44,9 @@
           et la création d'expériences web modernes et performantes.
           Co-organisateur du meetup VueJS Paris, il aime partager ses
           connaissances, échanger avec la communauté tech, et apprendre en
-          continu. Quand il n'est pas en train de coder, Florian
-          participecactivement à des meetups, où il adore rencontrer d'autres
-          passionnés de tech et discuter des dernières tendances.
+          continu. Quand il n'est pas en train de coder, Florian participe
+          activement à des meetups, où il adore rencontrer d'autres passionnés
+          de tech et discuter des dernières tendances.
         </p>
       </AboutCard>
     </div>

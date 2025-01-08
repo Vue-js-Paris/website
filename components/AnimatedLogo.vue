@@ -5,7 +5,7 @@ const { parallaxStyles } = useParallax(30);
 <template>
   <ClientOnly>
     <img
-      src="../assets/images/logo-uwu.webp"
+      src="/logo/logo-uwu.webp"
       alt="logo VueJS"
       class="transition-transform duration-300 ease-out md:h-96"
       :style="parallaxStyles"
