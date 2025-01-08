@@ -20,7 +20,7 @@ defineProps({
     :to="link"
     :target="target"
     :rel="rel"
-    class="flex w-fit items-center justify-center gap-2 rounded-2xl bg-[#FFB05B] p-4 text-xl font-semibold text-white transition-all hover:scale-105 hover:bg-[#feaa4f] hover:shadow-lg"
+    class="flex w-fit items-center justify-center gap-2 rounded-2xl bg-[#FFB05B] p-4 text-xl font-semibold text-white transition-all hover:scale-105 hover:bg-[#feaa4f] hover:shadow-lg hover:duration-300 hover:ease-in-out"
   >
     <slot />
   </NuxtLink>
