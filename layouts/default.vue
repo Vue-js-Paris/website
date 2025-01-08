@@ -12,6 +12,7 @@ const isMobile = computed(() => width.value < 768);
     <main>
       <slot />
     </main>
+    <AppFooter />
     <ClientOnly>
       <MobileHeader v-if="isMobile" />
     </ClientOnly>

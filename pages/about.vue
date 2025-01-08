@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="mt-10 text-center text-5xl font-semibold text-secondary">
+    <h1 class="mt-10 text-center text-4xl font-semibold text-secondary">
       Les organisateurs de Paris Vue.js
     </h1>
     <div
