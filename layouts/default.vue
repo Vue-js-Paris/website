@@ -1,20 +1,13 @@
-<script setup lang="ts">
-const { width } = useWindowSize();
-
-const isMobile = computed(() => width.value < 768);
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
-    <ClientOnly>
-      <AppHeader v-if="!isMobile" />
-    </ClientOnly>
+    <AppHeader class="hidden md:flex" />
     <main>
       <slot />
     </main>
     <AppFooter />
-    <ClientOnly>
-      <MobileHeader v-if="isMobile" />
-    </ClientOnly>
+
+    <MobileHeader class="block md:hidden" />
   </div>
 </template>
