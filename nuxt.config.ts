@@ -51,14 +51,14 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    sessionPassword: process.env.NUXT_SESSION_PASSWORD,
-    githubClientSecret: process.env.NUXT_OAUTH_GITHUB_CLIENT_SECRET,
+    sessionPassword: "",
+    githubClientSecret: "",
 
     public: {
-      youtubeApiBaseUrl: process.env.NUXT_YOUTUBE_API_BASE_URL,
-      youtubeApiKey: process.env.NUXT_YOUTUBE_API_KEY,
-      youtubeChannelId: process.env.NUXT_YOUTUBE_CHANNEL_ID,
-      githubClientId: process.env.NUXT_OAUTH_GITHUB_CLIENT_ID,
+      youtubeApiBaseUrl: "",
+      youtubeApiKey: "",
+      youtubeChannelId: "",
+      githubClientId: "",
     },
   },
 });
