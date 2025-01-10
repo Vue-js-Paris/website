@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { YouTubeAPIResponse } from "@/types/YoutubeAPIResponse";
+import type { YouTubeAPIResponse } from "@/shared/types/YoutubeAPIResponse";
 
 const config = useRuntimeConfig();
 

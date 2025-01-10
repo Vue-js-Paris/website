@@ -1,5 +1,3 @@
-import type { YouTubeAPIResponse } from "@/types/YoutubeAPIResponse";
-
 export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig();
   const { videoId, apiKey } = getQuery(event) as {

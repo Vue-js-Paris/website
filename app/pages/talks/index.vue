@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import type { YouTubeAPIResponse } from "@/types/YoutubeAPIResponse";
-
 const config = useRuntimeConfig();
 const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
   params: {
@@ -12,7 +10,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
 
 <template>
   <div v-if="talks?.items?.length">
-    <h1 class="text-secondary py-10 text-center text-4xl font-semibold">
+    <h1 class="py-10 text-center text-4xl font-semibold text-secondary">
       Retrouvez tous nos talks ici !
     </h1>
     <div

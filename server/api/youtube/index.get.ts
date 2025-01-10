@@ -1,7 +1,3 @@
-import type { YouTubeVideo } from "~/types/YoutubeVideo";
-import type { YouTubeVideoListResponse } from "~/types/YoutubeVideoListItem";
-import type { YouTubeSearchResponse } from "~/types/YouTubeSearchItem ";
-
 export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig();
   const { channelId, apiKey } = getQuery(event) as {
