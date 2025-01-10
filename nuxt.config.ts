@@ -27,7 +27,6 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
-
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -42,7 +41,14 @@ export default defineNuxtConfig({
     "nuxt-auth-utils",
     "@nuxt/content",
     "@vueuse/nuxt",
+    "@nuxtjs/color-mode",
   ],
+
+  colorMode: {
+    classSuffix: "",
+    preference: "system",
+    fallback: "light",
+  },
 
   runtimeConfig: {
     sessionPassword: process.env.NUXT_SESSION_PASSWORD,

@@ -2,8 +2,8 @@
   <section class="relative h-screen">
     <div>
       <img
-        src="../assets/images/Paristheme.webp"
-        alt="fakeHeroImage"
+        src="../assets/images/ParisTheme.webp"
+        alt="Image de Paris"
         class="h-screen w-full object-cover"
         width="1920"
         height="1080"

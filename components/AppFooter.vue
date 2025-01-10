@@ -1,5 +1,7 @@
 <template>
-  <footer class="flex flex-col items-center bg-white py-5 text-secondary">
+  <footer
+    class="flex flex-col items-center bg-white py-5 text-secondary dark:bg-slate-800 dark:text-white"
+  >
     <ul class="flex items-center gap-5 text-2xl">
       <li
         class="transtion-all hover:scale-125 hover:duration-300 hover:ease-in-out"

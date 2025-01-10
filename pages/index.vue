@@ -1,7 +1,7 @@
 <template>
   <div>
     <HomeHero />
-    <section class="py-10">
+    <section class="bg-white py-10 dark:bg-slate-800">
       <LatestTalks />
     </section>
   </div>
