@@ -10,7 +10,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
 
 <template>
   <div v-if="talks?.items?.length">
-    <h1 class="py-10 text-center text-4xl font-semibold text-secondary">
+    <h1 class="text-secondary py-10 text-center text-4xl font-semibold">
       Retrouvez tous nos talks ici !
     </h1>
     <div

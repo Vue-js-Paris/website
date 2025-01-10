@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import type { YouTubeAPIResponse } from "@/shared/types/YoutubeAPIResponse";
-
 const config = useRuntimeConfig();
 
 const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
