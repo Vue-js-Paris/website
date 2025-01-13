@@ -16,7 +16,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
       Retrouvez tous nos talks ici !
     </h1>
     <div
-      class="grid grid-cols-1 gap-6 p-6 px-5 sm:grid-cols-2 sm:px-10 lg:grid-cols-2 xl:grid-cols-3 xl:px-20"
+      class="grid grid-cols-1 gap-6 p-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3"
     >
       <TalkCard
         v-for="talk in talks.items"

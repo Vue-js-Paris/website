@@ -27,7 +27,7 @@ defineProps({
   <article class="flex w-full flex-col items-center justify-center gap-5">
     <img :src="image" :alt="alt" class="w-2/3 rounded-full object-cover" />
     <h2
-      class="w-full text-center text-3xl font-semibold text-secondary dark:text-white"
+      class="w-full text-center text-xl font-semibold text-secondary dark:text-white"
     >
       {{ name }}
     </h2>
@@ -36,7 +36,7 @@ defineProps({
         <NuxtLink :to="linkedin" target="_blank" rel="noopener noreferrer">
           <Icon
             name="mdi:linkedin"
-            class="text-4xl text-primary transition-all hover:scale-125 hover:duration-200"
+            class="text-4xl text-secondary transition-all hover:scale-125 hover:text-primary hover:duration-200 dark:text-white dark:hover:text-primary"
           />
         </NuxtLink>
       </li>
@@ -44,7 +44,7 @@ defineProps({
         <NuxtLink :to="github" target="_blank" rel="noopener noreferrer">
           <Icon
             name="mdi:github"
-            class="text-4xl text-primary transition-all hover:scale-125 hover:duration-200"
+            class="text-4xl text-secondary transition-all hover:scale-125 hover:text-primary hover:duration-200 dark:text-white dark:hover:text-primary"
           />
         </NuxtLink>
       </li>
