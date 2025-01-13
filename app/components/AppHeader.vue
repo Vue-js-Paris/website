@@ -4,7 +4,7 @@ const route = useRoute();
 
 <template>
   <header
-    class="sticky top-0 z-30 flex w-full items-center justify-between bg-white py-5 text-secondary shadow-md dark:bg-slate-800 dark:text-white dark:shadow-white lg:px-20"
+    class="sticky top-0 z-30 flex w-full items-center justify-between bg-white py-5 text-secondary shadow-md dark:bg-slate-800 dark:text-white dark:shadow-primary lg:px-20"
   >
     <nav>
       <ul class="flex gap-5 text-xl sm:text-3xl">
@@ -12,7 +12,9 @@ const route = useRoute();
           <NuxtLink
             to="/"
             class="rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:border-primary hover:duration-200"
-            :class="{ 'border-primary font-bold': route.path === '/' }"
+            :class="{
+              '!border-primary font-bold': route.path === '/',
+            }"
           >
             Accueil
           </NuxtLink>
@@ -21,7 +23,7 @@ const route = useRoute();
           <NuxtLink
             to="/talks"
             class="rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:border-primary hover:duration-200"
-            :class="{ 'border-primary font-bold': route.path === '/talks' }"
+            :class="{ '!border-primary font-bold': route.path === '/talks' }"
           >
             Talks
           </NuxtLink>
@@ -39,7 +41,7 @@ const route = useRoute();
           <NuxtLink
             to="/about"
             class="rounded-lg border-2 border-transparent p-2 transition-all hover:border-2 hover:border-primary hover:duration-200"
-            :class="{ 'border-primary font-bold': route.path === '/about' }"
+            :class="{ '!border-primary font-bold': route.path === '/about' }"
           >
             À propos
           </NuxtLink>
