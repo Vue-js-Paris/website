@@ -52,13 +52,11 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     sessionPassword: "",
-    githubClientSecret: "",
 
     public: {
       youtubeApiBaseUrl: "",
       youtubeApiKey: "",
       youtubeChannelId: "",
-      githubClientId: "",
     },
   },
 

@@ -6,11 +6,15 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
     apiKey: config.public.youtubeApiKey,
   },
 });
+console.log(
+  "channelId:" + config.public.youtubeChannelId,
+  "apiKey:" + config.public.youtubeApiKey,
+);
 </script>
 
 <template>
   <div v-if="talks?.items?.length">
-    <h1 class="text-secondary py-10 text-center text-4xl font-semibold">
+    <h1 class="py-10 text-center text-4xl font-semibold text-secondary">
       Retrouvez tous nos talks ici !
     </h1>
     <div
