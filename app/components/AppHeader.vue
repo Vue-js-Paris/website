@@ -4,7 +4,7 @@ const route = useRoute();
 
 <template>
   <header
-    class="sticky top-0 z-30 flex w-full items-center justify-between bg-white py-5 text-secondary shadow-md dark:bg-slate-800 dark:text-white lg:px-20"
+    class="sticky top-0 z-30 flex w-full items-center justify-between bg-white py-5 text-secondary shadow-md dark:bg-slate-800 dark:text-white dark:shadow-white lg:px-20"
   >
     <nav>
       <ul class="flex gap-5 text-xl sm:text-3xl">

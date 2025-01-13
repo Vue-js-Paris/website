@@ -9,7 +9,9 @@ defineProps<{
 <template>
   <div class="flex w-screen justify-center">
     <article class="mx-5 flex w-full flex-col md:mx-0 md:w-1/2">
-      <h1 class="mb-10 mt-10 text-center text-2xl text-secondary md:text-3xl">
+      <h1
+        class="mb-10 mt-10 text-center text-2xl text-secondary dark:text-white md:text-3xl"
+      >
         {{ videoTitle }}
       </h1>
       <iframe
@@ -18,7 +20,7 @@ defineProps<{
         frameborder="0"
         allowfullscreen
       />
-      <p class="text-xl text-secondary">
+      <p class="text-xl text-secondary dark:text-white">
         <slot />
       </p>
     </article>
