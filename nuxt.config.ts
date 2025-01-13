@@ -61,4 +61,8 @@ export default defineNuxtConfig({
       githubClientId: process.env.NUXT_OAUTH_GITHUB_CLIENT_ID,
     },
   },
+
+  future: {
+    compatibilityVersion: 4,
+  },
 });

@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import type { YouTubeVideo } from "@/types/YoutubeVideo";
-import { decodeHTML } from "@/utils/decodeHTML";
-import { slugify } from "@/utils/slugify";
-
 const props = defineProps<{ talk: YouTubeVideo }>();
 
 const slug = computed(() => slugify(props.talk.snippet.title));
