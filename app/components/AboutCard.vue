@@ -17,7 +17,11 @@ defineProps({
 
 <template>
   <article class="flex w-full flex-col items-center gap-5">
-    <img :src="image" :alt="alt" class="w-2/3 rounded-full object-cover" />
+    <img
+      :src="image"
+      :alt="alt"
+      class="w-full rounded-full object-cover sm:w-2/3"
+    />
     <h2
       class="w-full border-b-2 border-secondary pb-5 text-3xl font-semibold text-secondary dark:text-white"
     >

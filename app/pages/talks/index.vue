@@ -9,7 +9,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
 </script>
 
 <template>
-  <div v-if="talks?.items?.length">
+  <section v-if="talks?.items?.length">
     <h1
       class="py-10 text-center text-4xl font-semibold text-secondary dark:text-white"
     >
@@ -24,7 +24,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
         :talk="talk"
       />
     </div>
-  </div>
+  </section>
   <div v-else class="-mt-32 flex h-screen items-center justify-center">
     <Icon name="svg-spinners:6-dots-rotate" size="3em" />
   </div>

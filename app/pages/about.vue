@@ -1,13 +1,11 @@
 <template>
-  <section>
+  <section class="mx-5 md:mx-10">
     <h1
       class="py-10 text-center text-4xl font-semibold text-secondary dark:text-white"
     >
       Les organisateurs de Paris Vue.js
     </h1>
-    <div
-      class="mx-5 mt-10 flex flex-col justify-between gap-32 md:mx-20 md:flex-row"
-    >
+    <div class="mt-10 flex flex-col justify-between gap-10 lg:flex-row">
       <AboutCard
         image="/images/Eduardo.webp"
         alt="Eduardo San Martin Morote"
