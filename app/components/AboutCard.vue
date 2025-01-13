@@ -12,23 +12,42 @@ defineProps({
     type: String,
     default: "",
   },
+  linkedin: {
+    type: String,
+    default: "",
+  },
+  github: {
+    type: String,
+    default: "",
+  },
 });
 </script>
 
 <template>
-  <article class="flex w-full flex-col items-center gap-5">
-    <img
-      :src="image"
-      :alt="alt"
-      class="w-full rounded-full object-cover sm:w-2/3"
-    />
+  <article class="flex w-full flex-col items-center justify-center gap-5">
+    <img :src="image" :alt="alt" class="w-2/3 rounded-full object-cover" />
     <h2
-      class="w-full border-b-2 border-secondary pb-5 text-3xl font-semibold text-secondary dark:text-white"
+      class="w-full text-center text-3xl font-semibold text-secondary dark:text-white"
     >
       {{ name }}
     </h2>
-    <p class="text-xl text-gray-600 dark:text-white">
-      <slot />
-    </p>
+    <ul class="flex gap-5">
+      <li>
+        <NuxtLink :to="linkedin" target="_blank" rel="noopener noreferrer">
+          <Icon
+            name="mdi:linkedin"
+            class="text-4xl text-primary transition-all hover:scale-125 hover:duration-200"
+          />
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink :to="github" target="_blank" rel="noopener noreferrer">
+          <Icon
+            name="mdi:github"
+            class="text-4xl text-primary transition-all hover:scale-125 hover:duration-200"
+          />
+        </NuxtLink>
+      </li>
+    </ul>
   </article>
 </template>
