@@ -12,7 +12,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
+  <div class="flex items-center">
     <label v-if="isClient" class="swap swap-rotate">
       <input
         type="checkbox"
