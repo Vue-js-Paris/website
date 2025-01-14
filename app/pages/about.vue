@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex w-screen flex-col items-start px-3 md:mx-auto md:w-2/3 md:px-0"
+    class="flex w-screen flex-col items-start px-5 md:mx-auto md:w-2/3 md:px-0"
   >
     <h1
       class="py-10 text-5xl font-semibold text-secondary underline decoration-primary dark:text-white"

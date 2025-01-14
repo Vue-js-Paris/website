@@ -1,5 +1,5 @@
 <template>
-  <section class="relative h-screen">
+  <section class="relative h-screen w-screen">
     <div>
       <img
         src="../assets/images/ParisTheme.webp"

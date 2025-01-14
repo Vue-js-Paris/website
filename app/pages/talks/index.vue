@@ -11,7 +11,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
 <template>
   <section
     v-if="talks?.items?.length"
-    class="w-screen px-3 md:mx-auto md:w-2/3 md:px-0"
+    class="w-screen px-5 md:mx-auto md:w-2/3 md:px-0"
   >
     <h1
       class="py-10 text-center text-4xl font-semibold text-secondary dark:text-white"
