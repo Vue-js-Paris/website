@@ -14,6 +14,7 @@ export default {
       colors: {
         primary: "#42b883",
         secondary: "#35495e",
+        tertiary: "#FFB05B",
       },
       keyframes: {
         fadeInOut: {

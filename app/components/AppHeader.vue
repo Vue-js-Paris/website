@@ -10,7 +10,9 @@ const route = useRoute();
       class="flex w-full items-center justify-between py-10 text-secondary dark:text-white md:w-2/3"
     >
       <nav>
-        <ul class="flex gap-10 text-xl sm:text-3xl">
+        <ul
+          class="flex gap-10 text-xl sm:text-2xl lg:gap-8 xl:gap-16 xl:text-3xl"
+        >
           <li>
             <NuxtLink
               to="/"
@@ -49,7 +51,13 @@ const route = useRoute();
           </li>
         </ul>
       </nav>
-      <AppSocials class="hidden lg:flex" />
+      <AppButton
+        link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
+        target="_blank"
+        class="hidden lg:block"
+      >
+        Prochain meetup Vue.js Paris
+      </AppButton>
       <DarkMode />
     </header>
   </div>

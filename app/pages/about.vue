@@ -106,7 +106,7 @@
             to="https://www.meetup.com/fr-FR/Vuejs-Paris/"
             target="_blank"
             rel="noopener"
-            class="inline-block font-semibold underline decoration-primary hover:text-primary"
+            class="hover:text-tertiary hover:decoration-tertiary inline-block font-semibold text-primary underline decoration-primary"
           >
             groupe Meetup
           </NuxtLink>
