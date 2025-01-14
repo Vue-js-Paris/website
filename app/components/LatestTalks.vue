@@ -10,14 +10,17 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
 </script>
 
 <template>
-  <div v-if="talks?.items.length" class="flex flex-col items-center">
+  <div
+    v-if="talks?.items.length"
+    class="flex w-screen flex-col items-center px-3 md:mx-auto md:w-2/3 md:px-0"
+  >
     <h2
       class="pb-5 text-center text-4xl font-semibold text-secondary dark:text-white"
     >
       Nos derniers talks
     </h2>
     <div
-      class="grid grid-cols-1 gap-6 p-6 px-5 sm:grid-cols-2 sm:px-10 lg:grid-cols-2 xl:grid-cols-3 xl:px-20"
+      class="grid grid-cols-1 gap-6 pb-5 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3"
     >
       <TalkCard
         v-for="talk in talks?.items"

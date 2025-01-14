@@ -9,14 +9,17 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
 </script>
 
 <template>
-  <section v-if="talks?.items?.length">
+  <section
+    v-if="talks?.items?.length"
+    class="w-screen px-3 md:mx-auto md:w-2/3 md:px-0"
+  >
     <h1
       class="py-10 text-center text-4xl font-semibold text-secondary dark:text-white"
     >
       Retrouvez tous nos talks ici !
     </h1>
     <div
-      class="grid grid-cols-1 gap-6 p-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3"
+      class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3"
     >
       <TalkCard
         v-for="talk in talks.items"

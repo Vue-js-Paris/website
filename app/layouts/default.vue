@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <AppHeader class="hidden px-5 md:flex md:px-10" />
+    <AppHeader class="hidden md:flex" />
     <main class="bg-white dark:bg-slate-800 dark:text-white">
       <slot />
     </main>
