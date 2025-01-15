@@ -3,7 +3,7 @@
 <template>
   <div>
     <AppHeader class="hidden md:flex" />
-    <main class="bg-white dark:bg-slate-800 dark:text-white">
+    <main class="bg-white dark:bg-slate-800 dark:text-white md:pt-[148px]">
       <slot />
     </main>
     <AppFooter class="pt-10" />
