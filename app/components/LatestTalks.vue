@@ -15,7 +15,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
       v-if="talks?.items.length"
       class="flex w-screen flex-col gap-10 px-5 sm:px-0 md:mx-auto md:w-4/5 md:flex-row xl:w-2/3"
     >
-      <div class="h-full w-full md:sticky md:top-[180px] md:w-1/3">
+      <div class="h-full w-full md:sticky md:top-[180px] md:w-[20%]">
         <h2 class="pb-5 text-5xl font-semibold text-secondary dark:text-white">
           Nos derniers talks
         </h2>
