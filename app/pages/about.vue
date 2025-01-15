@@ -117,6 +117,17 @@
           ou intervenant·e.
         </li>
         <li>
+          Proposer un sujet de talk via notre
+          <NuxtLink
+            to="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
+            target="_blank"
+            rel="noopener"
+            class="inline-block font-semibold text-primary underline decoration-primary hover:text-tertiary hover:decoration-tertiary"
+          >
+            Github
+          </NuxtLink>
+        </li>
+        <li>
           Partager nos événements avec vos collègues et amis, ou les inviter à
           se joindre à nous.
         </li>

@@ -16,13 +16,7 @@
       <div
         class="flex w-full flex-col justify-between gap-10 lg:flex-row lg:gap-0"
       >
-        <SpeakerCard
-          image="/images/Florian.webp"
-          name="Florian Beaumont"
-          linkedin="https://www.linkedin.com/in/florianbeaumont/"
-          github="https://github.com/FlorianBx"
-          class="lg:w-[28%]"
-        />
+        <SpeakerCard class="lg:w-[28%]" />
         <SpeakerCard class="lg:w-[28%]" />
         <SpeakerCard class="lg:w-[28%]" />
       </div>
