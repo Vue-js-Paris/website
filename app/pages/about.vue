@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex w-screen flex-col items-start px-5 md:mx-auto md:w-2/3 md:px-0"
+    class="flex w-screen flex-col items-start px-5 md:mx-auto md:w-4/5 md:px-0 xl:w-2/3"
   >
     <h1
       class="py-10 text-5xl font-semibold text-secondary underline decoration-primary dark:text-white"
@@ -106,7 +106,7 @@
             to="https://www.meetup.com/fr-FR/Vuejs-Paris/"
             target="_blank"
             rel="noopener"
-            class="hover:text-tertiary hover:decoration-tertiary inline-block font-semibold text-primary underline decoration-primary"
+            class="inline-block font-semibold text-primary underline decoration-primary hover:text-tertiary hover:decoration-tertiary"
           >
             groupe Meetup
           </NuxtLink>

@@ -5,25 +5,31 @@ const slug = computed(() => slugify(props.talk.snippet.title));
 </script>
 
 <template>
-  <NuxtLink :to="`/talks/${slug}`" role="navigation">
-    <article
-      class="group flex flex-col items-start overflow-hidden rounded-lg bg-slate-100 shadow-md transition-shadow hover:shadow-lg dark:bg-slate-900 dark:shadow-primary"
-    >
-      <img
-        :src="talk.snippet.thumbnails.high.url"
-        :alt="talk.snippet.title"
-        class="aspect-video w-full rounded-t-lg object-cover transition-all group-hover:scale-105"
-      />
-      <div class="h-full max-h-40 min-h-40 p-4">
+  <article
+    class="flex flex-col gap-5 rounded-2xl bg-slate-100 p-8 dark:bg-slate-900 lg:flex-row lg:gap-10"
+  >
+    <img
+      :src="talk.snippet.thumbnails.high.url"
+      :alt="talk.snippet.title"
+      class="aspect-video h-fit w-full rounded-2xl object-cover lg:w-1/3"
+    />
+    <div class="flex w-full flex-col lg:w-2/3">
+      <div>
         <ClientOnly>
-          <h3 class="text-lg font-semibold text-secondary dark:text-white">
+          <h3 class="pb-2 text-lg font-semibold text-secondary dark:text-white">
             {{ decodeHTML(talk.snippet.title) }}
           </h3>
         </ClientOnly>
-        <p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
+        <p class="line-clamp-3 pb-5 text-sm text-gray-500 dark:text-gray-400">
           {{ talk.snippet.description }}
         </p>
       </div>
-    </article>
-  </NuxtLink>
+      <div class="mt-auto">
+        <AppButton :link="`/talks/${slug}`" class="p-3 xl:p-4">
+          En savoir plus
+          <Icon name="fa6-solid:arrow-right" />
+        </AppButton>
+      </div>
+    </div>
+  </article>
 </template>

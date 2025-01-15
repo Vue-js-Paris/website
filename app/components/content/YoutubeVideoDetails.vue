@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <div class="flex w-screen justify-center">
-    <article class="flex w-full flex-col px-5 md:w-2/3 md:px-0">
+    <article class="flex w-full flex-col px-5 md:w-4/5 md:px-0 xl:w-2/3">
       <h1
         class="mb-10 mt-10 text-center text-2xl text-secondary dark:text-white md:text-3xl"
       >
