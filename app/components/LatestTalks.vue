@@ -10,30 +10,30 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
 </script>
 
 <template>
-  <div
-    v-if="talks?.items.length"
-    class="flex w-screen flex-col items-center px-3 md:mx-auto md:w-2/3 md:px-0"
-  >
-    <h2
-      class="pb-5 text-center text-4xl font-semibold text-secondary dark:text-white"
-    >
-      Nos derniers talks
-    </h2>
+  <section class="relative bg-white py-10 dark:bg-slate-800">
     <div
-      class="grid grid-cols-1 gap-6 pb-5 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3"
+      v-if="talks?.items.length"
+      class="flex w-screen gap-10 md:mx-auto md:w-4/5 xl:w-2/3"
     >
-      <TalkCard
-        v-for="talk in talks?.items"
-        :key="talk.id.videoId"
-        :talk="talk"
-      />
+      <div class="sticky top-[180px] h-full w-1/3">
+        <h2 class="pb-5 text-5xl font-semibold text-secondary dark:text-white">
+          Nos derniers talks
+        </h2>
+        <p class="text-lg text-gray-300">
+          Retrouvez ici les derniers talks de notre meetup.
+        </p>
+      </div>
+
+      <div class="flex h-full flex-col gap-5">
+        <TalkCard
+          v-for="talk in talks?.items"
+          :key="talk.id.videoId"
+          :talk="talk"
+        />
+      </div>
     </div>
-    <AppButton link="/talks">
-      En voir plus
-      <Icon name="fa6-solid:arrow-right" />
-    </AppButton>
-  </div>
-  <div v-else class="-mt-32 flex h-screen items-center justify-center">
-    <Icon name="svg-spinners:6-dots-rotate" size="3em" />
-  </div>
+    <div v-else class="-mt-32 flex h-screen items-center justify-center">
+      <Icon name="svg-spinners:6-dots-rotate" size="3em" />
+    </div>
+  </section>
 </template>

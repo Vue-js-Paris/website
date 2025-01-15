@@ -4,10 +4,10 @@ const route = useRoute();
 
 <template>
   <div
-    class="sticky top-0 z-30 flex w-screen justify-center bg-white shadow-md shadow-primary dark:bg-slate-800"
+    class="fixed top-0 z-30 flex w-screen justify-center bg-white shadow-md shadow-primary dark:bg-slate-800"
   >
     <header
-      class="flex w-full items-center justify-between py-10 text-secondary dark:text-white md:w-2/3"
+      class="flex w-full items-center justify-between py-10 text-secondary dark:text-white md:w-4/5 xl:w-2/3"
     >
       <nav>
         <ul
