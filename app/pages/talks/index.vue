@@ -13,15 +13,11 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
     v-if="talks?.items?.length"
     class="flex w-screen flex-col items-center gap-10 px-5 sm:items-start md:mx-auto md:w-4/5 md:flex-row md:px-0 md:pt-10 xl:w-2/3"
   >
-    <div class="h-full md:sticky md:top-[180px] md:w-[20%]">
-      <h1 class="pb-5 text-5xl font-semibold text-secondary dark:text-white">
-        Les Talks
-      </h1>
-      <p class="text-lg text-gray-300">
-        Retrouvez ici tous les talks de notre meetup.
-      </p>
-    </div>
-
+    <SectionTitle
+      title="Les Talks"
+      description="Retrouvez ici tous les talks de notre meetup."
+      class="h-full w-full md:sticky md:top-[180px] md:max-w-[20%]"
+    />
     <div class="flex flex-col gap-5 md:w-[80%]">
       <TalkCard
         v-for="talk in talks.items"
