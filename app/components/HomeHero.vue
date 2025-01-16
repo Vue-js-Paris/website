@@ -1,5 +1,5 @@
 <template>
-  <section class="relative h-screen w-screen">
+  <section class="relative h-screen overflow-hidden">
     <div>
       <img
         src="../assets/images/ParisTheme.webp"
