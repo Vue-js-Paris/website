@@ -53,14 +53,5 @@ defineProps({
         </NuxtLink>
       </li>
     </ul>
-    <AppButton
-      v-else
-      link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
-      target="_blank"
-      rel="noopener"
-    >
-      Devenir speaker
-      <Icon name="fa6-solid:arrow-right" />
-    </AppButton>
   </article>
 </template>

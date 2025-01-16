@@ -18,8 +18,9 @@ defineProps({
     >
       {{ title }}
     </h2>
-    <p class="text-lg text-gray-300">
+    <p class="pb-5 text-lg text-gray-300">
       {{ description }}
     </p>
+    <slot />
   </div>
 </template>

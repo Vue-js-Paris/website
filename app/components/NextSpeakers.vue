@@ -7,7 +7,16 @@
         class="h-full w-full md:sticky md:top-[180px] md:max-w-[20%]"
         title="Les prochains speakers"
         description="Un aperçu de ce qui vous attend au prochain meetup."
-      />
+      >
+        <AppButton
+          link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
+          target="_blank"
+          rel="noopener"
+          class="w-full bg-primary text-center hover:bg-tertiary"
+        >
+          Devenir speaker
+        </AppButton>
+      </SectionTitle>
       <div
         class="flex w-full flex-col justify-between gap-10 lg:flex-row lg:gap-0"
       >
