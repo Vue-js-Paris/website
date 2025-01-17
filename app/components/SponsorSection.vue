@@ -12,7 +12,7 @@
           link=""
           target="_blank"
           rel="noopener"
-          class="w-fit bg-primary text-center hover:bg-tertiary sm:w-full"
+          class="w-fit !bg-primary text-center hover:!bg-tertiary sm:w-full"
         >
           Devenir sponsor
         </AppButton>

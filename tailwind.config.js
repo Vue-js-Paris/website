@@ -16,6 +16,9 @@ export default {
         secondary: "#35495e",
         tertiary: "#FFB05B",
       },
+      height: {
+        section: "calc(100vh - 150px)",
+      },
       keyframes: {
         fadeInOut: {
           "0%, 100%": { opacity: 0 },
