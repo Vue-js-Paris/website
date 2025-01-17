@@ -20,27 +20,23 @@ defineProps({
 </script>
 
 <template>
-  <article class="flex flex-col items-center gap-5 lg:w-fit">
-    <img
-      :src="image"
-      :alt="alt"
-      class="h-64 w-64 rounded-2xl object-contain object-bottom lg:h-44 lg:w-44"
-    />
-    <h2
-      class="w-full text-center text-xl font-semibold text-secondary dark:text-white"
+  <article>
+    <NuxtLink
+      :to="link"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex flex-col items-center gap-5 rounded-2xl outline-2 outline-offset-8 outline-primary hover:outline lg:w-fit"
     >
-      {{ name }}
-    </h2>
-    <div class="flex w-fit flex-col gap-2">
-      <AppButton
-        :link="link"
-        target="_blank"
-        rel="noopener"
-        class="w-full text-center"
+      <img
+        :src="image"
+        :alt="alt"
+        class="h-64 w-64 rounded-2xl object-contain object-bottom lg:h-44 lg:w-44"
+      />
+      <h2
+        class="w-full text-center text-xl font-semibold text-secondary dark:text-white"
       >
-        En savoir plus
-        <Icon name="fa6-solid:arrow-right" />
-      </AppButton>
-    </div>
+        {{ name }}
+      </h2>
+    </NuxtLink>
   </article>
 </template>
