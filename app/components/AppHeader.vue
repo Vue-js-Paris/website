@@ -58,7 +58,6 @@ const route = useRoute();
       >
         Prochain meetup Vue.js Paris
       </AppButton>
-      <DarkMode />
     </header>
   </div>
 </template>
