@@ -18,8 +18,7 @@
         </AppButton>
       </SectionTitle>
       <div class="flex w-full flex-col justify-between gap-5">
-        <SpeakerCard />
-        <SpeakerCard />
+        <!-- <SpeakerCard image="/images/Florian.webp" name="Florian Beaumont" /> -->
         <SpeakerCard />
       </div>
     </div>
