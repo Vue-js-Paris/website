@@ -2,18 +2,16 @@
   <div
     class="flex w-screen flex-col items-start px-5 md:mx-auto md:w-4/5 md:px-0 xl:w-2/3"
   >
-    <h1
-      class="py-10 text-5xl font-semibold text-secondary underline decoration-primary dark:text-white"
-    >
+    <h1 class="py-10 text-4xl font-semibold text-secondary dark:text-white">
       À propos
     </h1>
     <section>
       <h2
-        class="py-10 text-4xl font-semibold text-secondary underline decoration-primary dark:text-white"
+        class="pb-10 text-3xl font-semibold text-secondary underline decoration-primary dark:text-white"
       >
         Qu'est ce que Paris Vue.js ?
       </h2>
-      <p class="pb-5 text-xl text-secondary dark:text-white">
+      <p class="pb-5 text-secondary dark:text-white">
         Vue.js Paris est une communauté parisienne passionnée par le framework
         Vue.js. Son objectif est de rassembler les utilisateur·rice·s,
         développeur·euse·s et enthousiastes de Vue.js de la région parisienne et
@@ -21,7 +19,7 @@
         et gratuites afin de partager des connaissances, des expériences, et de
         découvrir les dernières innovations autour de Vue.js.
       </p>
-      <p class="pb-5 text-xl text-secondary dark:text-white">
+      <p class="pb-5 text-secondary dark:text-white">
         Ces événements se tiennent tous les deux mois, avec un mélange
         d'interventions inspirantes, de discussions techniques, et d'échanges
         conviviaux. Lors de chaque meetup, nous explorons des sujets variés
@@ -30,7 +28,7 @@
         apéritif, idéal pour rencontrer d'autres membres de la communauté et
         approfondir les discussions.
       </p>
-      <p class="text-xl text-secondary dark:text-white">
+      <p class="text-secondary dark:text-white">
         Ces rencontres sont rendus possibles grâce au soutien de nos sponsors,
         qui nous offrent des lieux pour accueillir les rencontres et participent
         à l'organisation des moments conviviaux. Rejoignez-nous pour partager,
@@ -40,7 +38,7 @@
     </section>
     <section>
       <h2
-        class="py-10 text-4xl font-semibold text-secondary underline decoration-primary dark:text-white"
+        class="py-10 text-3xl font-semibold text-secondary underline decoration-primary dark:text-white"
       >
         Les organisateurs
       </h2>
@@ -72,17 +70,17 @@
     </section>
     <section>
       <h2
-        class="py-10 text-4xl font-semibold text-secondary underline decoration-primary dark:text-white"
+        class="py-10 text-3xl font-semibold text-secondary underline decoration-primary dark:text-white"
       >
         Qui peut rejoindre ?
       </h2>
-      <p class="pb-5 text-xl text-secondary dark:text-white">
+      <p class="pb-5 text-secondary dark:text-white">
         Vue.js Paris est ouvert à toutes et tous, que vous soyez débutant·e, en
         apprentissage, ou expert·e en Vue.js ou dans le développement web. Que
         vous souhaitiez découvrir le framework, partager vos connaissances, ou
         rencontrer d'autres passionnés, vous êtes le·la bienvenu·e !
       </p>
-      <p class="text-xl text-secondary dark:text-white">
+      <p class="text-secondary dark:text-white">
         Nos meetups sont gratuits, sur inscription, et ouverts à toutes les
         personnes intéressées par Vue.js et les technologies associées. Les
         étudiant·e·s, les développeur·euse·s confirmé·e·s, et les curieux·ses de
@@ -92,14 +90,14 @@
     </section>
     <section>
       <h2
-        class="py-10 text-4xl font-semibold text-secondary underline decoration-primary dark:text-white"
+        class="py-10 text-3xl font-semibold text-secondary underline decoration-primary dark:text-white"
       >
         Comment nous rejoindre ?
       </h2>
-      <p class="pb-5 text-xl text-secondary dark:text-white">
+      <p class="pb-5 text-secondary dark:text-white">
         Vous avez plusieurs façons de rejoindre notre communauté dynamique :
       </p>
-      <ul class="list-inside list-disc text-xl text-secondary dark:text-white">
+      <ul class="list-inside list-disc text-secondary dark:text-white">
         <li>
           Vous inscrire sur notre
           <NuxtLink
@@ -140,16 +138,16 @@
     </section>
     <section>
       <h2
-        class="py-10 text-4xl font-semibold text-secondary underline decoration-primary dark:text-white"
+        class="py-10 text-3xl font-semibold text-secondary underline decoration-primary dark:text-white"
       >
         Nous contacter
       </h2>
-      <p class="pb-5 text-xl text-secondary dark:text-white">
+      <p class="pb-5 text-secondary dark:text-white">
         Parce qu'une communauté ne vit que par ses interactions et ses échanges,
         rejoignez-nous et contribuez à Vue.js Paris sur les réseaux sociaux et
         les plateformes de discussion.
       </p>
-      <p class="text-xl text-secondary dark:text-white">
+      <p class="text-secondary dark:text-white">
         Pour toute question ou suggestion, contactez-nous directement !
       </p>
     </section>
