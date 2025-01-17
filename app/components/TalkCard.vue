@@ -6,7 +6,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
 
 <template>
   <article
-    class="flex flex-col gap-5 rounded-2xl bg-slate-100 p-8 dark:bg-slate-900 lg:flex-row lg:gap-10"
+    class="flex flex-col gap-5 rounded-2xl bg-slate-200 p-8 dark:bg-slate-900 lg:flex-row lg:gap-10"
   >
     <img
       :src="talk.snippet.thumbnails.high.url"
