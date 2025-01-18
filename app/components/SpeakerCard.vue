@@ -48,35 +48,45 @@ defineProps({
     </div>
     <div class="flex h-full w-full flex-col items-start justify-between">
       <div class="flex flex-col items-start gap-2">
-        <h3 class="text-3xl font-semibold text-secondary dark:text-white">
+        <h3 class="text-2xl font-semibold text-secondary dark:text-white">
           {{ title }}
         </h3>
-        <p class="text-lg text-gray-500 dark:text-gray-400">
+        <p class="line-clamp-4 text-lg text-gray-500 dark:text-gray-400">
           {{ description }}
         </p>
       </div>
 
-      <div class="flex flex-col items-start gap-2">
+      <div class="flex w-full items-end justify-between">
         <h2 class="w-full text-xl font-semibold text-secondary dark:text-white">
           {{ name }}
         </h2>
         <ul
           v-if="image !== '/images/unknownSpeaker.webp'"
-          class="flex justify-center gap-5"
+          class="flex h-full items-end gap-5"
         >
-          <li>
-            <NuxtLink :to="linkedin" target="_blank" rel="noopener noreferrer">
+          <li class="flex items-end">
+            <NuxtLink
+              :to="linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-end"
+            >
               <Icon
                 name="mdi:linkedin"
-                class="text-4xl text-secondary transition-all hover:scale-125 hover:text-primary hover:duration-200 dark:text-white dark:hover:text-primary"
+                class="text-3xl text-secondary transition-all hover:scale-125 hover:text-primary hover:duration-200 dark:text-white dark:hover:text-primary"
               />
             </NuxtLink>
           </li>
-          <li>
-            <NuxtLink :to="github" target="_blank" rel="noopener noreferrer">
+          <li class="flex items-end">
+            <NuxtLink
+              :to="github"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-end"
+            >
               <Icon
                 name="mdi:github"
-                class="text-4xl text-secondary transition-all hover:scale-125 hover:text-primary hover:duration-200 dark:text-white dark:hover:text-primary"
+                class="text-3xl text-secondary transition-all hover:scale-125 hover:text-primary hover:duration-200 dark:text-white dark:hover:text-primary"
               />
             </NuxtLink>
           </li>
