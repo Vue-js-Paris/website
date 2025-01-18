@@ -34,9 +34,9 @@ defineProps({
 
 <template>
   <article
-    class="flex w-full flex-col items-start gap-10 rounded-2xl bg-slate-100 p-8 dark:bg-slate-800 lg:flex-row"
+    class="flex w-full flex-col gap-10 rounded-2xl bg-slate-100 p-8 dark:bg-slate-800 lg:flex-row"
   >
-    <div class="relative flex w-full flex-col items-start gap-2 lg:w-1/3">
+    <div class="relative flex w-full flex-col gap-2 lg:w-1/3">
       <img
         :src="image"
         :alt="alt"
@@ -46,7 +46,7 @@ defineProps({
         class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#000000a5] to-transparent px-2 pb-1"
       ></div>
     </div>
-    <div class="flex h-full w-full flex-col items-start justify-between">
+    <div class="flex h-full w-full flex-col justify-between">
       <div class="flex flex-col items-start gap-2">
         <h3 class="text-2xl font-semibold text-secondary dark:text-white">
           {{ title }}
@@ -56,14 +56,14 @@ defineProps({
         </p>
       </div>
 
-      <div class="flex w-full items-end justify-between">
+      <div
+        v-if="image !== '/images/unknownSpeaker.webp'"
+        class="flex w-full items-end justify-between"
+      >
         <h2 class="w-full text-xl font-semibold text-secondary dark:text-white">
           {{ name }}
         </h2>
-        <ul
-          v-if="image !== '/images/unknownSpeaker.webp'"
-          class="flex h-full items-end gap-5"
-        >
+        <ul class="flex h-full items-end gap-5">
           <li class="flex items-end">
             <NuxtLink
               :to="linkedin"
@@ -91,6 +91,17 @@ defineProps({
             </NuxtLink>
           </li>
         </ul>
+      </div>
+      <div v-else>
+        <NuxtLink
+          to="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center justify-end gap-1 hover:text-primary hover:underline hover:duration-200"
+        >
+          En savoir plus
+          <Icon name="mdi:arrow-right" />
+        </NuxtLink>
       </div>
     </div>
   </article>
