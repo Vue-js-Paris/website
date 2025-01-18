@@ -25,7 +25,7 @@ defineProps({
       :to="link"
       target="_blank"
       rel="noopener noreferrer"
-      class="flex flex-col items-center gap-5 rounded-2xl outline-2 outline-offset-8 outline-primary hover:outline lg:w-fit"
+      class="flex h-60 w-60 flex-col items-center gap-5 rounded-2xl outline-2 outline-primary hover:outline"
     >
       <img
         :src="image"

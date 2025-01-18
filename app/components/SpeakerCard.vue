@@ -10,7 +10,7 @@ defineProps({
   },
   name: {
     type: String,
-    default: "Un speaker incroyable à venir",
+    default: "",
   },
   title: {
     type: String,
@@ -82,14 +82,6 @@ defineProps({
           </li>
         </ul>
       </div>
-      <AppButton
-        v-if="image === '/images/unknownSpeaker.webp'"
-        link=""
-        target="_blank"
-        rel="noopener"
-      >
-        Devenir speaker
-      </AppButton>
     </div>
   </article>
 </template>
