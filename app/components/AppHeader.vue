@@ -10,15 +10,13 @@ const route = useRoute();
       class="flex w-full items-center justify-between py-10 text-secondary dark:text-white md:w-4/5 xl:w-2/3"
     >
       <nav>
-        <ul
-          class="flex gap-10 text-xl sm:text-2xl lg:gap-8 xl:gap-16 xl:text-3xl"
-        >
+        <ul class="flex gap-10 text-xl sm:text-2xl lg:gap-8 xl:gap-16">
           <li>
             <NuxtLink
               to="/"
-              class="rounded-lg transition-all hover:outline hover:outline-2 hover:outline-offset-8 hover:outline-primary"
+              class="hover:outline-offset-3 rounded transition-all hover:outline hover:outline-2 hover:outline-primary"
               :class="{
-                'font-bold outline outline-2 outline-offset-8 outline-primary':
+                'outline-offset-3 font-bold outline outline-2 outline-primary':
                   route.path === '/',
               }"
             >
@@ -28,9 +26,9 @@ const route = useRoute();
           <li>
             <NuxtLink
               to="/talks"
-              class="rounded-lg transition-all hover:outline hover:outline-2 hover:outline-offset-8 hover:outline-primary"
+              class="hover:outline-offset-3 rounded transition-all hover:outline hover:outline-2 hover:outline-primary"
               :class="{
-                'font-bold outline outline-2 outline-offset-8 outline-primary':
+                'outline-offset-3 font-bold outline outline-2 outline-primary':
                   route.path === '/talks',
               }"
             >
@@ -40,9 +38,9 @@ const route = useRoute();
           <li>
             <NuxtLink
               to="/about"
-              class="rounded-lg transition-all hover:outline hover:outline-2 hover:outline-offset-8 hover:outline-primary"
+              class="hover:outline-offset-3 rounded transition-all hover:outline hover:outline-2 hover:outline-primary"
               :class="{
-                'font-bold outline outline-2 outline-offset-8 outline-primary':
+                'outline-offset-3 font-bold outline outline-2 outline-primary':
                   route.path === '/about',
               }"
             >

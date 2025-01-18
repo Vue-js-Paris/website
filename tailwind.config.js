@@ -16,6 +16,9 @@ export default {
         secondary: "#35495e",
         tertiary: "#FFB05B",
       },
+      outlineOffset: {
+        3: "1rem",
+      },
       height: {
         section: "calc(100vh - 150px)",
       },
