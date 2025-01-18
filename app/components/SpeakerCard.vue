@@ -93,15 +93,12 @@ defineProps({
         </ul>
       </div>
       <div v-else class="pt-5">
-        <NuxtLink
-          to="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="ml-auto flex w-fit items-center gap-1 hover:text-primary hover:underline hover:duration-200"
+        <AppLink
+          link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
         >
           Proposer un talk
           <Icon name="mdi:arrow-right" />
-        </NuxtLink>
+        </AppLink>
       </div>
     </div>
   </article>
