@@ -12,7 +12,7 @@
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener"
-          class="w-fit !bg-primary text-center hover:!bg-tertiary sm:w-full"
+          class="w-fit !bg-primary text-center sm:w-full"
         >
           Devenir speaker
         </AppButton>

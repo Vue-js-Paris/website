@@ -99,7 +99,7 @@ defineProps({
           rel="noopener noreferrer"
           class="ml-auto flex w-fit items-center gap-1 hover:text-primary hover:underline hover:duration-200"
         >
-          En savoir plus
+          Proposer un talk
           <Icon name="mdi:arrow-right" />
         </NuxtLink>
       </div>

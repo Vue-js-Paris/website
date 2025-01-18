@@ -27,10 +27,6 @@ const slug = computed(() => slugify(props.talk.snippet.title));
         </p>
       </div>
       <div class="mt-auto">
-        <!-- <AppButton :link="`/talks/${slug}`" class="p-3 xl:p-4">
-          En savoir plus
-          <Icon name="fa6-solid:arrow-right" />
-        </AppButton> -->
         <NuxtLink
           :to="`/talks/${slug}`"
           class="ml-auto flex w-fit items-center gap-1 hover:text-primary hover:underline hover:duration-200"

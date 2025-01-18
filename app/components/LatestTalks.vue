@@ -29,7 +29,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
       >
         <AppButton
           link="/talks"
-          class="w-fit !bg-primary text-center hover:!bg-tertiary sm:w-full"
+          class="w-fit !bg-primary text-center sm:w-full"
         >
           Voir tous les talks
         </AppButton>

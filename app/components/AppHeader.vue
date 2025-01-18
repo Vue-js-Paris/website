@@ -51,13 +51,23 @@ const route = useRoute();
           </li>
         </ul>
       </nav>
-      <AppButton
-        link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
-        target="_blank"
-        class="hidden lg:block"
-      >
-        Prochain meetup Vue.js Paris
-      </AppButton>
+      <div class="flex gap-5">
+        <AppButton
+          link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
+          target="_blank"
+          class="hidden lg:block"
+        >
+          Prochain meetup
+        </AppButton>
+        <AppButton
+          link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="!border-2 !border-tertiary !bg-transparent"
+        >
+          Proposer un talk
+        </AppButton>
+      </div>
     </header>
   </div>
 </template>
