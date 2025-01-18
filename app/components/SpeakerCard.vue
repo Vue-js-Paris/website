@@ -51,7 +51,7 @@ defineProps({
         <h3 class="text-2xl font-semibold text-secondary dark:text-white">
           {{ title }}
         </h3>
-        <p class="line-clamp-4 text-lg text-gray-500 dark:text-gray-400">
+        <p class="line-clamp-4 text-gray-500 dark:text-gray-400">
           {{ description }}
         </p>
       </div>

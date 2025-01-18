@@ -22,7 +22,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
             {{ decodeHTML(talk.snippet.title) }}
           </h3>
         </ClientOnly>
-        <p class="line-clamp-3 pb-5 text-lg text-gray-500 dark:text-gray-400">
+        <p class="line-clamp-3 pb-5 text-gray-500 dark:text-gray-400">
           {{ talk.snippet.description }}
         </p>
       </div>
