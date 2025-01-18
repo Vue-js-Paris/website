@@ -7,7 +7,7 @@
         class="w-[75%] border-b-2 text-center"
         title="Nos sponsors"
       />
-      <div class="flex w-full flex-col justify-evenly lg:flex-row">
+      <div class="flex w-full justify-evenly">
         <SponsorCard
           image="/images/mastering_pinia.webp"
           name="Mastering Pinia"
