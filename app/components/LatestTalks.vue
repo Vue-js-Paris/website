@@ -30,7 +30,9 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
         <AppOutlineButton
           link="/talks"
           class="w-fit text-center sm:w-full"
-          background="bg-slate-800"
+          background="bg-slate-100"
+          dark-background="dark:bg-slate-800"
+          dark-border="dark:border-slate-600"
         >
           Voir tous les talks
         </AppOutlineButton>

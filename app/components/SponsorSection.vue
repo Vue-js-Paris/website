@@ -4,7 +4,7 @@
       class="flex w-screen flex-col items-center gap-10 px-5 md:mx-auto md:w-4/5 md:px-0 xl:w-2/3"
     >
       <SectionTitle
-        class="w-[75%] border-b-2 text-center"
+        class="border-b-2 border-slate-300 text-center dark:border-white"
         title="Nos sponsors"
       />
       <div class="flex w-full justify-evenly">

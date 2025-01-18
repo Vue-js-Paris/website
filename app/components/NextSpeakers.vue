@@ -13,6 +13,10 @@
           target="_blank"
           rel="noopener"
           class="w-fit text-center sm:w-full"
+          background="bg-slate-200"
+          dark-background="dark:bg-slate-900"
+          border="border-slate-400"
+          dark-border="dark:border-slate-700"
         >
           Devenir speaker
         </AppOutlineButton>
