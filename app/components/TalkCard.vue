@@ -16,19 +16,28 @@ const slug = computed(() => slugify(props.talk.snippet.title));
     <div class="flex w-full flex-col lg:w-2/3">
       <div>
         <ClientOnly>
-          <h3 class="pb-2 text-lg font-semibold text-secondary dark:text-white">
+          <h3
+            class="pb-2 text-2xl font-semibold text-secondary dark:text-white"
+          >
             {{ decodeHTML(talk.snippet.title) }}
           </h3>
         </ClientOnly>
-        <p class="line-clamp-3 pb-5 text-sm text-gray-500 dark:text-gray-400">
+        <p class="line-clamp-3 pb-5 text-lg text-gray-500 dark:text-gray-400">
           {{ talk.snippet.description }}
         </p>
       </div>
       <div class="mt-auto">
-        <AppButton :link="`/talks/${slug}`" class="p-3 xl:p-4">
+        <!-- <AppButton :link="`/talks/${slug}`" class="p-3 xl:p-4">
           En savoir plus
           <Icon name="fa6-solid:arrow-right" />
-        </AppButton>
+        </AppButton> -->
+        <NuxtLink
+          :to="`/talks/${slug}`"
+          class="ml-auto flex w-fit items-center gap-1 hover:text-primary hover:underline hover:duration-200"
+        >
+          En savoir plus
+          <Icon name="mdi:arrow-right" />
+        </NuxtLink>
       </div>
     </div>
   </article>

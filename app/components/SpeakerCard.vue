@@ -97,7 +97,7 @@ defineProps({
           to="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex items-center justify-end gap-1 hover:text-primary hover:underline hover:duration-200"
+          class="ml-auto flex w-fit items-center gap-1 hover:text-primary hover:underline hover:duration-200"
         >
           En savoir plus
           <Icon name="mdi:arrow-right" />
