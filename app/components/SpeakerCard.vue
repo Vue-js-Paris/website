@@ -92,7 +92,7 @@ defineProps({
           </li>
         </ul>
       </div>
-      <div v-else>
+      <div v-else class="pt-5">
         <NuxtLink
           to="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
