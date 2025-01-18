@@ -27,9 +27,14 @@ export default {
           "0%, 100%": { opacity: 0 },
           "50%": { opacity: 1 },
         },
+        rotate: {
+          "0%": { transform: "rotate(0deg) scale(10)" },
+          "100%": { transform: "rotate(-360deg) scale(10)" },
+        },
       },
       animation: {
         "fade-in-out": "fadeInOut 5s infinite",
+        rotate: "rotate 4s linear infinite",
       },
     },
   },

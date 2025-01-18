@@ -27,12 +27,13 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
         description="Retrouvez ici les talks de notre dernier meetup."
         class="h-full w-full md:sticky md:top-[180px] md:max-w-[20%]"
       >
-        <AppButton
+        <AppOutlineButton
           link="/talks"
-          class="w-fit !bg-primary text-center sm:w-full"
+          class="w-fit text-center sm:w-full"
+          background="bg-slate-800"
         >
           Voir tous les talks
-        </AppButton>
+        </AppOutlineButton>
       </SectionTitle>
     </div>
     <div v-else class="-mt-32 flex h-screen items-center justify-center">

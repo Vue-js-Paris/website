@@ -8,14 +8,14 @@
         title="Les prochains talks"
         description="Un aperçu de ce qui vous attend au prochain meetup."
       >
-        <AppButton
+        <AppOutlineButton
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener"
-          class="w-fit !bg-primary text-center sm:w-full"
+          class="w-fit text-center sm:w-full"
         >
           Devenir speaker
-        </AppButton>
+        </AppOutlineButton>
       </SectionTitle>
       <div class="flex w-full flex-col justify-between gap-5">
         <!-- <SpeakerCard

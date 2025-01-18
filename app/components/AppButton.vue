@@ -10,7 +10,7 @@ defineProps({
   },
   rel: {
     type: String,
-    default: "noopener",
+    default: "noopener noreferrer",
   },
 });
 </script>
