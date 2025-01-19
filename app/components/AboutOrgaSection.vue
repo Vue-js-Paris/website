@@ -5,7 +5,7 @@
     >
       <SectionTitle
         title="Les organisateurs"
-        class="!static !max-w-[50%] border-b-2 border-slate-300 text-center dark:border-white"
+        class="!static !max-w-[80%] border-b-2 border-slate-300 text-center dark:border-white md:!max-w-[50%]"
       />
       <div
         class="flex flex-col justify-between gap-10 md:flex-row md:items-start"
