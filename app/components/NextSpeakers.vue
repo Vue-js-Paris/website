@@ -10,7 +10,7 @@
         <AppOutlineButton
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           class="w-fit text-center sm:w-full"
           background="bg-slate-200"
           dark-background="dark:bg-slate-900"

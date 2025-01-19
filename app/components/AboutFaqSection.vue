@@ -33,7 +33,7 @@
             <NuxtLink
               to="https://www.meetup.com/fr-FR/Vuejs-Paris/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               class="inline-block font-semibold text-primary underline decoration-primary hover:text-tertiary hover:decoration-tertiary"
             >
               groupe Meetup

@@ -7,6 +7,7 @@
         <AppOutlineButton
           link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
           target="_blank"
+          rel="noopener noreferrer"
           class="w-fit text-center sm:w-full"
           background="bg-slate-100"
           dark-background="dark:bg-slate-800"

@@ -1,13 +1,14 @@
 <script setup lang="ts">
 const colorMode = useColorMode();
-const isClient = ref(false);
+const isDark = ref(false);
 
 const toggleTheme = () => {
-  colorMode.preference = colorMode.preference === "light" ? "dark" : "light";
+  isDark.value = !isDark.value;
+  colorMode.preference = isDark.value ? "dark" : "light";
 };
 
 onMounted(() => {
-  isClient.value = true;
+  isDark.value = colorMode.preference === "dark";
 });
 </script>
 
@@ -17,7 +18,7 @@ onMounted(() => {
       type="checkbox"
       value="synthwave"
       class="theme-controller toggle col-span-2 col-start-1 row-start-1 bg-base-content"
-      :checked="colorMode.preference === 'dark'"
+      :checked="isDark"
       @click="toggleTheme"
       @keyup.enter="toggleTheme"
     />
