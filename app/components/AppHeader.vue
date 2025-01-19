@@ -14,9 +14,9 @@ const route = useRoute();
           <li>
             <NuxtLink
               to="/"
-              class="hover:outline-offset-3 rounded transition-all hover:outline hover:outline-2 hover:outline-primary"
+              class="rounded transition-all hover:outline hover:outline-2 hover:outline-offset-3 hover:outline-primary"
               :class="{
-                'outline-offset-3 font-bold outline outline-2 outline-primary':
+                'font-bold outline outline-2 outline-offset-3 outline-primary':
                   route.path === '/',
               }"
             >
@@ -26,9 +26,9 @@ const route = useRoute();
           <li>
             <NuxtLink
               to="/talks"
-              class="hover:outline-offset-3 rounded transition-all hover:outline hover:outline-2 hover:outline-primary"
+              class="rounded transition-all hover:outline hover:outline-2 hover:outline-offset-3 hover:outline-primary"
               :class="{
-                'outline-offset-3 font-bold outline outline-2 outline-primary':
+                'font-bold outline outline-2 outline-offset-3 outline-primary':
                   route.path === '/talks',
               }"
             >
@@ -38,9 +38,9 @@ const route = useRoute();
           <li>
             <NuxtLink
               to="/about"
-              class="hover:outline-offset-3 rounded transition-all hover:outline hover:outline-2 hover:outline-primary"
+              class="rounded transition-all hover:outline hover:outline-2 hover:outline-offset-3 hover:outline-primary"
               :class="{
-                'outline-offset-3 font-bold outline outline-2 outline-primary':
+                'font-bold outline outline-2 outline-offset-3 outline-primary':
                   route.path === '/about',
               }"
             >
@@ -61,7 +61,7 @@ const route = useRoute();
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener noreferrer"
-          class="!border-2 !border-tertiary !bg-transparent !text-secondary dark:!text-white"
+          class="!border-2 !border-white !bg-transparent !text-secondary dark:!text-white"
         >
           Proposer un talk
         </AppButton>
