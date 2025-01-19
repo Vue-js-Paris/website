@@ -16,7 +16,6 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
     <SectionTitle
       title="Les Talks"
       description="Retrouvez ici tous les talks de notre meetup."
-      class="h-full w-full md:sticky md:top-[180px] md:max-w-[20%]"
     />
     <div class="flex flex-col gap-5 md:w-[80%]">
       <TalkCard

@@ -4,7 +4,6 @@
       class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-4/5 md:flex-row md:px-0 xl:w-2/3"
     >
       <SectionTitle
-        class="h-full w-full md:sticky md:top-[180px] md:max-w-[20%]"
         title="Les prochains talks"
         description="Un aperçu de ce qui vous attend au prochain meetup."
       >

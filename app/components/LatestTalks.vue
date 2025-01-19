@@ -25,7 +25,6 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
       <SectionTitle
         title="Nos derniers talks"
         description="Retrouvez ici les talks de notre dernier meetup."
-        class="h-full w-full md:sticky md:top-[180px] md:max-w-[20%]"
       >
         <AppOutlineButton
           link="/talks"
