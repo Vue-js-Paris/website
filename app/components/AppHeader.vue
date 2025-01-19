@@ -61,7 +61,7 @@ const route = useRoute();
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener noreferrer"
-          class="!border-2 !border-white !bg-transparent !text-secondary dark:!text-white"
+          class="!border-2 !border-white !bg-transparent !text-secondary hover:!border-primary dark:!text-white"
         >
           Proposer un talk
         </AppButton>
