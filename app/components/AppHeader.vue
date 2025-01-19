@@ -53,15 +53,22 @@ const route = useRoute();
         <AppButton
           link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
           target="_blank"
-          class="hidden lg:block"
+          rel="noopener noreferrer"
         >
-          Prochain meetup
+          Participer au meetup
         </AppButton>
         <AppButton
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener noreferrer"
-          class="!border-2 !border-white !bg-transparent !text-secondary hover:!border-primary dark:!text-white"
+          background-color="bg-transparent"
+          text-color="text-secondary"
+          dark-text-color="dark:text-white"
+          border-width="border-2"
+          border-color="border-secondary"
+          dark-border-color="dark:border-white"
+          hover-border-color=""
+          class="hidden hover:!border-primary lg:block"
         >
           Proposer un talk
         </AppButton>

@@ -1,5 +1,5 @@
 <template>
-  <section class="md:h-section relative h-screen overflow-hidden">
+  <section class="relative h-screen overflow-hidden md:h-section">
     <div>
       <img
         src="../assets/images/ParisTheme.webp"
@@ -20,6 +20,7 @@
           <AppButton
             link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Participer au prochain meetup
           </AppButton>

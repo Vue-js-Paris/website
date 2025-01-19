@@ -10,7 +10,31 @@ defineProps({
   },
   rel: {
     type: String,
-    default: "noopener noreferrer",
+    default: "",
+  },
+  backgroundColor: {
+    type: String,
+    default: "bg-tertiary",
+  },
+  textColor: {
+    type: String,
+    default: "text-white",
+  },
+  darkTextColor: {
+    type: String,
+    default: "dark:text-white",
+  },
+  borderWidth: {
+    type: String,
+    default: "",
+  },
+  borderColor: {
+    type: String,
+    default: "",
+  },
+  darkBorderColor: {
+    type: String,
+    default: "",
   },
 });
 </script>
@@ -20,7 +44,8 @@ defineProps({
     :to="link"
     :target="target"
     :rel="rel"
-    class="flex w-fit items-center justify-center gap-2 rounded-2xl bg-tertiary p-4 text-xl font-semibold text-white transition-all hover:scale-105 hover:shadow-lg hover:duration-300 hover:ease-in-out"
+    class="flex w-fit items-center justify-center gap-2 rounded-2xl p-4 text-xl font-semibold transition-all hover:scale-105 hover:shadow-lg hover:duration-300 hover:ease-in-out"
+    :class="`${backgroundColor} ${textColor} ${darkTextColor} ${borderWidth} ${borderColor} ${darkBorderColor}`"
   >
     <slot />
   </NuxtLink>
