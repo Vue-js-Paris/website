@@ -34,7 +34,7 @@ defineProps({
 <template>
   <div class="mx-auto flex w-full max-w-lg items-center justify-center">
     <div
-      :class="`relative z-10 flex w-full items-center overflow-hidden rounded-2xl border ${border} ${darkBorder} p-[2px] transition-all duration-300 ease-in-out hover:scale-105`"
+      :class="`relative z-10 flex w-full items-center overflow-hidden rounded-2xl border ${border} ${darkBorder} p-[2px] transition-all duration-300 ease-in-out hover:scale-105 hover:bg-primary`"
     >
       <div
         class="animate-rotate absolute inset-0 h-full w-full rounded-full bg-[conic-gradient(#42b883_20deg,transparent_120deg)]"
