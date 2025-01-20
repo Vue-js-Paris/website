@@ -16,6 +16,10 @@ export default {
         secondary: "#35495e",
         tertiary: "#FFB05B",
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
       outlineOffset: {
         3: "1rem",
       },

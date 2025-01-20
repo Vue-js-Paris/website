@@ -3,7 +3,9 @@
 <template>
   <div>
     <AppHeader class="hidden md:flex" />
-    <main class="bg-slate-100 dark:bg-slate-800 dark:text-white md:pt-[148px]">
+    <main
+      class="font-roboto bg-slate-100 dark:bg-slate-800 dark:text-white md:pt-[148px]"
+    >
       <slot />
     </main>
     <AppFooter class="pt-10" />

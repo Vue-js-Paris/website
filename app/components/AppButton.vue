@@ -44,7 +44,7 @@ defineProps({
     :to="link"
     :target="target"
     :rel="rel"
-    class="flex w-fit items-center justify-center gap-2 rounded-2xl p-4 text-xl font-semibold transition-all hover:scale-105 hover:shadow-lg hover:duration-300 hover:ease-in-out"
+    class="font-montserrat flex w-fit items-center justify-center gap-2 rounded-2xl p-4 text-xl font-semibold transition-all hover:scale-105 hover:shadow-lg hover:duration-300 hover:ease-in-out"
     :class="`${backgroundColor} ${textColor} ${darkTextColor} ${borderWidth} ${borderColor} ${darkBorderColor}`"
   >
     <slot />

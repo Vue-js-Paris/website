@@ -20,7 +20,7 @@ defineProps<{
         frameborder="0"
         allowfullscreen
       />
-      <p class="text-xl text-secondary dark:text-white">
+      <p class="text-secondary dark:text-white">
         <slot />
       </p>
     </article>

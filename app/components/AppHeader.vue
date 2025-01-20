@@ -10,7 +10,9 @@ const route = useRoute();
       class="flex w-full items-center justify-between py-10 text-secondary dark:text-white md:w-4/5 xl:w-2/3"
     >
       <nav>
-        <ul class="flex gap-10 text-xl sm:text-2xl lg:gap-8 xl:gap-16">
+        <ul
+          class="font-montserrat flex gap-10 text-xl sm:text-2xl lg:gap-8 xl:gap-16"
+        >
           <li>
             <NuxtLink
               to="/"
