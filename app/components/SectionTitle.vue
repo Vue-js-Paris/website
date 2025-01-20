@@ -15,7 +15,7 @@ defineProps({
 <template>
   <div class="h-full w-full md:sticky md:top-[180px] md:max-w-[20%]">
     <h2
-      class="font-montserrat pb-5 text-3xl font-semibold text-secondary dark:text-white lg:text-5xl"
+      class="pb-5 text-3xl font-semibold text-secondary dark:text-white lg:text-5xl"
     >
       {{ title }}
     </h2>
