@@ -1,5 +1,5 @@
 <template>
-  <section class="relative bg-slate-200 py-20 dark:bg-slate-900">
+  <section class="relative bg-slate-100 py-20 dark:bg-slate-800">
     <div
       class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-4/5 md:flex-row md:px-0 xl:w-2/3"
     >
@@ -12,10 +12,9 @@
           target="_blank"
           rel="noopener noreferrer"
           class="w-fit text-center sm:w-full"
-          background="bg-slate-200"
-          dark-background="dark:bg-slate-900"
-          border="border-slate-400"
-          dark-border="dark:border-slate-700"
+          background="bg-slate-100"
+          dark-background="dark:bg-slate-800"
+          dark-border="dark:border-slate-600"
         >
           Devenir speaker
         </AppOutlineButton>

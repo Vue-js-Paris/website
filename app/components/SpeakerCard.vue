@@ -34,13 +34,13 @@ defineProps({
 
 <template>
   <article
-    class="flex w-full flex-col gap-10 rounded-2xl bg-slate-100 p-8 dark:bg-slate-800 lg:flex-row"
+    class="flex w-full flex-col gap-10 rounded-2xl bg-slate-200 p-8 dark:bg-slate-900 lg:flex-row"
   >
     <div class="relative flex w-full flex-col gap-2 lg:w-1/3">
       <img
         :src="image"
         :alt="alt"
-        class="h-fit w-full rounded-2xl bg-slate-900 object-cover xl:h-52 xl:w-full"
+        class="h-fit w-full rounded-2xl bg-slate-800 object-cover xl:h-52 xl:w-full"
       />
       <div
         class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#000000a5] to-transparent px-2 pb-1"
