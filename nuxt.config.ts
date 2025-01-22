@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/eslint", "@nuxt/scripts", "@nuxt/icon", "nuxt-auth-utils", "@nuxt/content", "@vueuse/nuxt", "@nuxtjs/color-mode", "@nuxt/fonts"],
+  modules: ["@nuxt/eslint", "@nuxt/scripts", "@nuxt/icon", "nuxt-auth-utils", "@nuxt/content", "@vueuse/nuxt", "@nuxtjs/color-mode", "@nuxt/fonts", "@nuxt/ui"],
 
   colorMode: {
     classSuffix: "",
