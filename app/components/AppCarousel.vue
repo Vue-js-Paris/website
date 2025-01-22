@@ -91,10 +91,10 @@ onMounted(() => {
         v-slot="{ item }"
         :items="items"
         :ui="{ item: 'basis-full' }"
-        class="overflow-hidden rounded-2xl"
+        class="overflow-hidden rounded-2xl outline outline-4 outline-white"
         indicators
       >
-        <img :src="item" class="w-full" draggable="false" />
+        <img :src="item" class="w-full object-cover" draggable="false" />
       </UCarousel>
       <SectionTitle
         title="Le meetup en image"
