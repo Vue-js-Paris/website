@@ -34,7 +34,17 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/eslint", "@nuxt/scripts", "@nuxt/icon", "nuxt-auth-utils", "@nuxt/content", "@vueuse/nuxt", "@nuxtjs/color-mode", "@nuxt/fonts", "@nuxt/ui"],
+  modules: [
+    "@nuxt/eslint",
+    "@nuxt/scripts",
+    "@nuxt/icon",
+    "nuxt-auth-utils",
+    "@nuxt/content",
+    "@vueuse/nuxt",
+    "@nuxtjs/color-mode",
+    "@nuxt/fonts",
+    "@nuxt/ui",
+  ],
 
   colorMode: {
     classSuffix: "",
@@ -44,10 +54,10 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     sessionPassword: "",
+    youtubeApiBaseUrl: "",
+    youtubeApiKey: "",
 
     public: {
-      youtubeApiBaseUrl: "",
-      youtubeApiKey: "",
       youtubeChannelId: "",
     },
   },

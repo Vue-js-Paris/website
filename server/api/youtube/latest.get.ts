@@ -1,21 +1,28 @@
 export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig();
-  const { channelId, apiKey } = getQuery(event) as {
-    channelId: string;
-    apiKey: string;
-  };
+  const { channelId } = getQuery(event) as { channelId: string };
 
-  if (!channelId || !apiKey) {
+  if (!channelId) {
     throw createError({
       statusCode: 400,
-      statusMessage: "channelId et apiKey sont requis",
+      statusMessage: "channelId est requis",
     });
   }
 
   try {
-    const response: YouTubeAPIResponse = await $fetch(
-      `${config.public.youtubeApiBaseUrl}/search?part=snippet&channelId=${channelId}&maxResults=3&order=date&type=video&key=${apiKey}`,
-    );
+    const apiUrl = `${config.youtubeApiBaseUrl}/search`;
+    const params = {
+      part: "snippet",
+      channelId: channelId,
+      maxResults: 3,
+      order: "date",
+      type: "video",
+      key: config.youtubeApiKey,
+    };
+
+    const response: YouTubeAPIResponse = await $fetch(apiUrl, {
+      params,
+    });
 
     return { items: response.items };
   } catch (error) {

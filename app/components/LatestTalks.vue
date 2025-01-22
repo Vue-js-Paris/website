@@ -4,7 +4,6 @@ const config = useRuntimeConfig();
 const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
   params: {
     channelId: config.public.youtubeChannelId,
-    apiKey: config.public.youtubeApiKey,
   },
 });
 </script>

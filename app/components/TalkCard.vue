@@ -11,7 +11,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
     <img
       :src="talk.snippet.thumbnails.high.url"
       :alt="talk.snippet.title"
-      class="aspect-video h-fit w-full rounded-2xl object-cover lg:w-1/3"
+      class="h-fit w-full rounded-2xl object-cover lg:w-1/3"
     />
     <div class="flex w-full flex-col lg:w-2/3">
       <div>
