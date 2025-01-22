@@ -8,11 +8,13 @@ const slug = computed(() => slugify(props.talk.snippet.title));
   <article
     class="flex flex-col gap-5 rounded-2xl bg-slate-200 p-8 dark:bg-slate-900 lg:flex-row lg:gap-10"
   >
-    <img
-      :src="talk.snippet.thumbnails.high.url"
-      :alt="talk.snippet.title"
-      class="h-fit w-full rounded-2xl object-cover lg:w-1/3"
-    />
+    <div class="h-fit overflow-hidden rounded-2xl lg:w-1/3">
+      <img
+        :src="talk.snippet.thumbnails.high.url"
+        :alt="talk.snippet.title"
+        class="h-full w-full object-cover"
+      />
+    </div>
     <div class="flex w-full flex-col lg:w-2/3">
       <div>
         <ClientOnly>
