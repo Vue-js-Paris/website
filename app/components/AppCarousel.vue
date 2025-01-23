@@ -33,7 +33,7 @@ onMounted(() => {
         v-slot="{ item }"
         :items="items"
         :ui="{ item: 'basis-full' }"
-        class="overflow-hidden rounded-2xl outline outline-4 outline-white"
+        class="overflow-hidden rounded-2xl outline outline-4 outline-secondary dark:outline-white"
         indicators
       >
         <img :src="item" class="w-full object-cover" draggable="false" />

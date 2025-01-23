@@ -40,9 +40,10 @@ defineProps({
       <img
         :src="image"
         :alt="alt"
-        class="h-fit w-full rounded-2xl bg-slate-800 object-cover xl:h-52 xl:w-full"
+        class="h-fit w-full rounded-2xl bg-slate-300 object-cover dark:bg-slate-800 xl:h-52 xl:w-full"
       />
       <div
+        v-if="image !== '/images/unknownSpeaker.webp'"
         class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#000000a5] to-transparent px-2 pb-1"
       ></div>
     </div>

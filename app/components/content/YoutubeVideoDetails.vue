@@ -15,7 +15,7 @@ defineProps<{
         {{ videoTitle }}
       </h1>
       <iframe
-        class="mx-auto aspect-video w-full rounded-xl"
+        class="aspect-video w-full rounded-2xl"
         :src="`https://www.youtube.com/embed/${videoId}`"
         frameborder="0"
         allowfullscreen

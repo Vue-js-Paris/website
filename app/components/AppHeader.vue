@@ -11,7 +11,7 @@ const route = useRoute();
     >
       <nav>
         <ul
-          class="font-montserrat flex gap-10 text-xl sm:text-2xl lg:gap-8 xl:gap-16"
+          class="flex gap-10 font-montserrat text-xl sm:text-2xl lg:gap-8 xl:gap-16"
         >
           <li>
             <NuxtLink
@@ -64,13 +64,8 @@ const route = useRoute();
           target="_blank"
           rel="noopener noreferrer"
           background-color="bg-transparent"
-          text-color="text-secondary"
-          dark-text-color="dark:text-white"
           border-width="border-2"
-          border-color="border-secondary"
-          dark-border-color="dark:border-white"
-          hover-border-color=""
-          class="hidden hover:!border-primary lg:block"
+          class="hidden lg:block"
         >
           Proposer un talk
         </AppButton>

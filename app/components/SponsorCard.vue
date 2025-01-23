@@ -32,11 +32,11 @@ defineProps({
         :alt="alt"
         class="aspect-square h-24 w-24 rounded-2xl object-contain object-bottom sm:h-32 sm:w-32 md:h-40 md:w-40 xl:h-44 xl:w-44"
       />
-      <h2
-        class="w-full text-center text-lg font-semibold text-secondary dark:text-white md:text-xl"
+      <h3
+        class="w-full text-center font-semibold text-secondary dark:text-white md:text-2xl"
       >
         {{ name }}
-      </h2>
+      </h3>
     </NuxtLink>
   </article>
 </template>
