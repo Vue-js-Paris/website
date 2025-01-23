@@ -4,21 +4,24 @@ const route = useRoute();
 
 <template>
   <div
-    class="fixed top-0 z-30 flex h-[150px] w-screen justify-center bg-slate-100 shadow-md shadow-primary dark:bg-slate-800"
+    class="fixed top-0 z-30 flex h-[100px] w-screen justify-center bg-slate-100 shadow-md shadow-primary dark:bg-slate-800"
   >
     <header
-      class="flex w-full items-center justify-between py-10 text-secondary dark:text-white md:w-4/5 xl:w-2/3"
+      class="flex w-full items-center justify-between text-secondary dark:text-white md:w-[90%] xl:w-2/3"
     >
+      <img
+        src="/images/Vue.js_paris_logo_dark.webp"
+        alt=""
+        class="w-24 overflow-hidden object-cover"
+      />
       <nav>
-        <ul
-          class="flex gap-10 font-montserrat text-xl sm:text-2xl lg:gap-8 xl:gap-16"
-        >
+        <ul class="flex gap-10 font-montserrat text-xl md:gap-5">
           <li>
             <NuxtLink
               to="/"
-              class="rounded transition-all hover:outline hover:outline-2 hover:outline-offset-3 hover:outline-primary"
+              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primary"
               :class="{
-                'font-bold outline outline-2 outline-offset-3 outline-primary':
+                'rounded-2xl border-2 !border-primary p-3 font-bold':
                   route.path === '/',
               }"
             >
@@ -28,9 +31,9 @@ const route = useRoute();
           <li>
             <NuxtLink
               to="/talks"
-              class="rounded transition-all hover:outline hover:outline-2 hover:outline-offset-3 hover:outline-primary"
+              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primary"
               :class="{
-                'font-bold outline outline-2 outline-offset-3 outline-primary':
+                'rounded-2xl border-2 !border-primary p-3 font-bold':
                   route.path === '/talks',
               }"
             >
@@ -40,9 +43,9 @@ const route = useRoute();
           <li>
             <NuxtLink
               to="/about"
-              class="rounded transition-all hover:outline hover:outline-2 hover:outline-offset-3 hover:outline-primary"
+              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primary"
               :class="{
-                'font-bold outline outline-2 outline-offset-3 outline-primary':
+                'rounded-2xl border-2 !border-primary p-3 font-bold':
                   route.path === '/about',
               }"
             >
@@ -56,6 +59,7 @@ const route = useRoute();
           link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
           target="_blank"
           rel="noopener noreferrer"
+          class="!p-3"
         >
           Participer au meetup
         </AppButton>
@@ -65,7 +69,7 @@ const route = useRoute();
           rel="noopener noreferrer"
           background-color="bg-transparent"
           border-width="border-2"
-          class="hidden lg:block"
+          class="hidden !p-3 lg:block"
         >
           Proposer un talk
         </AppButton>

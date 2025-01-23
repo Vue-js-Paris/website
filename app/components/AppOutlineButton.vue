@@ -33,13 +33,13 @@ defineProps({
 
 <template>
   <div
-    class="font-montserrat mx-auto flex w-full max-w-lg items-center justify-center"
+    class="mx-auto flex w-full max-w-lg items-center justify-center font-montserrat"
   >
     <div
       :class="`relative z-10 flex w-full items-center overflow-hidden rounded-2xl border ${border} ${darkBorder} p-[2px] transition-all duration-300 ease-in-out hover:scale-105 hover:bg-primary`"
     >
       <div
-        class="absolute inset-0 h-full w-full animate-rotate rounded-full bg-[conic-gradient(#42b883_20deg,transparent_120deg)]"
+        class="absolute inset-0 h-full w-full animate-rotate rounded-full bg-[conic-gradient(transparent_20deg,#42b883_120deg)]"
       ></div>
       <div
         :class="`${background} relative z-20 flex w-full rounded-2xl p-2 ${darkBackground}`"

@@ -1,7 +1,7 @@
 <template>
   <section class="py-20">
     <div
-      class="flex h-full w-screen flex-col-reverse gap-20 px-5 md:mx-auto md:w-4/5 md:flex-row md:px-0 xl:w-2/3"
+      class="flex h-full w-screen flex-col-reverse gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
       <div class="flex flex-col gap-5 text-secondary dark:text-white">
         <div class="flex flex-col gap-5">

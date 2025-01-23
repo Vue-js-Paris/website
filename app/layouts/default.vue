@@ -4,7 +4,7 @@
   <div>
     <AppHeader class="hidden md:flex" />
     <main
-      class="font-roboto bg-slate-100 dark:bg-slate-800 dark:text-white md:pt-[148px]"
+      class="bg-slate-100 font-roboto dark:bg-slate-800 dark:text-white md:pt-[100px]"
     >
       <slot />
     </main>

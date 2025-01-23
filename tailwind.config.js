@@ -24,7 +24,7 @@ export default {
         3: "1rem",
       },
       height: {
-        section: "calc(100vh - 150px)",
+        section: "calc(100vh - 100px)",
       },
       keyframes: {
         fadeInOut: {
@@ -33,7 +33,7 @@ export default {
         },
         rotate: {
           "0%": { transform: "rotate(0deg) scale(10)" },
-          "100%": { transform: "rotate(-360deg) scale(10)" },
+          "100%": { transform: "rotate(360deg) scale(10)" },
         },
       },
       animation: {

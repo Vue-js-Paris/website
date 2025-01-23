@@ -10,7 +10,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube`, {
 <template>
   <section
     v-if="talks?.items?.length"
-    class="flex w-screen flex-col items-center gap-10 px-5 sm:items-start md:mx-auto md:w-4/5 md:flex-row md:px-0 md:pt-10 xl:w-2/3"
+    class="flex w-screen flex-col items-center gap-10 px-5 sm:items-start md:mx-auto md:w-[90%] md:flex-row md:px-0 md:pt-10 xl:w-2/3"
   >
     <SectionTitle
       title="Les Talks"

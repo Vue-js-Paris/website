@@ -1,7 +1,7 @@
 <template>
   <section class="relative bg-slate-100 py-20 dark:bg-slate-800">
     <div
-      class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-4/5 md:flex-row md:px-0 xl:w-2/3"
+      class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
       <SectionTitle
         title="Les prochains talks"

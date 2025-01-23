@@ -26,7 +26,7 @@ onMounted(() => {
 <template>
   <section class="bg-slate-200 py-20 dark:bg-slate-900">
     <div
-      class="flex w-screen flex-col-reverse gap-20 px-5 md:mx-auto md:w-4/5 md:flex-row md:px-0 xl:w-2/3"
+      class="flex w-screen flex-col-reverse gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
       <UCarousel
         ref="carouselRef"
