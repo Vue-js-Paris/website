@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const route = useRoute();
+const colorMode = useColorMode();
 </script>
 
 <template>
@@ -9,11 +10,20 @@ const route = useRoute();
     <header
       class="flex w-full items-center justify-between text-secondary dark:text-white md:w-[90%] xl:w-2/3"
     >
-      <img
-        src="/images/Vue.js_paris_logo_dark.webp"
-        alt=""
-        class="w-24 overflow-hidden object-cover"
-      />
+      <div>
+        <img
+          v-if="colorMode.preference === 'dark'"
+          src="/images/Vue.js_paris_logo_dark.webp"
+          alt="Vue.js Paris logo"
+          class="w-24 overflow-hidden object-cover"
+        />
+        <img
+          v-else
+          src="/images/Vue.js_paris_logo.webp"
+          alt="Vue.js Paris logo"
+          class="w-24 overflow-hidden object-cover"
+        />
+      </div>
       <nav>
         <ul class="flex gap-10 font-montserrat text-xl md:gap-5">
           <li>
@@ -67,6 +77,7 @@ const route = useRoute();
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener noreferrer"
+          text-color="text-secondary"
           background-color="bg-transparent"
           border-width="border-2"
           class="hidden !p-3 lg:block"
