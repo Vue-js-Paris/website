@@ -27,7 +27,7 @@
       </div>
     </div>
     <img
-      src="/images/Paris_cover_hero.png"
+      src="/images/Paris_cover_hero.webp"
       alt=""
       class="h-full w-screen object-cover object-right"
     />

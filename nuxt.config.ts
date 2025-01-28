@@ -19,7 +19,7 @@ export default defineNuxtConfig({
           rel: "icon",
           type: "image/svg+xml",
           sizes: "32x32",
-          href: "/logo/vue-js.svg",
+          href: "/logo/Vue.js_paris_logo.webp",
         },
       ],
     },
