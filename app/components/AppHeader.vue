@@ -8,14 +8,14 @@ const colorMode = useColorMode();
     class="fixed top-0 z-30 flex h-[100px] w-screen justify-center bg-slate-100 shadow dark:bg-slate-800"
   >
     <header
-      class="flex w-full items-center justify-between text-secondary dark:text-white md:w-[90%] xl:w-2/3"
+      class="flex w-full items-center justify-between text-secondary dark:text-white md:w-[90%] xl:w-[80%]"
     >
       <nav>
-        <ul class="flex items-center gap-10 font-montserrat text-xl md:gap-5">
+        <ul class="flex items-center font-montserrat text-xl xl:gap-10">
           <li>
             <NuxtLink to="/">
               <img
-                v-if="colorMode.preference === 'dark'"
+                v-if="colorMode.value === 'dark'"
                 src="/images/Vue.js_paris_logo_dark.webp"
                 alt="Vue.js Paris logo"
                 class="w-24 overflow-hidden object-cover"
