@@ -1,12 +1,14 @@
 <template>
   <section class="relative h-screen overflow-hidden md:h-section">
-    <div class="absolute top-0 flex h-full w-full flex-col gap-72">
+    <div class="absolute top-0 flex h-full w-full flex-col">
       <h1
-        class="ml-10 mt-8 text-nowrap font-ultra text-[10vw] leading-none text-white"
+        class="mt-8 text-nowrap text-center font-ultra text-[10vw] leading-none text-white md:ml-10 md:text-left"
       >
         VUE.JS PARIS
       </h1>
-      <div class="ml-10 flex w-[600px] flex-col items-center gap-5">
+      <div
+        class="absolute bottom-64 flex flex-col items-center gap-5 px-5 md:ml-10 md:w-[600px] md:px-0"
+      >
         <h2 class="text-center text-3xl font-semibold text-white sm:text-5xl">
           Découvrir, partager et connecter.
         </h2>
@@ -24,6 +26,10 @@
         </AppButton>
       </div>
     </div>
-    <img src="/images/Paris4.png" alt="" class="w-screen object-cover" />
+    <img
+      src="/images/Paris4.png"
+      alt=""
+      class="h-full w-screen object-cover object-right"
+    />
   </section>
 </template>
