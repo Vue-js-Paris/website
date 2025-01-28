@@ -42,6 +42,18 @@ const colorMode = useColorMode();
           </li>
           <li>
             <NuxtLink
+              to="/sponsor"
+              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primary"
+              :class="{
+                'rounded-2xl border-2 !border-primary p-3 font-bold':
+                  route.path === '/sponsor',
+              }"
+            >
+              Devenir sponsor
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink
               to="/about"
               class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primary"
               :class="{
