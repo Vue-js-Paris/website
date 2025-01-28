@@ -5,37 +5,27 @@ const colorMode = useColorMode();
 
 <template>
   <div
-    class="fixed top-0 z-30 flex h-[100px] w-screen justify-center bg-slate-100 shadow-md shadow-primary dark:bg-slate-800"
+    class="fixed top-0 z-30 flex h-[100px] w-screen justify-center bg-slate-100 shadow dark:bg-slate-800"
   >
     <header
       class="flex w-full items-center justify-between text-secondary dark:text-white md:w-[90%] xl:w-2/3"
     >
-      <div>
-        <img
-          v-if="colorMode.preference === 'dark'"
-          src="/images/Vue.js_paris_logo_dark.webp"
-          alt="Vue.js Paris logo"
-          class="w-24 overflow-hidden object-cover"
-        />
-        <img
-          v-else
-          src="/images/Vue.js_paris_logo.webp"
-          alt="Vue.js Paris logo"
-          class="w-24 overflow-hidden object-cover"
-        />
-      </div>
       <nav>
-        <ul class="flex gap-10 font-montserrat text-xl md:gap-5">
+        <ul class="flex items-center gap-10 font-montserrat text-xl md:gap-5">
           <li>
-            <NuxtLink
-              to="/"
-              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primary"
-              :class="{
-                'rounded-2xl border-2 !border-primary p-3 font-bold':
-                  route.path === '/',
-              }"
-            >
-              Accueil
+            <NuxtLink to="/">
+              <img
+                v-if="colorMode.preference === 'dark'"
+                src="/images/Vue.js_paris_logo_dark.webp"
+                alt="Vue.js Paris logo"
+                class="w-24 overflow-hidden object-cover"
+              />
+              <img
+                v-else
+                src="/images/Vue.js_paris_logo.webp"
+                alt="Vue.js Paris logo"
+                class="w-24 overflow-hidden object-cover"
+              />
             </NuxtLink>
           </li>
           <li>

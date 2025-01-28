@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HomeHero />
+    <HomeHero2 />
     <SponsorSection />
     <NextSpeakers />
     <AppCarousel />

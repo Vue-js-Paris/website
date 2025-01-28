@@ -19,6 +19,7 @@ export default {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        ultra: ["Ultra", "sans-serif"],
       },
       outlineOffset: {
         3: "1rem",
