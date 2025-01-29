@@ -1,56 +1,55 @@
 <script setup lang="ts">
-const items = [
-  "/images/meetupAtelier1.webp",
-  "/images/meetupAtelier2.webp",
-  "/images/meetupAtelier3.webp",
-  "/images/meetupAtelier4.webp",
-  "/images/meetupAtelier5.webp",
-  "/images/meetupAtelier6.webp",
-];
+import { computed } from "vue";
 
-const carouselRef = ref();
+const props = defineProps<{ images: string[]; direction?: "left" | "right" }>();
 
-onMounted(() => {
-  setInterval(() => {
-    if (!carouselRef.value) return;
-
-    if (carouselRef.value.page === carouselRef.value.pages) {
-      return carouselRef.value.select(0);
-    }
-
-    carouselRef.value.next();
-  }, 3000);
-});
+const animationClass = computed(() =>
+  props.direction === "right" ? "animate-scroll-right" : "animate-scroll-left",
+);
 </script>
 
 <template>
-  <section class="bg-slate-200 py-20 dark:bg-slate-900">
-    <div
-      class="flex w-screen flex-col-reverse gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
-    >
-      <UCarousel
-        ref="carouselRef"
-        v-slot="{ item }"
-        :items="items"
-        :ui="{ item: 'basis-full' }"
-        class="overflow-hidden rounded-2xl outline outline-4 outline-secondary dark:outline-white"
-        indicators
+  <div class="relative h-64 w-screen overflow-hidden">
+    <div class="flex w-max" :class="animationClass">
+      <div
+        v-for="(img, index) in [...props.images, ...props.images]"
+        :key="index"
+        class="h-64 w-[400px] flex-shrink-0 pr-10"
       >
-        <img :src="item" class="w-full object-cover" draggable="false" />
-      </UCarousel>
-      <SectionTitle
-        title="Le meetup en image"
-        description="Voici quelques photos de nos meetups."
-      >
-        <AppOutlineButton
-          link="/about"
-          border="border-gray-400"
-          dark-border="dark:border-slate-600"
-          class="w-fit text-center sm:w-full"
-        >
-          En savoir plus
-        </AppOutlineButton>
-      </SectionTitle>
+        <img
+          :src="img"
+          alt="carousel image"
+          class="h-full w-full rounded-2xl object-cover"
+        />
+      </div>
     </div>
-  </section>
+  </div>
 </template>
+
+<style>
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 20s linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 20s linear infinite;
+}
+</style>
