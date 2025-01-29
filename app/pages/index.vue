@@ -9,21 +9,18 @@
           :images="[
             '/images/meetupAtelier1.webp',
             '/images/meetupAtelier2.webp',
-            '/images/meetupAtelier3.webp',
-            '/images/meetupAtelier4.webp',
+            '/images/meetupAtelier9.webp',
             '/images/meetupAtelier5.webp',
-            '/images/meetupAtelier6.webp',
+            '/images/meetupAtelier4.webp',
           ]"
           direction="left"
         />
         <AppCarousel
           :images="[
-            '/images/meetupAtelier1.webp',
-            '/images/meetupAtelier2.webp',
-            '/images/meetupAtelier3.webp',
-            '/images/meetupAtelier4.webp',
-            '/images/meetupAtelier5.webp',
             '/images/meetupAtelier6.webp',
+            '/images/meetupAtelier3.webp',
+            '/images/meetupAtelier7.webp',
+            '/images/meetupAtelier8.webp',
           ]"
           direction="right"
         />
