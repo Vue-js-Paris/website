@@ -3,10 +3,17 @@
     <div
       class="flex w-screen flex-col items-center gap-10 px-5 md:mx-auto md:w-[90%] md:px-0 xl:w-2/3"
     >
-      <SectionTitle
-        class="!static !max-w-[80%] border-b-2 border-slate-300 text-center dark:border-white md:!max-w-[50%]"
-        title="Nos sponsors"
-      />
+      <SectionTitleWithBorder title="Nos sponsors">
+        <AppOutlineButton
+          link="/sponsor"
+          class="text-center"
+          background="bg-slate-100"
+          dark-background="dark:bg-slate-800"
+          dark-border="dark:border-slate-600"
+        >
+          Devenir sponsor
+        </AppOutlineButton>
+      </SectionTitleWithBorder>
       <div class="flex w-full justify-evenly">
         <SponsorCard
           image="/images/mastering_pinia.webp"
