@@ -8,7 +8,7 @@
         description="Soutenez la communauté Vue.js Paris en devenant sponsor de l'événement."
       >
         <AppOutlineButton
-          link="https://x.com/vuejsparis"
+          link="https://x.com/messages/747975155733893124-831503542703816704"
           target="_blank"
           rel="noopener noreferrer"
           background="bg-slate-100"

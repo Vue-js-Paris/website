@@ -47,7 +47,7 @@
         description="Vous souhaitez ouvrir vos portes à la communauté Vue.js ?"
       >
         <AppOutlineButton
-          link="https://x.com/vuejsparis"
+          link="https://x.com/messages/747975155733893124-831503542703816704"
           target="_blank"
           rel="noopener noreferrer"
           class="w-fit text-center sm:w-full"
