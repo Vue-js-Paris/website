@@ -1,3 +1,6 @@
 <template>
-  <h1>Devenir sponsor</h1>
+  <div>
+    <SponsorSectionBecomeSponsor />
+    <SponsorSectionBecomeHost />
+  </div>
 </template>
