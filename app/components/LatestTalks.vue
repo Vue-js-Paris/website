@@ -9,7 +9,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
 </script>
 
 <template>
-  <section class="relative bg-slate-100 py-20 dark:bg-slate-800">
+  <section class="bg relative bg-slate-100 py-32 dark:bg-darkerbg">
     <div
       v-if="talks?.items.length"
       class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
@@ -22,7 +22,7 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
           link="/talks"
           class="w-fit text-center sm:w-full"
           background="bg-slate-100"
-          dark-background="dark:bg-slate-800"
+          dark-background="dark:bg-darkerbg"
           dark-border="dark:border-slate-600"
         >
           Voir tous les talks

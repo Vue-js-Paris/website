@@ -15,11 +15,13 @@ export default {
         primary: "#42b883",
         secondary: "#35495e",
         tertiary: "#FFB05B",
+        darkbg: "#0F172A",
+        darkerbg: "#010317",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
-        herotitle: ["Titan One", "sans-serif"],
+        herotitle: ["Gasoek One", "sans-serif"],
       },
       outlineOffset: {
         3: "1rem",

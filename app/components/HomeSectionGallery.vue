@@ -1,5 +1,5 @@
 <template>
-  <section class="overflow-hidden bg-slate-200 py-20 dark:bg-slate-900">
+  <section class="overflow-hidden bg-slate-200 py-32 dark:bg-darkerbg">
     <div
       class="flex w-screen flex-col items-center gap-20 px-5 md:mx-auto md:w-[90%] md:px-0 xl:w-2/3"
     >
@@ -8,7 +8,7 @@
           link="/about"
           class="text-center"
           background="bg-slate-100"
-          dark-background="dark:bg-slate-800"
+          dark-background="dark:bg-darkbg"
           dark-border="dark:border-slate-600"
         >
           En savoir plus

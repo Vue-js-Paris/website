@@ -1,6 +1,6 @@
 <template>
   <div>
-    <HomeHero2 />
+    <HomeSectionHero />
     <SponsorSection />
     <NextSpeakers />
     <HomeSectionGallery />

@@ -1,5 +1,5 @@
 <template>
-  <section class="relative bg-slate-100 py-20 dark:bg-slate-800">
+  <section class="relative bg-slate-100 py-32 dark:bg-darkerbg">
     <div
       class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
@@ -13,7 +13,7 @@
           rel="noopener noreferrer"
           class="w-fit text-center sm:w-full"
           background="bg-slate-100"
-          dark-background="dark:bg-slate-800"
+          dark-background="dark:bg-darkerbg"
           dark-border="dark:border-slate-600"
         >
           Devenir speaker

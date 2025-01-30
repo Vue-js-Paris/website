@@ -6,7 +6,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
 
 <template>
   <article
-    class="flex flex-col gap-5 rounded-2xl bg-slate-200 p-8 dark:bg-slate-900 lg:flex-row lg:gap-10"
+    class="dark:bg-darkbg flex flex-col gap-5 rounded-2xl bg-slate-200 p-8 lg:flex-row lg:gap-10"
   >
     <div class="h-fit overflow-hidden rounded-2xl lg:w-1/3">
       <img

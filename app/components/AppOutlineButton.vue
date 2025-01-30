@@ -18,7 +18,7 @@ defineProps({
   },
   darkBackground: {
     type: String,
-    default: "dark:bg-slate-900",
+    default: "dark:bg-darkerbg",
   },
   border: {
     type: String,
