@@ -5,10 +5,10 @@ const colorMode = useColorMode();
 
 <template>
   <div
-    class="fixed top-0 z-30 flex h-[100px] w-screen justify-center bg-slate-100 shadow dark:bg-slate-800"
+    class="fixed top-0 z-30 flex h-[100px] w-screen justify-center bg-slate-100 shadow dark:bg-[#010317]"
   >
     <header
-      class="flex w-full items-center justify-between text-secondary dark:text-white md:w-[90%] xl:w-[80%]"
+      class="flex w-full items-center justify-between text-secondary dark:text-white md:w-[90%]"
     >
       <nav>
         <ul class="flex items-center font-montserrat text-xl xl:gap-10">
