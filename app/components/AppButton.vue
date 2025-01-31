@@ -14,7 +14,7 @@ defineProps({
   },
   backgroundColor: {
     type: String,
-    default: "bg-tertiary",
+    default: "bg-primary",
   },
   textColor: {
     type: String,

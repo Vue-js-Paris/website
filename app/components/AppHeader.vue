@@ -13,13 +13,13 @@ const colorMode = useColorMode();
       <NuxtLink to="/">
         <img
           v-if="colorMode.value === 'light'"
-          src="/logo/Vue.js_paris_logo.webp"
+          src="/logo/vuejs_paris_logo.webp"
           alt="Vue.js Paris logo"
           class="w-24 overflow-hidden object-cover transition-all duration-300 hover:scale-105"
         />
         <img
           v-else
-          src="/logo/Vue.js_paris_logo_dark.webp"
+          src="/logo/vuejs_paris_logo_dark.webp"
           alt="Vue.js Paris logo"
           class="w-24 overflow-hidden object-cover transition-all duration-300 hover:scale-105"
         />

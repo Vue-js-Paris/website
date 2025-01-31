@@ -2,7 +2,7 @@
   <section class="relative h-screen overflow-hidden md:h-section">
     <div class="absolute top-0 flex h-full w-full flex-col">
       <h1
-        class="font-herotitle mt-10 text-nowrap text-center text-[10vw] leading-none text-white md:ml-28 md:text-left"
+        class="mt-10 text-nowrap text-center font-herotitle text-[10vw] leading-none text-white md:ml-28 md:text-left"
       >
         VUE.JS PARIS
       </h1>

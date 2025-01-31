@@ -3,10 +3,11 @@
     <div
       class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:px-0 xl:w-2/3"
     >
-      <div class="flex w-full gap-20">
+      <div class="flex w-full gap-20 bg-transparent">
         <SectionTitle
           title="Vue.js Paris en images"
           description="Revivez les meilleurs moments du meetup en un clin d'œil !"
+          class=""
         />
         <AppCarousel
           :images="[
