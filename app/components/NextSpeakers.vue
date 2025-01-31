@@ -1,24 +1,8 @@
 <template>
   <section class="relative bg-slate-100 py-32 dark:bg-darkerbg">
     <div
-      class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
+      class="flex w-screen flex-col-reverse gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
-      <SectionTitle
-        title="Les prochains talks"
-        description="Un aperçu de ce qui vous attend au prochain meetup."
-      >
-        <AppOutlineButton
-          link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="w-fit text-center sm:w-full"
-          background="bg-slate-100"
-          dark-background="dark:bg-darkerbg"
-          dark-border="dark:border-slate-600"
-        >
-          Devenir speaker
-        </AppOutlineButton>
-      </SectionTitle>
       <div class="flex w-full flex-col justify-between gap-5">
         <!-- <SpeakerCard
           image="/images/Florian.webp"
@@ -30,6 +14,10 @@
         /> -->
         <SpeakerCard />
       </div>
+      <SectionTitle
+        title="Les prochains talks"
+        description="Un aperçu de ce qui vous attend au prochain meetup."
+      />
     </div>
   </section>
 </template>

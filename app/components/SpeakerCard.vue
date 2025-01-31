@@ -34,13 +34,13 @@ defineProps({
 
 <template>
   <article
-    class="dark:bg-darkbg flex w-full flex-col gap-10 rounded-2xl bg-slate-200 p-8 lg:flex-row"
+    class="flex w-full flex-col gap-10 rounded-2xl border-2 border-gray-700 bg-slate-200 p-8 dark:bg-darkbg lg:flex-row"
   >
     <div class="relative flex w-full flex-col gap-2 lg:w-1/3">
       <img
         :src="image"
         :alt="alt"
-        class="dark:bg-darkerbg h-fit w-full rounded-2xl bg-slate-300 object-cover xl:h-52 xl:w-full"
+        class="h-fit w-full rounded-2xl bg-slate-300 object-cover dark:bg-darkerbg xl:h-52 xl:w-full"
       />
       <div
         v-if="image !== '/images/unknownSpeaker.webp'"

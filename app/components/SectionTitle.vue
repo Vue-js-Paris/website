@@ -15,13 +15,18 @@ defineProps({
 <template>
   <div class="h-full w-full md:sticky md:top-[120px] md:max-w-[20%]">
     <h2
-      class="pb-5 text-3xl font-semibold text-secondary dark:text-white lg:text-5xl"
+      class="text-3xl font-semibold text-secondary dark:text-white lg:text-5xl"
+      :class="{
+        'pb-5': description,
+      }"
     >
       {{ title }}
     </h2>
-    <p class="pb-5 text-gray-500 dark:text-gray-300">
+    <p v-if="description" class="text-gray-500 dark:text-gray-300">
       {{ description }}
     </p>
-    <slot />
+    <div :class="{ 'pt-5': $slots.default }">
+      <slot />
+    </div>
   </div>
 </template>
