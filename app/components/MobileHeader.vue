@@ -5,15 +5,15 @@ const route = useRoute();
 <template>
   <header class="sticky bottom-0">
     <nav
-      class="font-montserrat flex justify-around bg-[#ffffffdf] py-3 dark:bg-[#1e293be7]"
+      class="flex justify-around bg-[#ffffffdf] py-3 font-montserrat dark:bg-[#1e293be7]"
     >
       <NuxtLink to="/" class="flex flex-col items-center">
         <Icon
           name="material-symbols:other-houses"
-          class="text-4xl text-primary"
+          class="text-primarygreen-100 text-4xl"
         />
         <p
-          class="text-secondary dark:text-white"
+          class="text-primaryblue dark:text-white"
           :class="{
             'font-bold': route.path === '/',
           }"
@@ -22,9 +22,9 @@ const route = useRoute();
         </p>
       </NuxtLink>
       <NuxtLink to="/talks" class="flex flex-col items-center">
-        <Icon name="mdi:talk" class="text-4xl text-primary" />
+        <Icon name="mdi:talk" class="text-primarygreen-100 text-4xl" />
         <p
-          class="text-secondary dark:text-white"
+          class="text-primaryblue dark:text-white"
           :class="{
             'font-bold': route.path === '/talks',
           }"
@@ -33,9 +33,9 @@ const route = useRoute();
         </p>
       </NuxtLink>
       <NuxtLink to="/about" class="flex flex-col items-center">
-        <Icon name="mdi:about" class="text-4xl text-primary" />
+        <Icon name="mdi:about" class="text-primarygreen-100 text-4xl" />
         <p
-          class="text-secondary dark:text-white"
+          class="text-primaryblue dark:text-white"
           :class="{
             'font-bold': route.path === '/about',
           }"

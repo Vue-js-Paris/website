@@ -9,7 +9,7 @@ defineProps<{
     class="flex w-full items-center justify-center gap-10 border-b-2 border-slate-300 pb-5 dark:border-white"
   >
     <h2
-      class="text-3xl font-semibold text-secondary dark:text-white lg:text-5xl"
+      class="text-primaryblue text-3xl font-semibold dark:text-white lg:text-5xl"
     >
       {{ title }}
     </h2>

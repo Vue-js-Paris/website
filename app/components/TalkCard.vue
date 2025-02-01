@@ -6,7 +6,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
 
 <template>
   <article
-    class="dark:bg-darkbg flex flex-col gap-5 rounded-2xl bg-slate-200 p-8 lg:flex-row lg:gap-10"
+    class="flex flex-col gap-5 rounded-2xl bg-slate-200 p-8 dark:bg-darkbg lg:flex-row lg:gap-10"
   >
     <div class="h-fit overflow-hidden rounded-2xl lg:w-1/3">
       <img
@@ -19,7 +19,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
       <div>
         <ClientOnly>
           <h3
-            class="pb-2 text-2xl font-semibold text-secondary dark:text-white"
+            class="text-primaryblue pb-2 text-2xl font-semibold dark:text-white"
           >
             {{ decodeHTML(talk.snippet.title) }}
           </h3>

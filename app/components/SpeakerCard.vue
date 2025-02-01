@@ -49,7 +49,7 @@ defineProps({
     </div>
     <div class="flex h-full w-full flex-col justify-between">
       <div class="flex flex-col items-start gap-2">
-        <h3 class="text-2xl font-semibold text-secondary dark:text-white">
+        <h3 class="text-primaryblue text-2xl font-semibold dark:text-white">
           {{ title }}
         </h3>
         <p class="line-clamp-4 text-gray-500 dark:text-gray-400">
@@ -61,7 +61,9 @@ defineProps({
         v-if="image !== '/images/unknownSpeaker.webp'"
         class="flex w-full items-end justify-between"
       >
-        <h2 class="w-full text-xl font-semibold text-secondary dark:text-white">
+        <h2
+          class="text-primaryblue w-full text-xl font-semibold dark:text-white"
+        >
           {{ name }}
         </h2>
         <ul class="flex h-full items-end gap-5">
@@ -74,7 +76,7 @@ defineProps({
             >
               <Icon
                 name="mdi:linkedin"
-                class="text-3xl text-secondary transition-all hover:scale-125 hover:text-primary hover:duration-200 dark:text-white dark:hover:text-primary"
+                class="text-primaryblue hover:text-primarygreen-100 dark:hover:text-primarygreen-100 text-3xl transition-all hover:scale-125 hover:duration-200 dark:text-white"
               />
             </NuxtLink>
           </li>
@@ -87,7 +89,7 @@ defineProps({
             >
               <Icon
                 name="mdi:github"
-                class="text-3xl text-secondary transition-all hover:scale-125 hover:text-primary hover:duration-200 dark:text-white dark:hover:text-primary"
+                class="text-primaryblue hover:text-primarygreen-100 dark:hover:text-primarygreen-100 text-3xl transition-all hover:scale-125 hover:duration-200 dark:text-white"
               />
             </NuxtLink>
           </li>

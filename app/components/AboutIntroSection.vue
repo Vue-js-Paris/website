@@ -16,7 +16,7 @@
           Participer au prochain meetup
         </AppOutlineButton>
       </SectionTitle>
-      <div class="flex flex-col gap-5 text-secondary dark:text-white">
+      <div class="text-primaryblue flex flex-col gap-5 dark:text-white">
         <p>
           Vue.js Paris est une communauté parisienne passionnée par le framework
           Vue.js. Son objectif est de rassembler les utilisateur·rice·s,

@@ -3,7 +3,7 @@
     <div
       class="flex h-full w-screen flex-col-reverse gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
-      <div class="flex flex-col gap-5 text-secondary dark:text-white">
+      <div class="text-primaryblue flex flex-col gap-5 dark:text-white">
         <div class="flex flex-col gap-5">
           <h2 class="text-xl font-semibold">Qui peut nous rejoindre ?</h2>
           <p>
@@ -34,7 +34,7 @@
               to="https://www.meetup.com/fr-FR/Vuejs-Paris/"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-block font-semibold text-primary underline decoration-primary hover:text-tertiary hover:decoration-tertiary"
+              class="text-primarygreen-100 decoration-primarygreen-100 hover:text-tertiary hover:decoration-tertiary inline-block font-semibold underline"
             >
               groupe Meetup
             </NuxtLink>
@@ -50,7 +50,7 @@
               to="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
               target="_blank"
               rel="noopener"
-              class="inline-block font-semibold text-primary underline decoration-primary hover:text-tertiary hover:decoration-tertiary"
+              class="text-primarygreen-100 decoration-primarygreen-100 hover:text-tertiary hover:decoration-tertiary inline-block font-semibold underline"
             >
               Github
             </NuxtLink>

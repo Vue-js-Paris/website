@@ -6,11 +6,11 @@ defineProps({
   },
   gradientFrom: {
     type: String,
-    default: "from-primary",
+    default: "from-primarygreen-100",
   },
   gradientTo: {
     type: String,
-    default: "to-primary",
+    default: "to-primarygreen-100",
   },
   target: {
     type: String,
@@ -31,7 +31,7 @@ defineProps({
     class="group ml-auto flex w-fit items-center transition-all duration-300 ease-in-out"
   >
     <span
-      class="flex items-center gap-1 bg-[length:0%_2px] bg-left-bottom bg-no-repeat text-secondary transition-all duration-500 ease-out group-hover:bg-[length:100%_2px] dark:text-white"
+      class="text-primaryblue flex items-center gap-1 bg-[length:0%_2px] bg-left-bottom bg-no-repeat transition-all duration-500 ease-out group-hover:bg-[length:100%_2px] dark:text-white"
       :class="`bg-gradient-to-r ${gradientFrom} ${gradientTo}`"
     >
       <slot />

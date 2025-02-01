@@ -20,7 +20,7 @@
         </AppOutlineButton>
       </SectionTitle>
 
-      <div class="flex flex-col gap-5 text-secondary dark:text-white">
+      <div class="text-primaryblue flex flex-col gap-5 dark:text-white">
         <div class="flex flex-col gap-5">
           <h2 class="text-xl font-semibold">Pourquoi devenir sponsor ?</h2>
           <p>

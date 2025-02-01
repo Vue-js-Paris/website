@@ -36,10 +36,10 @@ defineProps({
     class="group mx-auto flex w-full max-w-lg items-center justify-center font-montserrat"
   >
     <div
-      :class="`relative z-10 flex w-full items-center overflow-hidden rounded-2xl border ${border} ${darkBorder} p-[2px] transition-all duration-300 ease-in-out hover:scale-105 hover:bg-primary`"
+      :class="`relative z-10 flex w-full items-center overflow-hidden rounded-2xl border ${border} ${darkBorder} hover:bg-primarygreen-100 p-[2px] transition-all duration-300 ease-in-out hover:scale-105`"
     >
       <div
-        class="absolute inset-0 h-full w-full animate-rotate rounded-full bg-[conic-gradient(transparent_20deg,#42b883_120deg)] group-hover:hidden group-hover:animate-none"
+        class="absolute inset-0 h-full w-full animate-rotate rounded-full bg-[conic-gradient(transparent_20deg,#4ADE80_120deg)] group-hover:hidden group-hover:animate-none"
       ></div>
       <div
         :class="`${background} relative z-20 flex w-full rounded-2xl p-2 ${darkBackground}`"
@@ -48,7 +48,7 @@ defineProps({
           :to="link"
           :target="target"
           :rel="rel"
-          class="h-full flex-1 rounded-lg bg-transparent p-2 text-xl text-secondary placeholder:text-slate-700 focus:outline-none focus:ring-1 focus:ring-primary dark:text-white"
+          class="text-primaryblue focus:ring-primarygreen-100 h-full flex-1 rounded-lg bg-transparent p-2 text-xl placeholder:text-slate-700 focus:outline-none focus:ring-1 dark:text-white"
         >
           <slot />
         </NuxtLink>

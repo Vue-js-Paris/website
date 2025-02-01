@@ -14,7 +14,7 @@ defineProps({
   },
   backgroundColor: {
     type: String,
-    default: "bg-primary",
+    default: "bg-primarygreen-200",
   },
   textColor: {
     type: String,
@@ -30,7 +30,7 @@ defineProps({
   },
   borderColor: {
     type: String,
-    default: "border-secondary",
+    default: "border-primaryblue",
   },
   darkBorderColor: {
     type: String,
@@ -38,11 +38,11 @@ defineProps({
   },
   hoverBorderColor: {
     type: String,
-    default: "hover:border-primary",
+    default: "hover:border-primarygreen-100",
   },
   darkHoverBorderColor: {
     type: String,
-    default: "dark:hover:border-primary",
+    default: "dark:hover:border-primarygreen-100",
   },
 });
 </script>
