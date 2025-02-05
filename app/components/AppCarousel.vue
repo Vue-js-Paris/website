@@ -11,16 +11,9 @@ const animationClass = computed(() =>
 <template>
   <div class="relative h-64 w-full overflow-hidden">
     <div class="flex w-max" :class="animationClass">
-      <div
-        v-for="(img, index) in [...props.images, ...props.images]"
-        :key="index"
-        class="h-64 w-[500px] flex-shrink-0 pr-10"
-      >
-        <img
-          :src="img"
-          alt="carousel image"
-          class="h-full w-full rounded-2xl object-cover"
-        />
+      <div v-for="(img, index) in [...props.images, ...props.images]" :key="index"
+        class="h-64 w-[350px] md:w-[500px] flex-shrink-0 pr-10">
+        <img :src="img" alt="carousel image" class="h-full w-full rounded-2xl object-cover" />
       </div>
     </div>
   </div>
@@ -31,6 +24,7 @@ const animationClass = computed(() =>
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-50%);
   }
@@ -40,16 +34,17 @@ const animationClass = computed(() =>
   from {
     transform: translateX(-50%);
   }
+
   to {
     transform: translateX(0);
   }
 }
 
 .animate-scroll-left {
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 30s linear infinite;
 }
 
 .animate-scroll-right {
-  animation: scroll-right 20s linear infinite;
+  animation: scroll-right 30s linear infinite;
 }
 </style>
