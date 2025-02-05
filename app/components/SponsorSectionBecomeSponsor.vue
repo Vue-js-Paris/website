@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-slate-100 py-20 dark:bg-slate-800">
+  <section class="bg-slate-100 py-20 dark:bg-darkerbg">
     <div
       class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
@@ -20,7 +20,7 @@
         </AppOutlineButton>
       </SectionTitle>
 
-      <div class="text-primaryblue flex flex-col gap-5 dark:text-white">
+      <div class="flex flex-col gap-5 text-primaryblue dark:text-white">
         <div class="flex flex-col gap-5">
           <h2 class="text-xl font-semibold">Pourquoi devenir sponsor ?</h2>
           <p>

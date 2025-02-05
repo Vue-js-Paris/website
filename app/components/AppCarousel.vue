@@ -11,9 +11,16 @@ const animationClass = computed(() =>
 <template>
   <div class="relative h-64 w-full overflow-hidden">
     <div class="flex w-max" :class="animationClass">
-      <div v-for="(img, index) in [...props.images, ...props.images]" :key="index"
-        class="h-64 w-[350px] md:w-[500px] flex-shrink-0 pr-10">
-        <img :src="img" alt="carousel image" class="h-full w-full rounded-2xl object-cover" />
+      <div
+        v-for="(img, index) in [...props.images, ...props.images]"
+        :key="index"
+        class="h-64 w-[350px] flex-shrink-0 pr-10 md:w-[500px]"
+      >
+        <img
+          :src="img"
+          alt="carousel image"
+          class="h-full w-full rounded-2xl object-cover"
+        />
       </div>
     </div>
   </div>
