@@ -1,5 +1,5 @@
 <template>
-  <section class="flex py-20">
+  <section class="flex py-32">
     <div
       class="flex h-full w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
