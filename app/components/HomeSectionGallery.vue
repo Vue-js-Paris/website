@@ -5,7 +5,7 @@
         <SectionTitle title="Vue.js Paris en images"
           description="Revivez les meilleurs moments du meetup en un clin d'œil !" />
         <div
-          class="hidden md:block md:absolute md:inset-0 md:z-10 md:h-64 md:w-full md:bg-gradient-to-r md:from-darkerbg md:from-30% md:to-transparent md:to-40%">
+          class="hidden md:block md:absolute md:inset-0 md:z-10 md:h-64 md:w-full md:bg-gradient-to-r md:from-darkerbg md:from-25% md:to-transparent md:to-40%">
           <SectionTitle title="Vue.js Paris en images"
             description="Revivez les meilleurs moments du meetup en un clin d'œil !" />
         </div>
