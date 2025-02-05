@@ -45,19 +45,7 @@
       <SectionTitle
         title="Accueillir le meetup"
         description="Vous souhaitez ouvrir vos portes à la communauté Vue.js ?"
-      >
-        <AppOutlineButton
-          link="https://x.com/messages/747975155733893124-831503542703816704"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="w-fit text-center sm:w-full"
-          background="bg-slate-100"
-          dark-background="dark:bg-slate-800"
-          dark-border="dark:border-slate-600"
-        >
-          Nous contacter
-        </AppOutlineButton>
-      </SectionTitle>
+      />
     </div>
   </section>
 </template>
