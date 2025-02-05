@@ -11,8 +11,6 @@
           link="https://x.com/messages/747975155733893124-831503542703816704"
           target="_blank"
           rel="noopener noreferrer"
-          background="bg-slate-100"
-          dark-background="dark:bg-slate-800"
           dark-border="dark:border-slate-600"
           class="w-fit text-center sm:w-full"
         >

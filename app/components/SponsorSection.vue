@@ -8,7 +8,6 @@
           link="/sponsor"
           class="text-center"
           background="bg-slate-100"
-          dark-background="dark:bg-darkerbg"
           dark-border="dark:border-slate-600"
         >
           Devenir sponsor

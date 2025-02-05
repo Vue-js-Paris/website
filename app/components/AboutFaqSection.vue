@@ -3,7 +3,11 @@
     <div
       class="flex h-full w-screen flex-col-reverse gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
-      <div class="text-primaryblue flex flex-col gap-5 dark:text-white">
+      <SectionTitle
+        title="Foire aux questions"
+        description="Vous avez des questions ? Nous avons des réponses !"
+      />
+      <div class="flex flex-col gap-5 text-primaryblue dark:text-white">
         <div class="flex flex-col gap-5">
           <h2 class="text-xl font-semibold">Qui peut nous rejoindre ?</h2>
           <p>
@@ -34,7 +38,7 @@
               to="https://www.meetup.com/fr-FR/Vuejs-Paris/"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-primarygreen-100 decoration-primarygreen-100 hover:text-tertiary hover:decoration-tertiary inline-block font-semibold underline"
+              class="hover:text-tertiary hover:decoration-tertiary inline-block font-semibold text-primarygreen-100 underline decoration-primarygreen-100"
             >
               groupe Meetup
             </NuxtLink>
@@ -50,7 +54,7 @@
               to="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
               target="_blank"
               rel="noopener"
-              class="text-primarygreen-100 decoration-primarygreen-100 hover:text-tertiary hover:decoration-tertiary inline-block font-semibold underline"
+              class="hover:text-tertiary hover:decoration-tertiary inline-block font-semibold text-primarygreen-100 underline decoration-primarygreen-100"
             >
               Github
             </NuxtLink>
@@ -77,20 +81,6 @@
           <p>Pour toute question ou suggestion, contactez-nous directement !</p>
         </div>
       </div>
-      <SectionTitle
-        title="Foire aux questions"
-        description="Vous avez des questions ? Nous avons des réponses !"
-      >
-        <AppOutlineButton
-          link="/talks"
-          class="w-fit text-center sm:w-full"
-          background="bg-slate-100"
-          dark-background="dark:bg-slate-800"
-          dark-border="dark:border-slate-600"
-        >
-          Découvir nos talks
-        </AppOutlineButton>
-      </SectionTitle>
     </div>
   </section>
 </template>

@@ -3,20 +3,12 @@
     <div
       class="flex h-full w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
-      <SectionTitle title="Le meetup Paris Vue.js">
-        <AppOutlineButton
-          link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="w-fit text-center sm:w-full"
-          background="bg-slate-100"
-          dark-background="dark:bg-slate-800"
-          dark-border="dark:border-slate-600"
-        >
-          Participer au prochain meetup
-        </AppOutlineButton>
-      </SectionTitle>
-      <div class="text-primaryblue flex flex-col gap-5 dark:text-white">
+      <SectionTitle
+        title="Le meetup Paris Vue.js"
+        description="Le rendez-vous incontournable des passionné·e·s de Vue !"
+      />
+      <div class="flex flex-col gap-5 text-primaryblue dark:text-white">
+        <h2 class="text-xl font-semibold">Qu'est-ce que Vue.js Paris ?</h2>
         <p>
           Vue.js Paris est une communauté parisienne passionnée par le framework
           Vue.js. Son objectif est de rassembler les utilisateur·rice·s,

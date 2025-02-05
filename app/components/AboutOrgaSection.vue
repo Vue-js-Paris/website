@@ -1,14 +1,10 @@
 <template>
   <section class="bg-slate-200 py-20 dark:bg-darkerbg">
     <div
-      class="flex h-full w-screen flex-col items-center gap-10 px-5 md:mx-auto md:w-[90%] md:px-0 xl:w-2/3"
+      class="flex h-full w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >
-      <SectionTitle
-        title="Les organisateurs"
-        class="!static !max-w-[80%] border-b-2 border-slate-300 text-center dark:border-white md:!max-w-[50%]"
-      />
       <div
-        class="flex flex-col justify-between gap-10 md:flex-row md:items-start"
+        class="flex flex-col-reverse justify-between gap-10 md:flex-row md:items-start"
       >
         <AboutCard
           image="/images/Eduardo.webp"
@@ -32,6 +28,10 @@
           github="https://github.com/FlorianBx"
         />
       </div>
+      <SectionTitle
+        title="Les organisateurs"
+        description="Rencontrez ceux qui donnent vie à la communauté Vue.js parisienne"
+      />
     </div>
   </section>
 </template>
