@@ -8,7 +8,9 @@ const slug = computed(() => slugify(props.talk.snippet.title));
   <article
     class="flex flex-col gap-5 rounded-2xl border-2 border-green-950 bg-slate-200 p-8 dark:bg-transparent lg:flex-row lg:gap-10"
   >
-    <div class="h-[170px] overflow-hidden rounded-2xl lg:w-1/3">
+    <div
+      class="h-32 w-full overflow-hidden rounded-2xl sm:h-56 md:h-64 lg:h-28 lg:w-1/3 xl:h-36"
+    >
       <img
         :src="talk.snippet.thumbnails.high.url"
         :alt="talk.snippet.title"
@@ -19,7 +21,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
       <div>
         <ClientOnly>
           <h3
-            class="pb-2 text-2xl font-semibold text-primaryblue dark:text-white"
+            class="pb-2 text-xl font-semibold text-primaryblue dark:text-white lg:text-2xl"
           >
             {{ decodeHTML(talk.snippet.title) }}
           </h3>
