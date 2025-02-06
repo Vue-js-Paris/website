@@ -4,9 +4,7 @@ const colorMode = useColorMode();
 </script>
 
 <template>
-  <div
-    class="fixed top-0 z-30 flex h-[120px] w-screen justify-center bg-slate-100 shadow dark:bg-darkerbg"
-  >
+  <div class="fixed top-0 z-30 flex h-[120px] w-screen justify-center shadow">
     <header
       class="flex w-full items-center justify-between text-primaryblue dark:text-white md:w-[90%]"
     >

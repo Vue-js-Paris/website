@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <AppHeader class="hidden md:flex" />
+    <AppHeader class="background hidden md:flex" />
     <main class="background font-roboto md:pt-[100px]">
       <slot />
     </main>
