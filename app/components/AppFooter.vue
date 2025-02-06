@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="text-primaryblue flex flex-col items-center bg-slate-100 py-5 font-roboto dark:bg-darkerbg dark:text-white"
+    class="flex flex-col items-center bg-slate-100 py-5 font-roboto text-primaryblue"
   >
     <div>
       <div class="flex items-center justify-between pb-3">

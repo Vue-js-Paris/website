@@ -3,13 +3,22 @@
 <template>
   <div>
     <AppHeader class="hidden md:flex" />
-    <main
-      class="bg-slate-100 font-roboto dark:bg-darkerbg dark:text-white md:pt-[100px]"
-    >
+    <main class="background font-roboto md:pt-[100px]">
       <slot />
     </main>
-    <AppFooter class="pt-10" />
+    <AppFooter class="background pt-10" />
 
     <MobileHeader class="block md:hidden" />
   </div>
 </template>
+
+<style scoped>
+.background {
+  background: rgb(1, 3, 23);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 3, 23, 1) 56%,
+    rgb(16, 25, 46) 97%
+  );
+}
+</style>

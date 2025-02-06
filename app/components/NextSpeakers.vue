@@ -1,5 +1,5 @@
 <template>
-  <section class="relative bg-slate-100 py-32 dark:bg-darkerbg">
+  <section class="relative py-32">
     <div
       class="flex w-screen flex-col-reverse gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
     >

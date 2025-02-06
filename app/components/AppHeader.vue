@@ -5,10 +5,10 @@ const colorMode = useColorMode();
 
 <template>
   <div
-    class="fixed top-0 z-30 flex h-[100px] w-screen justify-center bg-slate-100 shadow dark:bg-darkerbg"
+    class="fixed top-0 z-30 flex h-[120px] w-screen justify-center bg-slate-100 shadow dark:bg-darkerbg"
   >
     <header
-      class="text-primaryblue flex w-full items-center justify-between dark:text-white md:w-[90%]"
+      class="flex w-full items-center justify-between text-primaryblue dark:text-white md:w-[90%]"
     >
       <NuxtLink to="/">
         <img
@@ -29,9 +29,9 @@ const colorMode = useColorMode();
           <li>
             <NuxtLink
               to="/talks"
-              class="hover:border-primarygreen-100 rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2"
+              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-100"
               :class="{
-                '!border-primarygreen-100 rounded-2xl border-2 p-3 font-bold':
+                'rounded-2xl border-2 !border-primarygreen-100 p-3 font-bold':
                   route.path === '/talks',
               }"
             >
@@ -41,9 +41,9 @@ const colorMode = useColorMode();
           <li>
             <NuxtLink
               to="/sponsor"
-              class="hover:border-primarygreen-100 rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2"
+              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-100"
               :class="{
-                '!border-primarygreen-100 rounded-2xl border-2 p-3 font-bold':
+                'rounded-2xl border-2 !border-primarygreen-100 p-3 font-bold':
                   route.path === '/sponsor',
               }"
             >
@@ -53,9 +53,9 @@ const colorMode = useColorMode();
           <li>
             <NuxtLink
               to="/about"
-              class="hover:border-primarygreen-100 rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2"
+              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-100"
               :class="{
-                '!border-primarygreen-100 rounded-2xl border-2 p-3 font-bold':
+                'rounded-2xl border-2 !border-primarygreen-100 p-3 font-bold':
                   route.path === '/about',
               }"
             >

@@ -34,13 +34,13 @@ defineProps({
 
 <template>
   <article
-    class="flex w-full flex-col gap-10 rounded-2xl border-2 border-gray-700 bg-slate-200 p-8 dark:bg-darkbg lg:flex-row"
+    class="flex w-full flex-col gap-10 rounded-2xl border-2 border-green-950 bg-slate-200 p-8 dark:bg-transparent lg:flex-row"
   >
     <div class="relative flex w-full flex-col gap-2 lg:w-1/3">
       <img
         :src="image"
         :alt="alt"
-        class="h-fit w-full rounded-2xl bg-slate-300 object-cover dark:bg-darkerbg xl:h-52 xl:w-full"
+        class="h-fit w-full rounded-2xl bg-slate-300 object-cover dark:bg-darkbg xl:h-52 xl:w-full"
       />
       <div
         v-if="image !== '/images/unknownSpeaker.webp'"
@@ -49,7 +49,7 @@ defineProps({
     </div>
     <div class="flex h-full w-full flex-col justify-between">
       <div class="flex flex-col items-start gap-2">
-        <h3 class="text-primaryblue text-2xl font-semibold dark:text-white">
+        <h3 class="text-2xl font-semibold text-primaryblue dark:text-white">
           {{ title }}
         </h3>
         <p class="line-clamp-4 text-gray-500 dark:text-gray-400">
@@ -62,7 +62,7 @@ defineProps({
         class="flex w-full items-end justify-between"
       >
         <h2
-          class="text-primaryblue w-full text-xl font-semibold dark:text-white"
+          class="w-full text-xl font-semibold text-primaryblue dark:text-white"
         >
           {{ name }}
         </h2>
@@ -76,7 +76,7 @@ defineProps({
             >
               <Icon
                 name="mdi:linkedin"
-                class="text-primaryblue hover:text-primarygreen-100 dark:hover:text-primarygreen-100 text-3xl transition-all hover:scale-125 hover:duration-200 dark:text-white"
+                class="text-3xl text-primaryblue transition-all hover:scale-125 hover:text-primarygreen-100 hover:duration-200 dark:text-white dark:hover:text-primarygreen-100"
               />
             </NuxtLink>
           </li>
@@ -89,7 +89,7 @@ defineProps({
             >
               <Icon
                 name="mdi:github"
-                class="text-primaryblue hover:text-primarygreen-100 dark:hover:text-primarygreen-100 text-3xl transition-all hover:scale-125 hover:duration-200 dark:text-white"
+                class="text-3xl text-primaryblue transition-all hover:scale-125 hover:text-primarygreen-100 hover:duration-200 dark:text-white dark:hover:text-primarygreen-100"
               />
             </NuxtLink>
           </li>
