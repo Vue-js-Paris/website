@@ -38,11 +38,11 @@ defineProps({
   },
   hoverBorderColor: {
     type: String,
-    default: "hover:border-primarygreen-100",
+    default: "hover:border-primarygreen-200",
   },
   darkHoverBorderColor: {
     type: String,
-    default: "dark:hover:border-primarygreen-100",
+    default: "dark:hover:border-primarygreen-200",
   },
 });
 </script>

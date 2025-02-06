@@ -29,9 +29,9 @@ const colorMode = useColorMode();
           <li>
             <NuxtLink
               to="/talks"
-              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-100"
+              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-200"
               :class="{
-                'rounded-2xl border-2 !border-primarygreen-100 p-3 font-bold':
+                'rounded-2xl border-2 !border-primarygreen-200 p-3 font-bold':
                   route.path === '/talks',
               }"
             >
@@ -41,9 +41,9 @@ const colorMode = useColorMode();
           <li>
             <NuxtLink
               to="/sponsor"
-              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-100"
+              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-200"
               :class="{
-                'rounded-2xl border-2 !border-primarygreen-100 p-3 font-bold':
+                'rounded-2xl border-2 !border-primarygreen-200 p-3 font-bold':
                   route.path === '/sponsor',
               }"
             >
@@ -53,9 +53,9 @@ const colorMode = useColorMode();
           <li>
             <NuxtLink
               to="/about"
-              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-100"
+              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-200"
               :class="{
-                'rounded-2xl border-2 !border-primarygreen-100 p-3 font-bold':
+                'rounded-2xl border-2 !border-primarygreen-200 p-3 font-bold':
                   route.path === '/about',
               }"
             >

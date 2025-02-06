@@ -38,7 +38,7 @@
               to="https://www.meetup.com/fr-FR/Vuejs-Paris/"
               target="_blank"
               rel="noopener noreferrer"
-              class="hover:text-tertiary hover:decoration-tertiary inline-block font-semibold text-primarygreen-100 underline decoration-primarygreen-100"
+              class="hover:text-tertiary hover:decoration-tertiary inline-block font-semibold text-primarygreen-200 underline decoration-primarygreen-200"
             >
               groupe Meetup
             </NuxtLink>
@@ -54,7 +54,7 @@
               to="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
               target="_blank"
               rel="noopener"
-              class="hover:text-tertiary hover:decoration-tertiary inline-block font-semibold text-primarygreen-100 underline decoration-primarygreen-100"
+              class="hover:text-tertiary hover:decoration-tertiary inline-block font-semibold text-primarygreen-200 underline decoration-primarygreen-200"
             >
               Github
             </NuxtLink>
