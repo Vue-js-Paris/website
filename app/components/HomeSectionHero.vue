@@ -1,9 +1,9 @@
 <template>
   <section
-    class="hide-scrollbar h-screen w-full overflow-y-scroll bg-cover bg-scroll bg-top bg-no-repeat md:h-section"
+    class="h-[110vh] w-full bg-fixed bg-center bg-no-repeat"
     style="background-image: url(&quot;/images/Paris_cover.webp&quot;)"
   >
-    <div class="flex h-[152vh] w-full flex-col gap-28 md:mx-auto md:w-[90%]">
+    <div class="flex h-[120vh] w-full flex-col gap-28 md:mx-auto md:w-[90%]">
       <h1
         class="mt-10 text-nowrap text-center font-herotitle text-[10vw] leading-none text-white md:text-left"
       >
@@ -29,13 +29,3 @@
     </div>
   </section>
 </template>
-
-<style scoped>
-.hide-scrollbar {
-  -ms-overflow-style: none; /* IE et Edge */
-  scrollbar-width: none; /* Firefox */
-}
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
-}
-</style>
