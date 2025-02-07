@@ -3,7 +3,9 @@
 <template>
   <div>
     <AppHeader class="background hidden md:flex" />
-    <main class="background font-roboto md:pt-[100px]">
+    <main
+      class="background overscroll-y-auto bg-scroll font-roboto md:pt-[120px]"
+    >
       <slot />
     </main>
     <AppFooter class="background pt-10" />

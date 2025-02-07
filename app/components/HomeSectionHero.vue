@@ -1,14 +1,15 @@
 <template>
-  <section class="relative h-screen overflow-hidden md:h-section">
-    <div class="absolute top-0 flex h-full w-full flex-col">
+  <section
+    class="hide-scrollbar h-screen w-full overflow-y-scroll bg-cover bg-scroll bg-top bg-no-repeat md:h-section"
+    style="background-image: url(&quot;/images/Paris_cover.webp&quot;)"
+  >
+    <div class="flex h-[152vh] w-full flex-col gap-28 md:mx-auto md:w-[90%]">
       <h1
-        class="mt-10 text-nowrap text-center font-herotitle text-[10vw] leading-none text-white md:ml-28 md:text-left"
+        class="mt-10 text-nowrap text-center font-herotitle text-[10vw] leading-none text-white md:text-left"
       >
         VUE.JS PARIS
       </h1>
-      <div
-        class="absolute bottom-64 flex flex-col items-center gap-5 px-5 md:ml-28 md:w-[500px] md:px-0"
-      >
+      <div class="flex flex-col items-center gap-5 px-5 md:w-[500px] md:px-0">
         <h2 class="text-3xl font-semibold text-white sm:text-5xl">
           Découvrir, partager et connecter.
         </h2>
@@ -26,10 +27,15 @@
         </AppButton>
       </div>
     </div>
-    <img
-      src="/images/Paris_cover.webp"
-      alt=""
-      class="h-full w-screen object-cover object-right"
-    />
   </section>
 </template>
+
+<style scoped>
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE et Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+</style>
