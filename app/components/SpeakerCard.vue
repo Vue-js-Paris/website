@@ -34,7 +34,7 @@ defineProps({
 
 <template>
   <article
-    class="flex w-full flex-col gap-10 rounded-2xl border-2 border-green-950 bg-slate-200 p-8 dark:bg-transparent lg:flex-row"
+    class="flex w-full flex-col gap-10 rounded-2xl border-2 border-slate-500 bg-slate-200 p-8 dark:bg-transparent lg:flex-row"
   >
     <div class="relative flex w-full flex-col gap-2 lg:w-1/3">
       <img
@@ -76,7 +76,7 @@ defineProps({
             >
               <Icon
                 name="mdi:linkedin"
-                class="text-3xl text-primaryblue transition-all hover:scale-125 hover:text-primarygreen-100 hover:duration-200 dark:text-white dark:hover:text-primarygreen-100"
+                class="text-3xl text-primaryblue transition-all hover:scale-125 hover:text-primarygreen-200 hover:duration-200 dark:text-white dark:hover:text-primarygreen-200"
               />
             </NuxtLink>
           </li>
@@ -89,7 +89,7 @@ defineProps({
             >
               <Icon
                 name="mdi:github"
-                class="text-3xl text-primaryblue transition-all hover:scale-125 hover:text-primarygreen-100 hover:duration-200 dark:text-white dark:hover:text-primarygreen-100"
+                class="text-3xl text-primaryblue transition-all hover:scale-125 hover:text-primarygreen-200 hover:duration-200 dark:text-white dark:hover:text-primarygreen-200"
               />
             </NuxtLink>
           </li>
