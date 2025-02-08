@@ -1,13 +1,13 @@
 <YoutubeVideoDetails video-id="3rqOkfFfN9Q" video-title="Pinceau, road to v1 - Yaël Guilloux - Vue.js Paris #24" video-description="Vue.js Paris meetup #24
 Host: Contentsquare">
 
-**Résumé du talk : Pinceau, un “CSS in JS in TS” pour Vue, React et Svelte**
+## Résumé du talk : Pinceau, un “CSS in JS in TS” pour Vue, React et Svelte\*\*
 
 Le speaker présente **Pinceau**, une librairie open source de _styling_ typé (en TypeScript) et dynamique, conçue d’abord pour Vue, mais également compatible avec React et Svelte. L’objectif : profiter d’un **CSS in JS** moderne (similaire à styled-components ou Stitches) en **optimisant** la performance (génération statique du CSS quand c’est possible) et **enrichissant** l’expérience développeur (typage, autocomplétion, etc.).
 
 ---
 
-## 1. Contexte et motivations
+### 1. Contexte et motivations
 
 - **Seule “séparation des concerns” ?**  
   Vue met déjà au même endroit le template, le script et le style, mais on veut aller plus loin pour unifier le code JS/TS et la feuille de style.
@@ -22,7 +22,7 @@ Pinceau vise à apporter :
 
 ---
 
-## 2. Définir un thème (design tokens)
+### 2. Définir un thème (design tokens)
 
 - Fichier `theme.config.ts` (ou `.js`) où l’on déclare **couleurs, breakpoints, typographies**, etc.
 - Pinceau génère ensuite des définitions TypeScript : les tokens deviennent **autocomplétés** et **typiés**.
@@ -30,7 +30,7 @@ Pinceau vise à apporter :
 
 ---
 
-## 3. APIs principales pour écrire du style
+### 3. APIs principales pour écrire du style
 
 Pinceau propose plusieurs façons de styler ses composants :
 
@@ -56,14 +56,14 @@ Pinceau propose plusieurs façons de styler ses composants :
    - Écrit du style “littéral” n’importe où.
    - Génère un bloc statique ou dynamique selon le contenu.
 
-### Les “Computed styles” et “Variants”
+#### Les “Computed styles” et “Variants”
 
 - **Computed styles** : possibilité de faire réagir un style à un state (ex. position de la souris, ref, store…).
 - **Variants** : système de styles immuables (ex. `size: { small, medium, large }`) qui génèrent des **props** typées sur le composant.
 
 ---
 
-## 4. Performances et SSR
+### 4. Performances et SSR
 
 - **Génération statique** : tout style purement statique est compilé en CSS direct, sans JS supplémentaire.
 - **Styles dynamiques** : injectés au runtime, mais de façon optimisée (pas de duplication).
@@ -72,7 +72,7 @@ Pinceau propose plusieurs façons de styler ses composants :
 
 ---
 
-## 5. État actuel et roadmap
+### 5. État actuel et roadmap
 
 - **Version 1.0 Beta** : API jugée stable, réécriture importante depuis la première démo à Vue.js Amsterdam.
 - **Extension VS Code** en cours : autocomplétion, détection des classes, mapping template/style, etc.

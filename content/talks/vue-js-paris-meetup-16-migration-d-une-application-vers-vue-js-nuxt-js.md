@@ -1,7 +1,8 @@
 <YoutubeVideoDetails video-id="Lzo8EStPyUI" video-title="Vue.js Paris Meetup #16 - Migration d'une application vers Vue.js / Nuxt.js" video-description="Talk sur la migration d’une app vers vue.js / nuxt.js par Marc Mendonça, Lead Front End @backmarket, le 04/07/2018
 Hébergé par Back Market">
 
-**Résumé du talk :**  
+## Résumé du talk
+
 Le speaker raconte comment, à partir de 2015, l’équipe technique de **Back Market** (appelée dans le talk “badoum” pour anonymiser) a progressivement migré leur code front-end d’un mélange Django/jQuery/Angular vers un nouveau socle **Vue.js** + **Nuxt**. Il illustre à la fois la **complexité** de cette transition (héritage technique, contraintes produit, deadlines) et la **méthode** retenue (migration progressive “route par route”) en insistant sur les défis rencontrés et les choix assumés.
 
 ---

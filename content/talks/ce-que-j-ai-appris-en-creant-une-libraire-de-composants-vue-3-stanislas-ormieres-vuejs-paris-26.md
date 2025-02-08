@@ -1,7 +1,7 @@
 <YoutubeVideoDetails video-id="T-ZCpHOH0mc" video-title="Ce que j'ai appris en créant une libraire de composants Vue 3 - Stanislas Ormières - Vuejs Paris #26
 " video-description="Vue.js Paris meetup #26 Sponsors: Mastering Pinia & Nx Host: Valtech">
 
-**Résumé du talk**
+## Résumé du talk
 
 Le speaker (Stanislas Ormières) présente son retour d’expérience sur la création d’une **bibliothèque de composants Vue 3**, pensée pour respecter le **DSFR** (Design System de l’Administration Française) et les exigences d’accessibilité (RGAA). Il détaille les choix techniques (Vite, Rollup, Storybook, Vitest, Cypress, VitePress…), les bonnes pratiques de conception (structure, conventions de commit, tests), ainsi que les défis rencontrés (tests d’accessibilité, documentation, compatibilité SSR, etc.).
 

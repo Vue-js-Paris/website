@@ -1,7 +1,7 @@
 <YoutubeVideoDetails video-id="O74I-gakQGw" video-title="Développement d’un générateur de bannières, Vue.js vs Svelte - Marc Bouvier - Vue.js Paris #26
 " video-description="Vue.js Paris meetup #26 Sponsors: Mastering Pinia & Nx Host: Valtech">
 
-**Résumé du talk**
+## Résumé du talk
 
 Le speaker compare **Vue.js** et **Svelte**, en prenant pour exemple une petite application de génération de bannières (affichage de texte, d’images, export en image, etc.). L’idée est de montrer les similitudes et différences clés entre ces deux frameworks, puis d’introduire brièvement **Svelte 5** et son concept de “runes”.
 

@@ -1,7 +1,7 @@
 <YoutubeVideoDetails video-id="xkFWZvl3JZE" video-title="Core web vitals - Nicolas Frizzarin - Vue.js Paris #26
 " video-description="Vue.js Paris meetup #26 Sponsors: Mastering Pinia & Nx Host: Valtech">
 
-**Résumé du talk**
+## Résumé du talk
 
 Nolas Frarin, développeur advocate et senior staff engineer, expose les **principaux problèmes de performance** que rencontrent les utilisateurs sur le web, puis présente les **Core Web Vitals** de Google et leurs optimisations. Même si l’exemple est illustré avec Angular, les bonnes pratiques sont **génériques** et s’appliquent aussi bien à Vue qu’à d’autres frameworks ou au vanilla JavaScript.
 

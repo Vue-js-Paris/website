@@ -7,7 +7,8 @@ Par Sahbi Ktifa, Full Stack Developer @IpponTech">
 
 **Par** Sarah Dayan, Frontend Developer @Algolia
 
-**Résumé du talk :**  
+### Résumé du talk
+
 La conf aborde la création d’une **application interactive** ou d’un “showcase” (ex. documentation ou démonstrateur produit) grâce à **Vue.js** et **Vue InstantSearch**. Sarah Dayan explique comment combiner la **logique de recherche** (Algolia) avec des composants Vue réutilisables pour offrir une expérience riche et dynamique.
 
 ---

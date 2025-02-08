@@ -1,13 +1,13 @@
 <YoutubeVideoDetails video-id="NcunWlFPpSc" video-title="De l'usage du JSX en Vue - Yoann Fort - Vue.js Paris #25"
 video-description="Vue.js Paris meetup #25 Sponsors: Mastering Pinia & Nx Host: L'Atelier">
 
-**Résumé du talk : Utiliser du JSX dans Vue.js pour des fonctions de rendu plus lisibles**
+## Résumé du talk : Utiliser du JSX dans Vue.js pour des fonctions de rendu plus lisibles\*\*
 
 Le speaker présente l’usage du **JSX** dans Vue.js afin de simplifier les **fonctions de rendu** (render functions) et rendre le code plus clair, notamment pour des cas de logique complexe. Voici l’essentiel à retenir :
 
 ---
 
-## 1. Qu’est-ce que le JSX ?
+### 1. Qu’est-ce que le JSX ?
 
 - **JSX** est une extension syntaxique de JavaScript qui permet d’écrire du code ressemblant à du HTML directement dans du JS/TS.
 - Inventé par Facebook pour React (2013), il est désormais **transpilable** pour fonctionner dans d’autres environnements, dont Vue.js.
@@ -15,7 +15,7 @@ Le speaker présente l’usage du **JSX** dans Vue.js afin de simplifier les **f
 
 ---
 
-## 2. Pourquoi aller au-delà du template classique de Vue ?
+### 2. Pourquoi aller au-delà du template classique de Vue ?
 
 1. **Fonctions de rendu (render functions)** :
 
@@ -36,7 +36,7 @@ Le speaker présente l’usage du **JSX** dans Vue.js afin de simplifier les **f
 
 ---
 
-## 3. Mise en place de JSX dans Vue
+### 3. Mise en place de JSX dans Vue
 
 - **Configuration Babel** (ou Vite) minimale :
   - Installer le plugin Babel pour JSX (ex. `@vue/babel-plugin-jsx` ou équivalent).
@@ -61,7 +61,7 @@ module.exports = {
 
 ---
 
-## 4. Exemple de code
+### 4. Exemple de code
 
 #### Avant (render function manuelle) :
 
@@ -98,7 +98,7 @@ export default {
 
 ---
 
-## 5. Quand le JSX brille vraiment ?
+### 5. Quand le JSX brille vraiment ?
 
 - **Logique conditionnelle complexe** : plus besoin de “tricher” avec `v-if/v-for` ou un `<template>` intermédiaire.
 - **Manipulation de listes** : `map()`, `filter()`… Renvoyer `null` si on ne veut rien afficher.
@@ -107,7 +107,7 @@ export default {
 
 ---
 
-## Conclusion
+### Conclusion
 
 Le **JSX dans Vue** est une alternative puissante et **moins connue** pour écrire vos composants lorsque les templates deviennent trop complexes ou trop verbeux.
 

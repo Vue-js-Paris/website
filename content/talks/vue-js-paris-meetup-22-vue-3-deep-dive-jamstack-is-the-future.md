@@ -16,7 +16,8 @@ Host : Valtech France
 
 ### **Talk 1 : Vue 3, TypeScript et la Composition API**
 
-**Résumé du talk :**  
+### Résumé du talk
+
 Le speaker aborde l’évolution de Vue 2 vers **Vue 3**, en se focalisant particulièrement sur l’introduction de la **Composition API** (anciennement “Function API”) et l’amélioration du support TypeScript. Il explique les raisons ayant motivé ces changements, les problèmes rencontrés avec TypeScript dans Vue 2, puis détaille la nouvelle approche de Vue 3, plus modulaire et plus adaptée aux gros projets.
 
 ---

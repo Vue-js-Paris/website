@@ -1,7 +1,7 @@
 <YoutubeVideoDetails video-id="4Vgz2wteyNs" video-title="Comment gérer l'état serveur efficacement ? - Elise Patrikainen - Vue.js Paris #25
 " video-description="">
 
-**Résumé du talk**: Server State Management (côté front-end)
+## Résumé du talk : Server State Management (côté front-end)
 
 La speaker introduit la notion de _server state management_ **dans un contexte purement front-end**, en distinguant deux types d’état dans une application :
 
