@@ -1,7 +1,7 @@
 <template>
-  <section class="relative py-32">
+  <section class="relative">
     <div
-      class="flex w-screen flex-col-reverse gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
+      class="flex w-screen flex-col-reverse gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3"
     >
       <div class="flex w-full flex-col justify-between gap-5">
         <!-- <SpeakerCard

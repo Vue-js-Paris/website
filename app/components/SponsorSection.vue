@@ -1,7 +1,7 @@
 <template>
-  <section class="relative pb-32 pt-20">
+  <section class="relative">
     <div
-      class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3 xl:gap-44"
+      class="flex w-screen flex-col gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3 xl:gap-44"
     >
       <SectionTitle title="Nos sponsors">
         <AppOutlineButton

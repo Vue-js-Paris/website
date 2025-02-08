@@ -1,7 +1,7 @@
 <template>
-  <section class="py-32">
+  <section>
     <div
-      class="flex w-screen flex-col gap-20 px-5 md:mx-auto md:w-[90%] md:flex-row md:px-0 xl:w-2/3"
+      class="flex w-screen flex-col gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3"
     >
       <SectionTitle
         title="Devenir sponsor de Vue.js Paris"
