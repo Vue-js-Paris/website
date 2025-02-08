@@ -30,6 +30,7 @@ export default {
       },
       height: {
         section: "calc(100vh - 100px)",
+        sectionxl: "calc(100vh - 200px)",
       },
       keyframes: {
         fadeInOut: {
