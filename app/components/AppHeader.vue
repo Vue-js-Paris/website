@@ -8,20 +8,34 @@ const colorMode = useColorMode();
     <header
       class="flex w-full items-center justify-between text-primaryblue dark:text-white md:w-[90%]"
     >
-      <NuxtLink to="/">
+      <NuxtLink to="/" class="group relative h-16 w-16 overflow-hidden">
         <img
           v-if="colorMode.value === 'light'"
           src="/logo/vuejs_paris_logo.webp"
           alt="Vue.js Paris logo"
-          class="w-20 overflow-hidden object-cover transition-all duration-300 hover:scale-110"
+          class="absolute inset-0 h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-0"
         />
         <img
           v-else
           src="/logo/vuejs_paris_logo_dark.webp"
-          alt="Vue.js Paris logo"
-          class="w-20 overflow-hidden object-cover transition-all duration-300 hover:scale-110"
+          alt="Vue.js Paris logo dark"
+          class="absolute inset-0 h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+        />
+
+        <img
+          v-if="colorMode.value === 'light'"
+          src="/logo/vuejs_paris_logo_dark.webp"
+          alt="Vue.js Paris logo dark hover"
+          class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+        />
+        <img
+          v-else
+          src="/logo/vuejs_paris_logo.webp"
+          alt="Vue.js Paris logo light hover"
+          class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
         />
       </NuxtLink>
+
       <nav>
         <ul class="flex items-center font-montserrat text-xl xl:gap-10">
           <li>
