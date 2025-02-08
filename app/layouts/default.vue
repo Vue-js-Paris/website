@@ -3,7 +3,7 @@
 <template>
   <div>
     <AppHeader class="background hidden md:flex" />
-    <main class="background font-roboto md:pt-[120px]">
+    <main class="background font-roboto md:pt-[100px]">
       <slot />
     </main>
     <AppFooter class="background pt-10" />

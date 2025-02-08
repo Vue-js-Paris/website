@@ -4,7 +4,7 @@ const colorMode = useColorMode();
 </script>
 
 <template>
-  <div class="fixed top-0 z-30 flex h-[120px] w-screen justify-center shadow">
+  <div class="fixed top-0 z-30 flex h-[100px] w-screen justify-center shadow">
     <header
       class="flex w-full items-center justify-between text-primaryblue dark:text-white md:w-[90%]"
     >
@@ -13,13 +13,13 @@ const colorMode = useColorMode();
           v-if="colorMode.value === 'light'"
           src="/logo/vuejs_paris_logo.webp"
           alt="Vue.js Paris logo"
-          class="w-24 overflow-hidden object-cover transition-all duration-300 hover:scale-105"
+          class="w-20 overflow-hidden object-cover transition-all duration-300 hover:scale-110"
         />
         <img
           v-else
           src="/logo/vuejs_paris_logo_dark.webp"
           alt="Vue.js Paris logo"
-          class="w-24 overflow-hidden object-cover transition-all duration-300 hover:scale-105"
+          class="w-20 overflow-hidden object-cover transition-all duration-300 hover:scale-110"
         />
       </NuxtLink>
       <nav>

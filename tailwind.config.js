@@ -29,7 +29,7 @@ export default {
         3: "1rem",
       },
       height: {
-        section: "calc(100vh - 120px)",
+        section: "calc(100vh - 100px)",
       },
       keyframes: {
         fadeInOut: {
