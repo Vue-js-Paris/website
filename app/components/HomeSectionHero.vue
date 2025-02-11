@@ -1,7 +1,6 @@
 <template>
   <section
-    class="h-[110vh] w-full bg-fixed bg-right bg-no-repeat"
-    style="background-image: url(&quot;/images/Paris_cover.webp&quot;)"
+    class="h-[110vh] w-full bg-fixed bg-right bg-no-repeat md:bg-[url('/images/Paris_cover.webp')]"
   >
     <div class="flex h-[120vh] w-full flex-col gap-28 md:mx-auto md:w-[90%]">
       <h1
