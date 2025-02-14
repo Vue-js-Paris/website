@@ -29,7 +29,6 @@
     "@tailwindcss/typography": "^0.5.15",
     "@vueuse/nuxt": "^12.3.0",
     "autoprefixer": "^10.4.20",
-    "daisyui": "^4.12.23",
     "eslint": "^9.16.0",
     "postcss": "^8.4.49",
     "prettier": "^3.4.1",

@@ -7,7 +7,7 @@
         title="Foire aux questions"
         description="Vous avez des questions ? Nous avons des réponses !"
       />
-      <div class="flex flex-col gap-5 text-primaryblue dark:text-white">
+      <div class="flex flex-col gap-5 text-white">
         <div class="flex flex-col gap-5">
           <h2 class="text-xl font-semibold">Qui peut nous rejoindre ?</h2>
           <p>

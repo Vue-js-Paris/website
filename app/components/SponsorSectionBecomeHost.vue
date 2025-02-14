@@ -3,7 +3,7 @@
     <div
       class="flex w-screen flex-col-reverse gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3"
     >
-      <div class="flex flex-col gap-5 text-primaryblue dark:text-white">
+      <div class="flex flex-col gap-5 text-white">
         <div class="flex flex-col gap-5">
           <h2 class="text-xl font-semibold">Pourquoi accueillir le meetup ?</h2>
           <p>

@@ -11,14 +11,13 @@
           link="https://x.com/messages/747975155733893124-831503542703816704"
           target="_blank"
           rel="noopener noreferrer"
-          dark-border="dark:border-slate-600"
           class="w-fit text-center sm:w-full"
         >
           Contactez-nous
         </AppOutlineButton>
       </SectionTitle>
 
-      <div class="flex flex-col gap-5 text-primaryblue dark:text-white">
+      <div class="flex flex-col gap-5 text-white">
         <div class="flex flex-col gap-5">
           <h2 class="text-xl font-semibold">Pourquoi devenir sponsor ?</h2>
           <p>

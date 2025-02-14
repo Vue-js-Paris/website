@@ -1,35 +1,19 @@
 <script setup lang="ts">
 const route = useRoute();
-const colorMode = useColorMode();
 </script>
 
 <template>
   <div class="fixed top-0 z-30 flex h-[100px] w-full justify-center shadow">
     <header
-      class="flex w-full items-center justify-between text-primaryblue dark:text-white md:w-[90%]"
+      class="flex w-full items-center justify-between text-white md:w-[90%]"
     >
       <NuxtLink to="/" class="group relative h-16 w-16 overflow-hidden">
         <img
-          v-if="colorMode.value === 'light'"
-          src="/logo/vuejs_paris_logo.webp"
-          alt="Vue.js Paris logo"
-          class="absolute inset-0 h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-0"
-        />
-        <img
-          v-else
           src="/logo/vuejs_paris_logo_dark.webp"
           alt="Vue.js Paris logo dark"
           class="absolute inset-0 h-full w-full object-cover transition-opacity duration-300 group-hover:opacity-0"
         />
-
         <img
-          v-if="colorMode.value === 'light'"
-          src="/logo/vuejs_paris_logo_dark.webp"
-          alt="Vue.js Paris logo dark hover"
-          class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-        />
-        <img
-          v-else
           src="/logo/vuejs_paris_logo.webp"
           alt="Vue.js Paris logo light hover"
           class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
@@ -89,7 +73,6 @@ const colorMode = useColorMode();
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener noreferrer"
-          text-color="text-primaryblue"
           background-color="bg-transparent"
           border-width="border-2"
           class="hidden !p-3 lg:block"

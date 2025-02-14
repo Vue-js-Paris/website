@@ -34,13 +34,13 @@ defineProps({
 
 <template>
   <article
-    class="flex w-full flex-col gap-10 rounded-2xl border-2 border-slate-500 bg-slate-200 p-8 dark:bg-transparent lg:flex-row"
+    class="flex w-full flex-col gap-10 rounded-2xl border-2 border-slate-500 bg-transparent p-8 lg:flex-row"
   >
     <div class="relative flex w-full flex-col gap-2 lg:w-1/3">
       <img
         :src="image"
         :alt="alt"
-        class="h-fit w-full rounded-2xl bg-slate-300 object-cover dark:bg-darkbg xl:h-52 xl:w-full"
+        class="h-fit w-full rounded-2xl bg-darkbg object-cover xl:h-52 xl:w-full"
       />
       <div
         v-if="image !== '/images/unknownSpeaker.webp'"
@@ -49,10 +49,10 @@ defineProps({
     </div>
     <div class="flex h-full w-full flex-col justify-between">
       <div class="flex flex-col items-start gap-2">
-        <h3 class="text-2xl font-semibold text-primaryblue dark:text-white">
+        <h3 class="text-2xl font-semibold text-white">
           {{ title }}
         </h3>
-        <p class="line-clamp-4 text-gray-500 dark:text-gray-400">
+        <p class="line-clamp-4 text-gray-400">
           {{ description }}
         </p>
       </div>
@@ -61,9 +61,7 @@ defineProps({
         v-if="image !== '/images/unknownSpeaker.webp'"
         class="flex w-full items-end justify-between"
       >
-        <h2
-          class="w-full text-xl font-semibold text-primaryblue dark:text-white"
-        >
+        <h2 class="w-full text-xl font-semibold text-white">
           {{ name }}
         </h2>
         <ul class="flex h-full items-end gap-5">
@@ -76,7 +74,7 @@ defineProps({
             >
               <Icon
                 name="mdi:linkedin"
-                class="text-3xl text-primaryblue transition-all hover:scale-125 hover:text-primarygreen-200 hover:duration-200 dark:text-white dark:hover:text-primarygreen-200"
+                class="text-3xl text-white transition-all hover:scale-125 hover:text-primarygreen-200 hover:duration-200"
               />
             </NuxtLink>
           </li>
@@ -89,7 +87,7 @@ defineProps({
             >
               <Icon
                 name="mdi:github"
-                class="text-3xl text-primaryblue transition-all hover:scale-125 hover:text-primarygreen-200 hover:duration-200 dark:text-white dark:hover:text-primarygreen-200"
+                class="text-3xl text-white transition-all hover:scale-125 hover:text-primarygreen-200 hover:duration-200"
               />
             </NuxtLink>
           </li>
