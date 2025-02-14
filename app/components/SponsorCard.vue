@@ -30,7 +30,7 @@ defineProps({
       <img
         :src="image"
         :alt="alt"
-        class="aspect-square h-20 w-20 rounded-2xl object-contain object-bottom md:h-32 md:w-32 xl:h-44 xl:w-44"
+        class="aspect-square h-10 w-10 rounded-2xl object-contain object-bottom md:h-32 md:w-32 xl:h-44 xl:w-44"
       />
       <h3
         class="w-full text-center font-semibold text-primaryblue dark:text-white md:text-2xl"

@@ -3,16 +3,15 @@
     <div
       class="flex w-screen flex-col gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3 xl:gap-44"
     >
-      <SectionTitle title="Nos sponsors">
-        <AppOutlineButton
-          link="/sponsor"
-          class="text-center"
-          background="bg-slate-100"
-          dark-border="dark:border-slate-600"
-        >
-          Devenir sponsor
-        </AppOutlineButton>
-      </SectionTitle>
+      <SectionTitle
+        title="Nos sponsors"
+        description="Merci à nos sponsors : sans vous, ce meetup n'existerait pas !"
+        class="hidden md:block"
+      />
+      <SectionTitle
+        description="Merci à nos sponsors"
+        class="pt-20 text-center md:hidden"
+      />
       <div class="flex w-full justify-between">
         <SponsorCard
           image="/images/mastering_pinia.webp"
