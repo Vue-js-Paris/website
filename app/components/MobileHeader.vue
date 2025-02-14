@@ -11,7 +11,7 @@ const route = useRoute();
           class="text-4xl text-primarygreen-200"
         />
         <p
-          class="text-primaryblue dark:text-white"
+          class="text-white"
           :class="{
             'font-bold': route.path === '/',
           }"
@@ -22,7 +22,7 @@ const route = useRoute();
       <NuxtLink to="/talks" class="flex flex-col items-center">
         <Icon name="mdi:talk" class="text-4xl text-primarygreen-200" />
         <p
-          class="text-primaryblue dark:text-white"
+          class="text-white"
           :class="{
             'font-bold': route.path === '/talks',
           }"
@@ -36,7 +36,7 @@ const route = useRoute();
           class="text-4xl text-primarygreen-200"
         />
         <p
-          class="text-primaryblue dark:text-white"
+          class="text-white"
           :class="{
             'font-bold': route.path === '/sponsor',
           }"
@@ -47,7 +47,7 @@ const route = useRoute();
       <NuxtLink to="/about" class="flex flex-col items-center">
         <Icon name="mdi:about" class="text-4xl text-primarygreen-200" />
         <p
-          class="text-primaryblue dark:text-white"
+          class="text-white"
           :class="{
             'font-bold': route.path === '/about',
           }"

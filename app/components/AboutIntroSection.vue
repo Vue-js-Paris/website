@@ -7,7 +7,7 @@
         title="Le meetup Paris Vue.js"
         description="Le rendez-vous incontournable des passionné·e·s de Vue !"
       />
-      <div class="flex flex-col gap-5 text-primaryblue dark:text-white">
+      <div class="flex flex-col gap-5 text-white">
         <h2 class="text-xl font-semibold">Qu'est-ce que Vue.js Paris ?</h2>
         <p>
           Vue.js Paris est une communauté parisienne passionnée par le framework
