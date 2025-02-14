@@ -2,7 +2,7 @@
 defineProps({
   title: {
     type: String,
-    required: true,
+    required: false,
   },
   description: {
     type: String,
@@ -15,7 +15,7 @@ defineProps({
 <template>
   <div class="h-full w-full md:sticky md:top-[120px] md:max-w-[20%]">
     <h2
-      class="text-primaryblue text-3xl font-semibold dark:text-white lg:text-5xl"
+      class="text-3xl font-semibold text-primaryblue dark:text-white lg:text-5xl"
       :class="{
         'pb-5': description,
       }"
