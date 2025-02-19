@@ -5,7 +5,8 @@ const slug = computed(() => slugify(props.talk.snippet.title));
 </script>
 
 <template>
-  <article
+  <NuxtLink
+    :to="`/talks/${slug}`"
     class="flex flex-col gap-5 rounded-2xl border-2 border-slate-500 bg-transparent p-8 lg:flex-row lg:gap-10"
   >
     <div
@@ -28,12 +29,12 @@ const slug = computed(() => slugify(props.talk.snippet.title));
           {{ talk.snippet.description }}
         </p>
       </div>
-      <div class="mt-auto">
-        <AppLink :link="`/talks/${slug}`">
+      <div class="ml-auto mt-auto">
+        <div>
           En savoir plus
           <Icon name="mdi:arrow-right" />
-        </AppLink>
+        </div>
       </div>
     </div>
-  </article>
+  </NuxtLink>
 </template>

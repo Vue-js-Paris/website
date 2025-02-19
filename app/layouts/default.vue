@@ -8,7 +8,7 @@
     </main>
     <AppFooter class="background pt-10" />
 
-    <MobileHeader class="background z-50 block md:hidden" />
+    <AppMobileHeader class="background z-50 block md:hidden" />
   </div>
 </template>
 

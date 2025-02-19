@@ -19,7 +19,7 @@
         class="mt-10 flex flex-col gap-5 px-5 md:mt-0 md:w-[400px] md:items-center md:px-0 lg:w-[500px]"
       >
         <h2 class="z-50 text-3xl font-semibold text-white sm:text-5xl md:z-0">
-          Découvrir, partager et connecter.
+          Découvrir, partager et connecter
         </h2>
         <p class="z-50 hidden text-slate-300 md:z-0 md:block">
           Rejoignez-nous pour notre prochain meetup et découvrez des talks

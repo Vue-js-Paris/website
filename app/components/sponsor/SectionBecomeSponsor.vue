@@ -3,19 +3,10 @@
     <div
       class="flex w-screen flex-col gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3"
     >
-      <SectionTitle
+      <AppSectionTitle
         title="Devenir sponsor de Vue.js Paris"
         description="Soutenez la communauté Vue.js Paris en devenant sponsor de l'événement."
-      >
-        <AppOutlineButton
-          link="https://x.com/messages/747975155733893124-831503542703816704"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="w-fit text-center sm:w-full"
-        >
-          Contactez-nous
-        </AppOutlineButton>
-      </SectionTitle>
+      />
 
       <div class="flex flex-col gap-5 text-white">
         <div class="flex flex-col gap-5">

@@ -20,7 +20,6 @@
     "@nuxtjs/color-mode": "3.5.2",
     "@vueuse/core": "^12.3.0",
     "nuxt": "^3.14.1592",
-    "nuxt-auth-utils": "0.5.7",
     "vue": "latest",
     "vue-router": "latest"
   },

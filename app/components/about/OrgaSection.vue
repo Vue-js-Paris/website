@@ -6,21 +6,21 @@
       <div
         class="flex flex-col-reverse justify-between gap-10 md:flex-row md:items-start"
       >
-        <AboutCard
+        <OrgCard
           image="/images/Eduardo.webp"
           alt="Eduardo San Martin Morote"
           name="Eduardo San Martin Morote"
           linkedin="https://www.linkedin.com/in/edsanmartin/"
           github="https://github.com/posva"
         />
-        <AboutCard
+        <OrgCard
           image="/images/Elise.webp"
           alt="Elise Patrikainen"
           name="Elise Patrikainen"
           linkedin="https://www.linkedin.com/in/elisepatrikainen/"
           github="https://github.com/ElisePatrikainen"
         />
-        <AboutCard
+        <OrgCard
           image="/images/Florian.webp"
           alt="Florian Beaumont"
           name="Florian Beaumont"
@@ -28,7 +28,7 @@
           github="https://github.com/FlorianBx"
         />
       </div>
-      <SectionTitle
+      <AppSectionTitle
         title="Les organisateurs"
         description="Rencontrez ceux qui donnent vie à la communauté Vue.js parisienne"
       />

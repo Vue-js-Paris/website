@@ -33,12 +33,16 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
+  components: [
+    {
+      path: "~/components",
+      pathPrefix: false,
+    },
+  ],
   modules: [
     "@nuxt/eslint",
     "@nuxt/scripts",
     "@nuxt/icon",
-    "nuxt-auth-utils",
     "@nuxt/content",
     "@vueuse/nuxt",
     "@nuxtjs/color-mode",

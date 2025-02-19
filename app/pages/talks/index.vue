@@ -26,14 +26,14 @@ const filteredTalks = computed(() => {
     v-if="talks?.items?.length"
     class="flex min-h-screen w-screen flex-col items-center gap-10 px-5 sm:items-start md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 md:pt-10 xl:w-2/3"
   >
-    <SectionTitle
+    <AppSectionTitle
       title="Les Talks"
       description="Retrouvez ici tous les talks de notre meetup."
     >
       <SearchBar v-model="searchQuery" class="w-full" />
-    </SectionTitle>
+    </AppSectionTitle>
     <div v-if="filteredTalks.length" class="flex flex-col gap-5 md:w-[80%]">
-      <TalkCard
+      <YoutubeCard
         v-for="talk in filteredTalks"
         :key="talk.id.videoId"
         :talk="talk"

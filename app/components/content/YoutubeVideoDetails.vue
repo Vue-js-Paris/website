@@ -20,7 +20,7 @@ defineProps<{
         frameborder="0"
         allowfullscreen
       />
-      <div class="pt-10text-white prose-base">
+      <div class="prose-base pt-10 text-white">
         <slot />
       </div>
     </article>
