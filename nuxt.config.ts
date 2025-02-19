@@ -38,7 +38,6 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "@nuxt/scripts",
     "@nuxt/icon",
-    "nuxt-auth-utils",
     "@nuxt/content",
     "@vueuse/nuxt",
     "@nuxtjs/color-mode",
