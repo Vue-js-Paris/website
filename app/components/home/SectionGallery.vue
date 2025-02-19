@@ -4,14 +4,14 @@
       class="relative flex w-screen flex-col gap-10 px-5 md:mx-auto md:w-[90%] md:px-0 xl:w-2/3"
     >
       <div class="relative flex w-full flex-col gap-10 md:flex-row md:gap-20">
-        <SectionTitle
+        <AppSectionTitle
           title="Vue.js Paris en images"
           description="Revivez les meilleurs moments du meetup en un clin d'œil !"
         />
         <div
           class="hidden md:absolute md:inset-0 md:z-10 md:block md:h-64 md:w-full md:bg-gradient-to-r md:from-darkerbg md:from-25% md:to-transparent md:to-40%"
         >
-          <SectionTitle
+          <AppSectionTitle
             title="Vue.js Paris en images"
             description="Revivez les meilleurs moments du meetup en un clin d'œil !"
           />

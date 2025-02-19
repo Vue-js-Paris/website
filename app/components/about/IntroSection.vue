@@ -3,7 +3,7 @@
     <div
       class="flex h-full w-screen flex-col gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3"
     >
-      <SectionTitle
+      <AppSectionTitle
         title="Le meetup Paris Vue.js"
         description="Le rendez-vous incontournable des passionné·e·s de Vue !"
       />

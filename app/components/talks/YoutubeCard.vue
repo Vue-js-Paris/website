@@ -29,11 +29,11 @@ const slug = computed(() => slugify(props.talk.snippet.title));
           {{ talk.snippet.description }}
         </p>
       </div>
-      <div class="mt-auto">
-        <AppLink :link="`/talks/${slug}`">
+      <div class="ml-auto mt-auto">
+        <div>
           En savoir plus
           <Icon name="mdi:arrow-right" />
-        </AppLink>
+        </div>
       </div>
     </div>
   </NuxtLink>

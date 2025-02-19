@@ -14,7 +14,7 @@
         /> -->
         <SpeakerCard />
       </div>
-      <SectionTitle
+      <AppSectionTitle
         title="Les prochains talks"
         description="Un aperçu de ce qui vous attend au prochain meetup."
       />

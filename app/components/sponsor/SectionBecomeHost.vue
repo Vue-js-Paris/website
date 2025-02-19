@@ -42,7 +42,7 @@
         </p>
       </div>
 
-      <SectionTitle
+      <AppSectionTitle
         title="Accueillir le meetup"
         description="Vous souhaitez ouvrir vos portes à la communauté Vue.js ?"
       />

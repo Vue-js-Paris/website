@@ -15,13 +15,13 @@ const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
       class="flex w-screen flex-col-reverse gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3"
     >
       <div class="flex h-full flex-col gap-5">
-        <TalkCard
+        <YoutubeCard
           v-for="talk in talks?.items"
           :key="talk.id.videoId"
           :talk="talk"
         />
       </div>
-      <SectionTitle
+      <AppSectionTitle
         title="Nos derniers talks"
         description="Retrouvez ici les talks de notre dernier meetup."
       />

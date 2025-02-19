@@ -3,7 +3,7 @@
     <div
       class="flex h-full w-screen flex-col gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3"
     >
-      <SectionTitle
+      <AppSectionTitle
         title="Foire aux questions"
         description="Vous avez des questions ? Nous avons des réponses !"
       />
