@@ -45,7 +45,12 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxt/ui",
   ],
-
+  fonts: {
+    herotitle: {
+      name: "Gasoek One",
+      provider: "google",
+    },
+  },
   colorMode: {
     classSuffix: "",
     preference: "system",
