@@ -1,5 +1,11 @@
-<YoutubeVideoDetails video-id="T-ZCpHOH0mc" video-title="Ce que j'ai appris en créant une libraire de composants Vue 3 - Stanislas Ormières - Vuejs Paris #26
-" video-description="Vue.js Paris meetup #26 Sponsors: Mastering Pinia & Nx Host: Valtech">
+---
+title: "Ce que j'ai appris en créant une libraire de composants Vue 3 - Stanislas Ormières - Vuejs Paris #26"
+videoId: "T-ZCpHOH0mc"
+date: "29-09-2024"
+description: "Vue.js Paris meetup #26 Sponsors: Mastering Pinia & Nx Host: Valtech"
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" :video-description="description">
 
 ## Résumé du talk
 

@@ -69,16 +69,15 @@ const route = useRoute();
         >
           Participer au meetup
         </AppButton>
-        <AppButton
+        <AppOutlineButton
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener noreferrer"
-          background-color="bg-transparent"
-          border-width="border-2"
-          class="hidden !p-3 lg:block"
+          background="bg-slate-900"
+          class="hidden !w-fit lg:block"
         >
           Proposer un talk
-        </AppButton>
+        </AppOutlineButton>
       </div>
     </header>
   </div>

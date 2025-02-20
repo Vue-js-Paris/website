@@ -1,25 +1,23 @@
 <script setup lang="ts">
-const config = useRuntimeConfig();
+import { useLatestTalks } from "../../../composables/useTalks";
 
-const { data: talks } = useFetch<YouTubeAPIResponse>(`/api/youtube/latest`, {
-  params: {
-    channelId: config.public.youtubeChannelId,
-  },
-});
+const { talks, pending } = useLatestTalks();
 </script>
 
 <template>
   <section class="relative">
     <div
-      v-if="talks?.items.length"
+      v-if="!pending && talks?.length"
       class="flex w-screen flex-col-reverse gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3"
     >
       <div class="flex h-full flex-col gap-5">
-        <YoutubeCard
-          v-for="talk in talks?.items"
+        <NuxtLink
+          v-for="talk in talks"
           :key="talk.id.videoId"
-          :talk="talk"
-        />
+          :to="`/talks/${talk.id.videoId}`"
+        >
+          <YoutubeCard :talk="talk" />
+        </NuxtLink>
       </div>
       <AppSectionTitle
         title="Nos derniers talks"

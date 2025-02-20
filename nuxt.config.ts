@@ -60,17 +60,6 @@ export default defineNuxtConfig({
     preference: "system",
     fallback: "light",
   },
-
-  runtimeConfig: {
-    sessionPassword: "",
-    youtubeApiBaseUrl: "",
-    youtubeApiKey: "",
-
-    public: {
-      youtubeChannelId: "",
-    },
-  },
-
   future: {
     compatibilityVersion: 4,
   },

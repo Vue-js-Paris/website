@@ -1,5 +1,11 @@
-<YoutubeVideoDetails video-id="3SUwuFj4VeI" video-title="Nuxt Islands - Julien Huang - Vue.js Paris #24" video-description="Vue.js Paris meetup #24
-Host: Contentsquare">
+---
+title: "Nuxt Islands - Julien Huang - Vue.js Paris #24"
+videoId: "3SUwuFj4VeI"
+date: "18-09-2024"
+description: "Vue.js Paris meetup #24 Host: Contentsquare"
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" :video-description="description">
 
 ## Résumé du talk : Composants Serveur (Server Components) et Islands dans Nuxt\*\*
 

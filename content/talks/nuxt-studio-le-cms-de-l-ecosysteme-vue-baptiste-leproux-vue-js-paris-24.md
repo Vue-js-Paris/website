@@ -1,4 +1,11 @@
-<YoutubeVideoDetails video-id="upMtd1QtK4M" video-title="Nuxt Studio, le CMS de l'écosystème Vue - Baptiste Leproux - Vue.js Paris #24" video-description="Host: Contentsquare">
+---
+title: "Nuxt Studio, le CMS de l'écosystème Vue - Baptiste Leproux - Vue.js Paris #24"
+videoId: "upMtd1QtK4M"
+date: "28-09-2024"
+description: "Host: Contentsquare"
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" :video-description="description">
 
 **Résumé du talk : Démonstration de **Nuxt Studio** (anciennement « N Studio »)**
 

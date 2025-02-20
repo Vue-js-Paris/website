@@ -1,5 +1,11 @@
-<YoutubeVideoDetails video-id="NcunWlFPpSc" video-title="De l'usage du JSX en Vue - Yoann Fort - Vue.js Paris #25"
-video-description="Vue.js Paris meetup #25 Sponsors: Mastering Pinia & Nx Host: L'Atelier">
+---
+title: "De l'usage du JSX en Vue - Yoann Fort - Vue.js Paris #25"
+videoId: "NcunWlFPpSc"
+date: "28-09-2024"
+description: "Vue.js Paris meetup #25 Sponsors: Mastering Pinia & Nx Host: L'Atelier"
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" :video-description="description">
 
 ## Résumé du talk : Utiliser du JSX dans Vue.js pour des fonctions de rendu plus lisibles\*\*
 
