@@ -16,5 +16,4 @@ export interface YouTubeSearchItem {
 
 export interface YouTubeSearchResponse {
   items: YouTubeSearchItem[];
-  // ... vous pouvez ajouter d'autres propriétés si besoin (pageInfo, etc.)
 }

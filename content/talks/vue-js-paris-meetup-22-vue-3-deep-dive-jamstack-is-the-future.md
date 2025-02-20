@@ -1,18 +1,12 @@
-<YoutubeVideoDetails video-id="BGju71aNpOA" video-title="Vue.js Paris Meetup #22 - Vue 3 Deep Dive / JAMstack is the future" 
-video-description="
-Vue.js Paris Meetup #22
-  / vuejsparis
-Talks:
-   • Vue.js Paris Meetup #22 - Vue 3 Deep ...  
-Vue 3 Deep Dive
-François Hendriks Full-stack developer @Theodo
-  / fr_hendriks  
-   • Vue.js Paris Meetup #22 - Vue 3 Deep ...  
-#JAMstack is the future. I think. Maybe.
-Tim Benniks Director of web-development @Valtech
-  / timbenniks  
-Host : Valtech France
-  / valtech_fr  ">
+---
+title: "Vue.js Paris Meetup #22 - Vue 3 Deep Dive / JAMstack is the future"
+videoId: "BGju71aNpOA"
+date: "19-12-2019"
+description: "Vue.js Paris Meetup #22 / vuejsparis Talks: • Vue.js Paris Meetup #22 - Vue 3 Deep ...  Vue 3 Deep Dive François Hendriks Full-stack developer @Theodo / fr_hendriks  • Vue.js Paris Meetup #22 - Vue 3 Deep ...  #JAMstack is the future. I think. Maybe. Tim Benniks Director of web-development @Valtech  / timbenniks  Host : Valtech France / valtech_fr"
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" 
+:video-description="description">
 
 ### **Talk 1 : Vue 3, TypeScript et la Composition API**
 

@@ -1,5 +1,11 @@
-<YoutubeVideoDetails video-id="3rqOkfFfN9Q" video-title="Pinceau, road to v1 - Yaël Guilloux - Vue.js Paris #24" video-description="Vue.js Paris meetup #24
-Host: Contentsquare">
+---
+title: "Pinceau, road to v1 - Yaël Guilloux - Vue.js Paris #24"
+videoId: "3rqOkfFfN9Q"
+date: "28-09-2024"
+description: "Vue.js Paris meetup #24 Host: Contentsquare"
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" :video-description="description">
 
 ## Résumé du talk : Pinceau, un “CSS in JS in TS” pour Vue, React et Svelte\*\*
 
@@ -41,7 +47,7 @@ Pinceau propose plusieurs façons de styler ses composants :
 
 2. **Bloc `<style lang="ts">`** (ou `<style>` classique dans un `.vue` SFC) :
 
-   - On écrit du CSS “pinceau”, qui peut inclure `@apply` de tokens, `$theme(...)`, etc.
+   - On écrit du CSS “pinceau”, qui peut inclure `@apply` de tokens, etc.
    - Tout ce qui n’est pas dynamique est compilé statiquement, le JS n’est pas alourdi.
 
 3. **Prop `:style="..."`** (pour des styles in-line) :
