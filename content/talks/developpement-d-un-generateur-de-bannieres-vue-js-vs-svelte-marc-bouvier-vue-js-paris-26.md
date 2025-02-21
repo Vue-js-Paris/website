@@ -1,5 +1,11 @@
-<YoutubeVideoDetails video-id="O74I-gakQGw" video-title="Développement d’un générateur de bannières, Vue.js vs Svelte - Marc Bouvier - Vue.js Paris #26
-" video-description="Vue.js Paris meetup #26 Sponsors: Mastering Pinia & Nx Host: Valtech">
+---
+title: "Développement d’un générateur de bannières, Vue.js vs Svelte - Marc Bouvier - Vue.js Paris #26"
+videoId: "O74I-gakQGw"
+date: "29-09-2024"
+description: "Vue.js Paris meetup #26 Sponsors: Mastering Pinia & Nx Host: Valtech"
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" :video-description="description">
 
 ## Résumé du talk
 

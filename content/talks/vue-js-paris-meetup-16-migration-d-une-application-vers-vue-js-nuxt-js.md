@@ -1,5 +1,11 @@
-<YoutubeVideoDetails video-id="Lzo8EStPyUI" video-title="Vue.js Paris Meetup #16 - Migration d'une application vers Vue.js / Nuxt.js" video-description="Talk sur la migration d’une app vers vue.js / nuxt.js par Marc Mendonça, Lead Front End @backmarket, le 04/07/2018
-Hébergé par Back Market">
+---
+title: "Vue.js Paris Meetup #16 - Migration d'une application vers Vue.js / Nuxt.js"
+videoId: "Lzo8EStPyUI"
+date: "13-07-2018"
+description: "Talk sur la migration d’une app vers vue.js / nuxt.js par Marc Mendonça, Lead Front End @backmarket, le 04/07/2018 Hébergé par Back Market"
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" :video-description="description">
 
 ## Résumé du talk
 

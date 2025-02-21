@@ -1,5 +1,11 @@
-<YoutubeVideoDetails video-id="xkFWZvl3JZE" video-title="Core web vitals - Nicolas Frizzarin - Vue.js Paris #26
-" video-description="Vue.js Paris meetup #26 Sponsors: Mastering Pinia & Nx Host: Valtech">
+---
+title: "Core web vitals - Nicolas Frizzarin - Vue.js Paris #26"
+videoId: "xkFWZvl3JZE"
+date: "29-09-2024"
+description: "Vue.js Paris meetup #26 Sponsors: Mastering Pinia & Nx Host: Valtech"
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" :video-description="description">
 
 ## Résumé du talk
 

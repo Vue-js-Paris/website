@@ -1,5 +1,11 @@
-<YoutubeVideoDetails video-id="4Vgz2wteyNs" video-title="Comment gérer l'état serveur efficacement ? - Elise Patrikainen - Vue.js Paris #25
-" video-description="">
+---
+title: "Comment gérer l'état serveur efficacement ? - Elise Patrikainen - Vue.js Paris #25"
+videoId: "4Vgz2wteyNs"
+date: "28-09-2024"
+description: ""
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" :video-description="description">
 
 ## Résumé du talk : Server State Management (côté front-end)
 

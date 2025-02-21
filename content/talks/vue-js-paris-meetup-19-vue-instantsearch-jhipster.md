@@ -1,7 +1,11 @@
-<YoutubeVideoDetails video-id="6PzCYqLHKoE" video-title="Vue.js Paris Meetup #19 - Vue InstantSearch / JHipster" video-description="Building an Interactive Showcase with Vue.js & Vue InstantSearch
-By Sarah Dayan, Frontend Developer @Algolia
-Plein la Vue avec JHipster
-Par Sahbi Ktifa, Full Stack Developer @IpponTech">
+---
+title: "Vue.js Paris Meetup #19 - Vue InstantSearch / JHipster"
+videoId: "6PzCYqLHKoE"
+date: "22-01-2019"
+description: "Building an Interactive Showcase with Vue.js & Vue InstantSearch By Sarah Dayan, Frontend Developer @Algolia Plein la Vue avec JHipster Par Sahbi Ktifa, Full Stack Developer @IpponTech"
+---
+
+<YoutubeVideoDetails :video-id="videoId" :video-title="title" :video-description="description">
 
 ### **Talk 1 : “Building an Interactive Showcase with Vue.js & Vue InstantSearch”**
 
