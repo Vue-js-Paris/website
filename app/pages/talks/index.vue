@@ -14,6 +14,10 @@ const searchedTalks = computed(() => {
     return title.includes(query) || description.includes(query);
   });
 });
+
+function updatedSearch(value: string) {
+  searchQuery.value = value;
+}
 </script>
 
 <template>
@@ -25,7 +29,7 @@ const searchedTalks = computed(() => {
       title="Les Talks"
       description="Retrouvez ici tous les talks de notre meetup."
     >
-      <SearchBar v-model="searchQuery" class="w-full" />
+      <SearchBar class="w-full" @update-search="updatedSearch" />
     </AppSectionTitle>
 
     <div v-if="searchedTalks.length" class="flex flex-col gap-5 md:w-[80%]">
