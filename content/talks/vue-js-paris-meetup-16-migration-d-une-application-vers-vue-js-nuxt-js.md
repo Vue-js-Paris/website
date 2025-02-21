@@ -1,6 +1,6 @@
 ---
 title: "Vue.js Paris Meetup #16 - Migration d'une application vers Vue.js / Nuxt.js"
-videoId: "T-ZCpHOH0mc"
+videoId: "Lzo8EStPyUI"
 date: "13-07-2018"
 description: "Talk sur la migration d’une app vers vue.js / nuxt.js par Marc Mendonça, Lead Front End @backmarket, le 04/07/2018 Hébergé par Back Market"
 ---
