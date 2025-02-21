@@ -3,7 +3,9 @@ const route = useRoute();
 </script>
 
 <template>
-  <div class="fixed top-0 z-30 flex h-[100px] w-full justify-center shadow">
+  <div
+    class="fixed top-0 z-30 flex h-[100px] w-full justify-center border-b-2 border-[#4f4d4d]"
+  >
     <header
       class="flex w-full items-center justify-between text-white md:w-[90%]"
     >
@@ -73,7 +75,7 @@ const route = useRoute();
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener noreferrer"
-          background="bg-slate-900"
+          background="bg-black"
           class="hidden !w-fit lg:block"
         >
           Proposer un talk

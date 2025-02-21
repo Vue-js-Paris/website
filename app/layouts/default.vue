@@ -1,24 +1,15 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    <AppHeader class="background hidden md:flex" />
-    <main class="background font-roboto md:pt-[100px]">
+  <div class="bg-black">
+    <AppHeader class="hidden bg-black md:flex" />
+    <main
+      class="background-stripes border-x-2 border-[#4f4d4d] font-roboto md:mx-auto md:w-[90%] md:pt-[100px]"
+    >
       <slot />
     </main>
-    <AppFooter class="background pt-10" />
+    <AppFooter class="bg-black pt-10" />
 
     <AppMobileHeader class="background z-50 block md:hidden" />
   </div>
 </template>
-
-<style scoped>
-.background {
-  background: rgb(1, 3, 23);
-  background: linear-gradient(
-    90deg,
-    rgba(1, 3, 23, 1) 56%,
-    rgb(16, 25, 46) 97%
-  );
-}
-</style>
