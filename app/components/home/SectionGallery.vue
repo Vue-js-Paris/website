@@ -1,7 +1,7 @@
 <template>
-  <section class="relative">
+  <section class="px-10">
     <div
-      class="relative flex w-screen flex-col gap-10 px-5 md:mx-auto md:w-[90%] md:px-0 xl:w-2/3"
+      class="background border-bordercolor relative flex w-full flex-col gap-10 border-2 p-20"
     >
       <div class="relative flex w-full flex-col gap-10 md:flex-row md:gap-20">
         <AppSectionTitle

@@ -1,14 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="bg-black">
-    <AppHeader class="hidden bg-black md:flex" />
+  <div class="background">
+    <AppHeader class="background hidden md:flex" />
     <main
-      class="background-stripes border-x-2 border-[#4f4d4d] font-roboto md:mx-auto md:w-[90%] md:pt-[100px]"
+      class="background-stripes border-bordercolor border-x-2 font-roboto md:mx-auto md:w-[90%] md:pt-[100px]"
     >
       <slot />
     </main>
-    <AppFooter class="bg-black pt-10" />
+    <AppFooter class="background" />
 
     <AppMobileHeader class="background z-50 block md:hidden" />
   </div>
