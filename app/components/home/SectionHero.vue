@@ -1,18 +1,38 @@
+<script setup lang="ts">
+const { x: mouseX, y: mouseY } = useMouse();
+const backgroundRef = ref<HTMLElement | null>(null);
+
+const mousePosition = computed(() => {
+  if (!backgroundRef.value) return { x: -100, y: -100 };
+
+  const rect = backgroundRef.value.getBoundingClientRect();
+  return {
+    x: mouseX.value - rect.left - window.scrollX,
+    y: mouseY.value - rect.top - window.scrollY,
+  };
+});
+</script>
+
 <template>
-  <section class="px-10">
+  <section class="md:px-10">
     <div class="flex w-full flex-col gap-2">
       <h1
-        class="background text-nowrap border-2 border-bordercolor p-10 text-center text-[11vw] font-semibold leading-none text-white"
+        class="background text-nowrap border-2 border-bordercolor p-5 text-center text-4xl font-semibold leading-none text-white sm:text-6xl md:p-10 md:text-7xl lg:text-9xl xl:text-[13rem]"
       >
         VUE.JS PARIS
       </h1>
       <div class="flex w-full justify-between gap-2">
         <div
-          class="background background-dots flex h-[500px] w-full justify-between gap-2 border-2 border-bordercolor p-20"
+          ref="backgroundRef"
+          class="background background-dots flex h-[500px] w-full justify-between gap-2 border-2 border-bordercolor p-5 md:p-10 lg:w-2/3 xl:w-[70%] xl:p-20"
+          :style="{
+            '--mouse-x': `${mousePosition.x}px`,
+            '--mouse-y': `${mousePosition.y}px`,
+          }"
         >
           <div class="flex h-full w-full items-end justify-start">
             <div
-              class="mt-10 flex flex-col gap-5 px-5 md:mt-0 md:w-[400px] md:px-0 lg:w-[500px]"
+              class="mt-10 flex flex-col gap-5 px-5 md:mt-0 md:max-w-[400px] md:px-0 lg:max-w-[500px]"
             >
               <h2
                 class="z-50 text-3xl font-semibold text-white sm:text-5xl md:z-0"
@@ -30,7 +50,7 @@
         <img
           src="/images/hero image.svg"
           alt="tour eiffel"
-          class="h-[500px] w-[500px] object-cover saturate-[0.75]"
+          class="hidden h-[500px] w-1/3 object-cover saturate-[0.75] lg:block xl:w-[30%]"
         />
       </div>
     </div>
