@@ -1,7 +1,7 @@
 <template>
-  <section class="relative">
+  <section class="px-10">
     <div
-      class="flex w-screen flex-col-reverse gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3"
+      class="background border-bordercolor flex w-full flex-col-reverse gap-10 border-2 p-20 md:flex-row-reverse md:gap-20"
     >
       <div class="flex w-full flex-col justify-between gap-5">
         <!-- <SpeakerCard

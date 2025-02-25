@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const search = ref("");
-const emit = defineEmits(["update-search"]);
+
+const emit = defineEmits<{
+  (e: "update-search", value: string): void;
+}>();
+
 function updatedSearch(event: Event) {
   const target = event.target as HTMLInputElement;
   search.value = target.value;
