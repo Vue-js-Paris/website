@@ -2,13 +2,13 @@
   <section class="px-10">
     <div class="flex w-full flex-col gap-2">
       <h1
-        class="background border-bordercolor text-nowrap border-2 p-10 text-center text-[11vw] font-semibold leading-none text-white"
+        class="background text-nowrap border-2 border-bordercolor p-10 text-center text-[11vw] font-semibold leading-none text-white"
       >
         VUE.JS PARIS
       </h1>
       <div class="flex w-full justify-between gap-2">
         <div
-          class="background border-bordercolor flex h-[500px] w-full justify-between gap-2 border-2 p-20"
+          class="background background-dots flex h-[500px] w-full justify-between gap-2 border-2 border-bordercolor p-20"
         >
           <div class="flex h-full w-full items-end justify-start">
             <div

@@ -4,7 +4,7 @@ const route = useRoute();
 
 <template>
   <div
-    class="border-bordercolor fixed top-0 z-30 flex h-[100px] w-full justify-center border-b-2"
+    class="fixed top-0 z-30 flex h-[100px] w-full justify-center border-b-2 border-bordercolor"
   >
     <header
       class="flex w-full items-center justify-between text-white md:w-[90%]"
@@ -75,7 +75,7 @@ const route = useRoute();
           link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
           target="_blank"
           rel="noopener noreferrer"
-          background="bg-slate-900"
+          background="bg-[#181818]"
           class="hidden !w-fit lg:block"
         >
           Proposer un talk
