@@ -21,29 +21,30 @@ function updatedSearch(value: string) {
 </script>
 
 <template>
-  <section
-    v-if="!pending && talks"
-    class="flex min-h-screen w-screen flex-col items-center gap-10 px-5 sm:items-start md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 md:pt-10 xl:w-2/3"
-  >
-    <AppSectionTitle
-      title="Les Talks"
-      description="Retrouvez ici tous les talks de notre meetup."
+  <section v-if="!pending && talks" class="px-10 pt-10">
+    <div
+      class="background flex min-h-screen w-full flex-col items-center gap-10 border-2 border-bordercolor p-20 sm:items-start md:flex-row md:gap-20"
     >
-      <SearchBar class="w-full" @update-search="updatedSearch" />
-    </AppSectionTitle>
-
-    <div v-if="searchedTalks.length" class="flex flex-col gap-5 md:w-[80%]">
-      <div
-        v-for="talk in searchedTalks"
-        :key="talk.id.videoId"
-        :to="`/talks/${talk.id.videoId}`"
+      <AppSectionTitle
+        title="Les Talks"
+        description="Retrouvez ici tous les talks de notre meetup."
       >
-        <YoutubeCard :talk="talk" />
-      </div>
-    </div>
+        <SearchBar class="w-full" @update-search="updatedSearch" />
+      </AppSectionTitle>
 
-    <div v-else class="w-full text-center">
-      <p>Aucun talk ne correspond à votre recherche.</p>
+      <div v-if="searchedTalks.length" class="flex flex-col gap-5 md:w-[80%]">
+        <div
+          v-for="talk in searchedTalks"
+          :key="talk.id.videoId"
+          :to="`/talks/${talk.id.videoId}`"
+        >
+          <YoutubeCard :talk="talk" />
+        </div>
+      </div>
+
+      <div v-else class="w-full text-center">
+        <p>Aucun talk ne correspond à votre recherche.</p>
+      </div>
     </div>
   </section>
 
