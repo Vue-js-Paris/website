@@ -1,7 +1,7 @@
 <template>
-  <section class="relative">
+  <section class="md:px-10">
     <div
-      class="flex w-screen flex-col gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3 xl:gap-44"
+      class="background border-bordercolor flex w-full flex-col gap-10 border-2 p-20 md:flex-row md:gap-20 xl:gap-44"
     >
       <AppSectionTitle
         title="Nos sponsors"

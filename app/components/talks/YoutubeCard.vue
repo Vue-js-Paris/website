@@ -7,7 +7,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
 <template>
   <NuxtLink
     :to="`/talks/${slug}`"
-    class="lg:max-h-84 flex flex-col gap-5 rounded-2xl border-2 border-slate-500 bg-transparent p-8 lg:flex-row lg:gap-10"
+    class="lg:max-h-84 border-bordercolor flex flex-col gap-5 rounded-2xl border-2 bg-transparent p-8 lg:flex-row lg:gap-10"
   >
     <div
       class="h-32 w-full overflow-hidden rounded-2xl sm:h-56 md:h-64 lg:h-28 lg:w-1/3 xl:h-36"

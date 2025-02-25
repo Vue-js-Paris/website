@@ -34,7 +34,7 @@ defineProps({
 
 <template>
   <article
-    class="flex w-full flex-col gap-10 rounded-2xl border-2 border-slate-500 bg-transparent p-8 lg:flex-row"
+    class="border-bordercolor flex w-full flex-col gap-10 rounded-2xl border-2 bg-transparent p-5 lg:flex-row"
   >
     <div class="relative flex w-full flex-col gap-2 lg:w-1/3">
       <img

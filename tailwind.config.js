@@ -19,6 +19,7 @@ export default {
         primaryblue: "#35495e",
         darkbg: "#0F172A",
         darkerbg: "#010317",
+        bordercolor: "#4f4d4d",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],

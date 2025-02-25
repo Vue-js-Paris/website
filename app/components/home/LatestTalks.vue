@@ -5,19 +5,15 @@ const { talks, pending } = useLatestTalks();
 </script>
 
 <template>
-  <section class="relative">
+  <section class="px-10 pb-10">
     <div
       v-if="!pending && talks?.length"
-      class="flex w-screen flex-col-reverse gap-10 px-5 md:mx-auto md:w-[90%] md:flex-row md:gap-20 md:px-0 xl:w-2/3"
+      class="background flex w-full flex-col-reverse gap-10 border-2 border-bordercolor p-20 md:flex-row-reverse"
     >
       <div class="flex h-full flex-col gap-5">
-        <NuxtLink
-          v-for="talk in talks"
-          :key="talk.id.videoId"
-          :to="`/talks/${talk.id.videoId}`"
-        >
+        <div v-for="talk in talks" :key="talk.id.videoId">
           <YoutubeCard :talk="talk" />
-        </NuxtLink>
+        </div>
       </div>
       <AppSectionTitle
         title="Nos derniers talks"
