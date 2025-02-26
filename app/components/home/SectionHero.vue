@@ -32,14 +32,14 @@ const mousePosition = computed(() => {
         >
           <div class="flex h-full w-full items-end justify-start">
             <div
-              class="mt-10 flex flex-col gap-5 px-5 md:mt-0 md:max-w-[400px] md:px-0 lg:max-w-[500px]"
+              class="mt-10 flex flex-col gap-5 md:mt-0 md:max-w-[400px] md:px-0 lg:max-w-[500px]"
             >
               <h2
                 class="z-50 text-3xl font-semibold text-white sm:text-5xl md:z-0"
               >
                 Découvrir, partager et connecter.
               </h2>
-              <p class="z-50 hidden text-slate-300 md:z-0 md:block">
+              <p class="z-50 text-slate-300 md:z-0">
                 Rejoignez-nous pour notre prochain meetup et découvrez des talks
                 passionnants et des moments de partage avec la communauté Vue.js
                 Paris.
