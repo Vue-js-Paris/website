@@ -17,7 +17,7 @@ const mousePosition = computed(() => {
   <section class="md:px-10">
     <div class="flex w-full flex-col gap-2">
       <h1
-        class="background text-nowrap border-2 border-bordercolor p-5 text-center text-4xl font-semibold leading-none text-white sm:text-6xl md:p-10 md:text-7xl lg:text-9xl xl:text-[13rem]"
+        class="background text-nowrap border-2 border-bordercolor p-5 text-center text-4xl font-semibold leading-none text-white sm:text-6xl md:p-10 md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[13rem]"
       >
         VUE.JS PARIS
       </h1>
