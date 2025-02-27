@@ -7,6 +7,7 @@
         href="https://www.youtube.com/@vuejsparis"
         target="_blank"
         class="flex items-center"
+        aria-label="Chaîne YouTube de Vuejs Paris"
       >
         <Icon name="mingcute:youtube-fill" />
       </a>
@@ -18,6 +19,7 @@
         href="https://x.com/vuejsparis"
         target="_blank"
         class="flex items-center"
+        aria-label="Compte X (Twitter) de Vuejs Paris"
       >
         <Icon name="ri:twitter-x-fill" />
       </a>
@@ -29,6 +31,7 @@
         href="https://bsky.app/profile/vuejsparis.bsky.social"
         target="_blank"
         class="flex items-center"
+        aria-label="Compte Bluesky de Vuejs Paris"
       >
         <Icon name="ri:bluesky-fill" />
       </a>
@@ -40,6 +43,7 @@
         href="https://www.meetup.com/fr-FR/Vuejs-Paris/"
         target="_blank"
         class="flex items-center"
+        aria-label="Page Meetup de Vuejs Paris"
       >
         <Icon name="cib:meetup" />
       </a>
