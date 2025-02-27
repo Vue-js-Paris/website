@@ -16,7 +16,7 @@ defineProps({
 <template>
   <div class="h-full w-full md:sticky md:top-[120px] md:max-w-[20%]">
     <h2
-      class="text-3xl font-semibold text-white lg:text-5xl"
+      class="text-3xl font-semibold text-white xl:text-5xl"
       :class="{
         'pb-5': description,
       }"
