@@ -34,13 +34,13 @@ defineProps({
 
 <template>
   <article
-    class="border-bordercolor flex w-full flex-col gap-10 rounded-2xl border-2 bg-transparent p-5 lg:flex-row"
+    class="flex w-full flex-col gap-5 rounded-2xl border-2 border-bordercolor bg-transparent p-5 md:gap-10 lg:flex-row"
   >
-    <div class="relative flex w-full flex-col gap-2 lg:w-1/3">
+    <div class="relative flex w-full flex-col items-center gap-2 lg:w-1/3">
       <img
         :src="image"
         :alt="alt"
-        class="h-fit w-full rounded-2xl bg-darkbg object-cover xl:h-52 xl:w-full"
+        class="h-fit w-full rounded-2xl border-2 border-bordercolor bg-transparent object-cover sm:w-1/2 md:w-full xl:h-52"
       />
       <div
         v-if="image !== '/images/unknownSpeaker.webp'"
@@ -49,22 +49,22 @@ defineProps({
     </div>
     <div class="flex h-full w-full flex-col justify-between">
       <div class="flex flex-col items-start gap-2">
-        <h3 class="text-2xl font-semibold text-white">
+        <h3 class="text-lg font-semibold text-white md:text-2xl">
           {{ title }}
         </h3>
-        <p class="line-clamp-4 text-gray-400">
+        <p class="line-clamp-2 text-gray-400 md:line-clamp-4">
           {{ description }}
         </p>
       </div>
 
       <div
         v-if="image !== '/images/unknownSpeaker.webp'"
-        class="flex w-full items-end justify-between"
+        class="flex w-full items-end justify-between pt-3"
       >
-        <h2 class="w-full text-xl font-semibold text-white">
+        <h2 class="w-full text-white md:text-xl">
           {{ name }}
         </h2>
-        <ul class="flex h-full items-end gap-5">
+        <ul class="flex h-full items-end gap-2 md:gap-5">
           <li class="flex items-end">
             <NuxtLink
               :to="linkedin"

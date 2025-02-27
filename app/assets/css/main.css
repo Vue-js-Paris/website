@@ -46,9 +46,6 @@ h6 {
   opacity: 0.7;
   pointer-events: none;
   transition: opacity 0.2s ease-out;
-}
-
-.background-dots::before {
   mask-image: radial-gradient(
     circle 150px at var(--mouse-x) var(--mouse-y),
     rgba(255, 255, 255, 0.9),

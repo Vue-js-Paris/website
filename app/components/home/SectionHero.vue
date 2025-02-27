@@ -17,14 +17,14 @@ const mousePosition = computed(() => {
   <section class="md:px-10">
     <div class="flex w-full flex-col gap-2">
       <h1
-        class="background text-nowrap border-2 border-bordercolor p-5 text-center text-4xl font-semibold leading-none text-white sm:text-6xl md:p-10 md:text-7xl lg:text-9xl xl:text-[13rem]"
+        class="background text-nowrap border-2 border-bordercolor p-5 text-center text-4xl font-semibold leading-none text-white sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[13rem]"
       >
         VUE.JS PARIS
       </h1>
       <div class="flex w-full justify-between gap-2">
         <div
           ref="backgroundRef"
-          class="background background-dots flex h-[500px] w-full justify-between gap-2 border-2 border-bordercolor p-5 md:p-10 lg:w-2/3 xl:w-[70%] xl:p-20"
+          class="background background-dots flex h-[500px] w-full justify-between gap-2 border-2 border-bordercolor p-5 lg:w-2/3 xl:w-[70%] xl:p-20"
           :style="{
             '--mouse-x': `${mousePosition.x}px`,
             '--mouse-y': `${mousePosition.y}px`,
@@ -32,14 +32,14 @@ const mousePosition = computed(() => {
         >
           <div class="flex h-full w-full items-end justify-start">
             <div
-              class="mt-10 flex flex-col gap-5 px-5 md:mt-0 md:max-w-[400px] md:px-0 lg:max-w-[500px]"
+              class="mt-10 flex flex-col gap-5 md:mt-0 md:max-w-[400px] md:px-0 lg:max-w-[500px]"
             >
               <h2
                 class="z-50 text-3xl font-semibold text-white sm:text-5xl md:z-0"
               >
                 Découvrir, partager et connecter.
               </h2>
-              <p class="z-50 hidden text-slate-300 md:z-0 md:block">
+              <p class="z-50 text-slate-300 md:z-0">
                 Rejoignez-nous pour notre prochain meetup et découvrez des talks
                 passionnants et des moments de partage avec la communauté Vue.js
                 Paris.

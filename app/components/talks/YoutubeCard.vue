@@ -7,10 +7,10 @@ const slug = computed(() => slugify(props.talk.snippet.title));
 <template>
   <NuxtLink
     :to="`/talks/${slug}`"
-    class="lg:max-h-84 border-bordercolor flex flex-col gap-5 rounded-2xl border-2 bg-transparent p-8 lg:flex-row lg:gap-10"
+    class="lg:max-h-84 flex flex-col gap-5 rounded-2xl border-2 border-bordercolor bg-transparent p-5 lg:flex-row lg:gap-10"
   >
     <div
-      class="h-32 w-full overflow-hidden rounded-2xl sm:h-56 md:h-64 lg:h-28 lg:w-1/3 xl:h-36"
+      class="h-28 w-full overflow-hidden rounded-2xl md:h-40 lg:h-24 lg:w-1/3 xl:h-32 2xl:h-44"
     >
       <img
         :src="talk.snippet.thumbnails.high.url"
@@ -18,9 +18,11 @@ const slug = computed(() => slugify(props.talk.snippet.title));
         class="h-full w-full object-cover"
       />
     </div>
-    <div class="flex w-full flex-col lg:w-2/3">
+    <div class="flex w-full flex-col gap-2 lg:w-2/3">
       <div>
-        <h3 class="pb-2 text-xl font-semibold text-white lg:text-2xl">
+        <h3
+          class="line-clamp-2 text-lg font-semibold text-white lg:text-xl xl:text-2xl"
+        >
           {{ talk.snippet.title }}
         </h3>
 
@@ -28,7 +30,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
           {{ talk.snippet.description }}
         </p>
       </div>
-      <div class="ml-auto mt-auto pt-5">
+      <div class="ml-auto mt-auto pt-3">
         <div>
           En savoir plus
           <Icon name="mdi:arrow-right" />

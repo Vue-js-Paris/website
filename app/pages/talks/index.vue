@@ -21,13 +21,14 @@ function updatedSearch(value: string) {
 </script>
 
 <template>
-  <section v-if="!pending && talks" class="px-10 pt-10">
+  <section v-if="!pending && talks" class="py-10 md:px-10">
     <div
-      class="background flex min-h-screen w-full flex-col items-center gap-10 border-2 border-bordercolor p-20 sm:items-start md:flex-row md:gap-20"
+      class="background flex min-h-screen w-full flex-col items-center gap-10 border-2 border-bordercolor p-5 sm:items-start md:flex-row xl:gap-20 xl:p-20"
     >
       <AppSectionTitle
         title="Les Talks"
         description="Retrouvez ici tous les talks de notre meetup."
+        class="md:max-w-[40%] lg:max-w-[30%] xl:max-w-[20%]"
       >
         <SearchBar class="w-full" @update-search="updatedSearch" />
       </AppSectionTitle>
