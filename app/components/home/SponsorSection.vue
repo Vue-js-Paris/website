@@ -6,6 +6,7 @@
       <AppSectionTitle
         title="Nos sponsors"
         description="Merci à nos sponsors : sans vous, ce meetup n'existerait pas !"
+        class="md:max-w-[30%] lg:max-w-[20%]"
       />
       <div class="flex w-full justify-between">
         <SponsorCard

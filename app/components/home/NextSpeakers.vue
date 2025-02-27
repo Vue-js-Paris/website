@@ -1,7 +1,7 @@
 <template>
   <section class="md:px-10">
     <div
-      class="background md:p-1O flex w-full flex-col-reverse gap-10 border-2 border-bordercolor p-5 md:flex-row-reverse md:gap-20 xl:p-20"
+      class="background flex w-full flex-col-reverse gap-10 border-2 border-bordercolor p-5 md:flex-row xl:p-20"
     >
       <div class="flex w-full flex-col justify-between gap-5">
         <!-- <SpeakerCard
@@ -33,6 +33,7 @@
       <AppSectionTitle
         title="Les prochains talks"
         description="Un aperçu de ce qui vous attend au prochain meetup."
+        class="md:max-w-[30%] lg:max-w-[20%]"
       />
     </div>
   </section>
