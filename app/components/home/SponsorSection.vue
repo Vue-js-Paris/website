@@ -1,16 +1,11 @@
 <template>
   <section class="md:px-10">
     <div
-      class="background border-bordercolor flex w-full flex-col gap-10 border-2 p-20 md:flex-row md:gap-20 xl:gap-44"
+      class="background flex w-full flex-col gap-10 border-2 border-bordercolor p-5 md:flex-row md:gap-20 md:p-10 xl:gap-44 xl:p-20"
     >
       <AppSectionTitle
         title="Nos sponsors"
         description="Merci à nos sponsors : sans vous, ce meetup n'existerait pas !"
-        class="hidden md:block"
-      />
-      <AppSectionTitle
-        description="Merci à nos sponsors"
-        class="pt-20 text-center md:hidden"
       />
       <div class="flex w-full justify-between">
         <SponsorCard
