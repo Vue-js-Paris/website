@@ -40,7 +40,7 @@ defineProps({
       <img
         :src="image"
         :alt="alt"
-        class="h-fit w-full rounded-2xl bg-transparent object-cover sm:w-1/2 md:w-full xl:h-52"
+        class="h-fit w-full rounded-2xl border-2 border-bordercolor bg-transparent object-cover sm:w-1/2 md:w-full xl:h-52"
       />
       <div
         v-if="image !== '/images/unknownSpeaker.webp'"
