@@ -5,7 +5,7 @@ const { talks, pending } = useLatestTalks();
 </script>
 
 <template>
-  <section class="px-10 pb-10">
+  <section class="pb-10 md:px-10">
     <div
       v-if="!pending && talks?.length"
       class="background flex w-full flex-col-reverse gap-10 border-2 border-bordercolor p-5 md:flex-row xl:p-20"
