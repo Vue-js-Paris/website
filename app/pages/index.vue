@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col gap-10">
-    <SectionHero class="pt-10" />
+  <div class="flex flex-col gap-10 md:pt-10">
+    <SectionHero />
     <SponsorSection />
     <NextSpeakers />
     <SectionGallery />
