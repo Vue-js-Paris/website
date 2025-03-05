@@ -30,7 +30,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
           {{ talk.snippet.description }}
         </p>
       </div>
-      <div class="ml-auto mt-auto pt-3">
+      <div class="ml-auto mt-auto pt-3 text-white">
         <div>
           En savoir plus
           <Icon name="mdi:arrow-right" />
