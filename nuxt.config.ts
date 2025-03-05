@@ -47,7 +47,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@nuxtjs/color-mode",
     "@nuxt/fonts",
-    "@nuxt/ui",
+    "@nuxtjs/tailwindcss",
   ],
   fonts: {
     herotitle: {
