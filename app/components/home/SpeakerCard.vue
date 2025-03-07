@@ -111,10 +111,10 @@ defineProps({
         </ul>
       </div>
       <div v-else class="flex justify-end">
-        <p class="text-bordercolor group-hover:text-white">
+        <div class="text-neutral-400 group-hover:text-white">
           Proposer un talk
           <Icon name="mdi:arrow-right" />
-        </p>
+        </div>
       </div>
     </div>
   </component>
