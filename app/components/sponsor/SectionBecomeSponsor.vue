@@ -6,7 +6,15 @@
       <AppSectionTitle
         title="Devenir sponsor de Vue.js Paris"
         description="Soutenez la communauté Vue.js Paris en devenant sponsor de l'événement."
-      />
+      >
+        <AppButton
+          link="https://www.linkedin.com/in/elisepatrikainen/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Nous contacter
+        </AppButton>
+      </AppSectionTitle>
 
       <div class="flex flex-col gap-5 text-white">
         <div class="flex flex-col gap-5">

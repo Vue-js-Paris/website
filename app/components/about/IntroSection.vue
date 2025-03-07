@@ -6,7 +6,15 @@
       <AppSectionTitle
         title="Le meetup Paris Vue.js"
         description="Le rendez-vous incontournable des passionné·e·s de Vue !"
-      />
+      >
+        <AppButton
+          link="https://www.linkedin.com/in/elisepatrikainen/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Nous contacter
+        </AppButton>
+      </AppSectionTitle>
       <div class="flex flex-col gap-5 text-white">
         <h2 class="text-xl font-semibold">Qu'est-ce que Vue.js Paris ?</h2>
         <p>

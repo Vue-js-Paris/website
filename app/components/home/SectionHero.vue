@@ -50,7 +50,7 @@ const mousePosition = computed(() => {
                 link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="z-20 !p-3 md:hidden"
+                class="z-20 md:hidden"
               >
                 Participer au meetup
               </AppButton>
