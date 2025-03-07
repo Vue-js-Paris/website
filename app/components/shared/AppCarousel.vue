@@ -9,12 +9,12 @@ const animationClass = computed(() =>
 </script>
 
 <template>
-  <div class="relative h-64 w-full overflow-hidden">
+  <div class="relative h-36 w-full overflow-hidden md:h-64">
     <div class="flex w-max" :class="animationClass">
       <div
         v-for="(img, index) in [...props.images, ...props.images]"
         :key="index"
-        class="h-64 w-[350px] flex-shrink-0 pr-10 md:w-[500px]"
+        class="h-36 w-[250px] flex-shrink-0 pr-5 md:h-64 md:w-[500px] md:pr-10"
       >
         <img
           :src="img"
