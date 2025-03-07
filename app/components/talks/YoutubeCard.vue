@@ -10,7 +10,7 @@ const slug = computed(() => slugify(props.talk.snippet.title));
     class="lg:max-h-84 group flex flex-col gap-5 rounded-2xl border-2 border-bordercolor bg-transparent p-5 transition-all duration-200 hover:border-white lg:flex-row lg:gap-10"
   >
     <div
-      class="h-28 w-full overflow-hidden rounded-2xl md:h-40 lg:h-24 lg:w-1/3 xl:h-32 2xl:h-44"
+      class="h-32 w-full overflow-hidden rounded-2xl md:h-40 lg:h-24 lg:w-1/3 xl:h-32 2xl:h-48"
     >
       <img
         :src="talk.snippet.thumbnails.high.url"
