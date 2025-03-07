@@ -33,17 +33,34 @@ defineProps({
 </script>
 
 <template>
-  <article
+  <component
+    :is="image === '/images/unknownSpeaker.webp' ? 'a' : 'article'"
+    :href="
+      image === '/images/unknownSpeaker.webp'
+        ? 'https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml'
+        : undefined
+    "
+    :target="image === '/images/unknownSpeaker.webp' ? '_blank' : undefined"
+    :rel="
+      image === '/images/unknownSpeaker.webp'
+        ? 'noopener noreferrer'
+        : undefined
+    "
     class="flex w-full flex-col gap-5 rounded-2xl border-2 border-bordercolor bg-transparent p-5 md:gap-10 lg:flex-row"
+    :class="
+      image === '/images/unknownSpeaker.webp'
+        ? 'group cursor-pointer transition-all duration-200 hover:border-white'
+        : ''
+    "
   >
     <div class="relative flex w-full flex-col items-center gap-2 lg:w-1/3">
       <img
         :src="image"
         :alt="alt"
-        class="h-fit w-full rounded-2xl border-2 border-bordercolor bg-transparent object-cover sm:w-1/2 md:w-full xl:h-52"
+        class="h-fit w-full rounded-2xl border-2 border-bordercolor bg-transparent object-cover sm:w-1/2 md:w-full xl:h-52 2xl:h-72"
       />
       <div
-        v-if="image !== '/images/unknownSpeaker.webp'"
+        v-if="image === '/images/unknownSpeaker.webp'"
         class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#000000a5] to-transparent px-2 pb-1"
       ></div>
     </div>
@@ -93,14 +110,12 @@ defineProps({
           </li>
         </ul>
       </div>
-      <div v-else class="pt-5">
-        <AppLink
-          link="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
-        >
+      <div v-else class="flex justify-end">
+        <p class="text-bordercolor group-hover:text-white">
           Proposer un talk
           <Icon name="mdi:arrow-right" />
-        </AppLink>
+        </p>
       </div>
     </div>
-  </article>
+  </component>
 </template>

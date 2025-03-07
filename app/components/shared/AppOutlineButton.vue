@@ -18,7 +18,7 @@ defineProps({
   },
   border: {
     type: String,
-    default: "border-slate-800",
+    default: "border-black",
   },
 });
 </script>
