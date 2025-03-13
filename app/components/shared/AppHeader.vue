@@ -29,7 +29,7 @@ const route = useRoute();
               to="/talks"
               class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-200"
               :class="{
-                'rounded-2xl border-2 !border-primarygreen-200 p-3 font-bold':
+                'rounded-2xl border-2 border-primarygreen-200! p-3 font-bold':
                   route.path === '/talks',
               }"
             >
@@ -41,7 +41,7 @@ const route = useRoute();
               to="/sponsor"
               class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-200"
               :class="{
-                'rounded-2xl border-2 !border-primarygreen-200 p-3 font-bold':
+                'rounded-2xl border-2 border-primarygreen-200! p-3 font-bold':
                   route.path === '/sponsor',
               }"
             >
@@ -53,7 +53,7 @@ const route = useRoute();
               to="/about"
               class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-200"
               :class="{
-                'rounded-2xl border-2 !border-primarygreen-200 p-3 font-bold':
+                'rounded-2xl border-2 border-primarygreen-200! p-3 font-bold':
                   route.path === '/about',
               }"
             >
@@ -76,7 +76,7 @@ const route = useRoute();
           target="_blank"
           rel="noopener noreferrer"
           background="bg-[#181818]"
-          class="hidden !w-fit lg:block"
+          class="hidden w-fit! lg:block"
         >
           Proposer un talk
         </AppOutlineButton>
