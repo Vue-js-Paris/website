@@ -10,7 +10,7 @@
           class="md:max-w-[30%] lg:max-w-[20%]"
         />
         <div
-          class="hidden md:absolute md:inset-0 md:z-10 md:block md:h-64 md:w-full md:bg-gradient-to-r md:from-black md:from-35% md:to-transparent md:to-50% lg:from-25% lg:to-40%"
+          class="hidden md:absolute md:inset-0 md:z-10 md:block md:h-64 md:w-full md:bg-linear-to-r md:from-black md:from-35% md:to-transparent md:to-50% lg:from-25% lg:to-40%"
         >
           <AppSectionTitle
             title="Vue.js Paris en images"

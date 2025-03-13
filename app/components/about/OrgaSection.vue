@@ -6,7 +6,7 @@
       <div class="flex flex-col items-center justify-between gap-10 md:gap-20">
         <AppSectionTitle
           title="Les organisateurs"
-          class="!static !text-center"
+          class="static! text-center!"
         />
         <div class="flex flex-col md:flex-row">
           <OrgCard
