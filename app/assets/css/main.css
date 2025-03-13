@@ -1,6 +1,46 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primarygreen-100: #4ade80;
+  --color-primarygreen-200: #1c6739;
+
+  --color-primaryblue: #35495e;
+  --color-darkbg: #0f172a;
+  --color-darkerbg: #010317;
+  --color-bordercolor: #4f4d4d;
+
+  --font-roboto: Roboto, sans-serif;
+  --font-montserrat: Montserrat, sans-serif;
+  --font-herotitle: Gasoek One, sans-serif;
+
+  --outline-offset-3: 1rem;
+
+  --height-section: calc(100vh - 100px);
+  --height-sectionxl: calc(100vh - 200px);
+
+  --animate-fade-in-out: fadeInOut 5s infinite;
+  --animate-rotate: rotate 4s linear infinite;
+
+  @keyframes fadeInOut {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg) scale(10);
+    }
+    100% {
+      transform: rotate(360deg) scale(10);
+    }
+  }
+}
 
 h1,
 h2,

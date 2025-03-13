@@ -38,7 +38,7 @@ defineProps({
           :to="link"
           :target="target"
           :rel="rel"
-          class="h-full flex-1 rounded-lg bg-transparent p-1 text-xl text-white placeholder:text-slate-700 focus:outline-none focus:ring-1"
+          class="h-full flex-1 rounded-lg bg-transparent p-1 text-xl text-white placeholder:text-slate-700 focus:outline-hidden focus:ring-1"
         >
           <slot />
         </NuxtLink>

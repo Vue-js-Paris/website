@@ -14,7 +14,7 @@ const animationClass = computed(() =>
       <div
         v-for="(img, index) in [...props.images, ...props.images]"
         :key="index"
-        class="h-36 w-[250px] flex-shrink-0 pr-5 md:h-64 md:w-[500px] md:pr-10"
+        class="h-36 w-[250px] shrink-0 pr-5 md:h-64 md:w-[500px] md:pr-10"
       >
         <img
           :src="img"

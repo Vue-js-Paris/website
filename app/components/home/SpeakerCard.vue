@@ -61,7 +61,7 @@ defineProps({
       />
       <div
         v-if="image === '/images/unknownSpeaker.webp'"
-        class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#000000a5] to-transparent px-2 pb-1"
+        class="absolute inset-x-0 bottom-0 bg-linear-to-t from-[#000000a5] to-transparent px-2 pb-1"
       ></div>
     </div>
     <div class="flex h-full w-full flex-col justify-between">
