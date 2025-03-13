@@ -17,7 +17,7 @@ const mousePosition = computed(() => {
   <section class="md:px-10">
     <div class="flex w-full flex-col gap-2">
       <h1
-        class="background text-nowrap border-2 border-bordercolor p-5 text-center text-4xl font-semibold leading-none text-white sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[13rem]"
+        class="background text-nowrap border-2 border-bordercolor p-5 text-center text-4xl font-semibold leading-none text-white sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[11rem]"
       >
         VUE.JS PARIS
       </h1>
@@ -30,20 +30,30 @@ const mousePosition = computed(() => {
             '--mouse-y': `${mousePosition.y}px`,
           }"
         >
-          <div class="flex h-full w-full items-end justify-start">
+          <div
+            class="flex h-full w-full items-center justify-start md:items-end"
+          >
             <div
-              class="mt-10 flex flex-col gap-5 md:mt-0 md:max-w-[400px] md:px-0 lg:max-w-[500px]"
+              class="flex flex-col items-center gap-5 md:max-w-[400px] md:px-0 lg:max-w-[500px]"
             >
               <h2
-                class="z-50 text-3xl font-semibold text-white sm:text-5xl md:z-0"
+                class="z-50 text-center text-3xl font-semibold text-white sm:text-5xl md:z-0 md:text-start"
               >
                 Découvrir, partager et connecter.
               </h2>
-              <p class="z-50 text-slate-300 md:z-0">
+              <p class="z-50 hidden text-slate-300 md:z-0 md:block">
                 Rejoignez-nous pour notre prochain meetup et découvrez des talks
                 passionnants et des moments de partage avec la communauté Vue.js
                 Paris.
               </p>
+              <AppButton
+                link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="z-20 md:hidden"
+              >
+                Participer au meetup
+              </AppButton>
             </div>
           </div>
         </div>

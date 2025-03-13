@@ -25,7 +25,7 @@ defineProps({
       :to="link"
       target="_blank"
       rel="noopener noreferrer"
-      class="flex h-full w-24 flex-col items-center gap-5 rounded-2xl transition-all hover:scale-110 hover:duration-200 sm:w-32 md:w-20 lg:w-32 xl:w-60"
+      class="flex h-full w-24 flex-col items-center gap-5 rounded-2xl transition-all hover:scale-110 hover:duration-200 sm:w-32 md:w-20 lg:w-32 xl:w-40 2xl:w-60"
     >
       <img
         :src="image"

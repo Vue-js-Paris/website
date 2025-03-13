@@ -62,12 +62,12 @@ const route = useRoute();
           </li>
         </ul>
       </nav>
-      <div class="flex gap-5">
+      <div class="flex items-center gap-5">
         <AppButton
           link="https://www.meetup.com/fr-FR/Vuejs-Paris/"
           target="_blank"
           rel="noopener noreferrer"
-          class="!p-3"
+          class="h-fit"
         >
           Participer au meetup
         </AppButton>
