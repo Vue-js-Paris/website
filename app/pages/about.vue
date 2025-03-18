@@ -3,5 +3,6 @@
     <IntroSection />
     <OrgaSection />
     <FaqSection />
+    <MakersSection />
   </div>
 </template>
