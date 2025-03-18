@@ -11,7 +11,7 @@ const showVideo = ref(false);
 <template>
   <div class="w-full py-10 md:px-10">
     <article
-      class="background w-full border-2 border-bordercolor p-5 md:p-10 xl:p-20"
+      class="background border-bordercolor w-full border-2 p-5 md:p-10 xl:p-20"
     >
       <div class="mx-auto flex w-full flex-col xl:w-2/3">
         <h1 class="mb-10 text-center text-2xl text-white md:text-3xl">
@@ -38,9 +38,9 @@ const showVideo = ref(false);
           :src="`https://www.youtube-nocookie.com/embed/${props.videoId}`"
           frameborder="0"
           allowfullscreen
-        />
+        ></iframe>
         <div class="prose-base pt-10 text-white">
-          <slot />
+          <slot ></slot>
         </div>
       </div>
     </article>

@@ -8,7 +8,7 @@ const { talks, pending } = useLatestTalks();
   <section class="pb-10 md:px-10">
     <div
       v-if="!pending && talks?.length"
-      class="background flex w-full flex-col-reverse gap-10 border-2 border-bordercolor p-5 md:flex-row xl:p-20"
+      class="background border-bordercolor flex w-full flex-col-reverse gap-10 border-2 p-5 md:flex-row xl:p-20"
     >
       <div class="flex h-full flex-col gap-5">
         <div v-for="talk in talks" :key="talk.id.videoId">

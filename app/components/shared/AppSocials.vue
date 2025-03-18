@@ -1,7 +1,7 @@
 <template>
   <ul class="flex items-center gap-5 text-3xl">
     <li
-      class="transtion-all hover:scale-125 hover:text-primarygreen-200 hover:duration-300 hover:ease-in-out"
+      class="transtion-all hover:text-primarygreen-200 hover:scale-125 hover:duration-300 hover:ease-in-out"
     >
       <a
         href="https://www.youtube.com/@vuejsparis"
@@ -13,7 +13,7 @@
       </a>
     </li>
     <li
-      class="transtion-all hover:scale-125 hover:text-primarygreen-200 hover:duration-300 hover:ease-in-out"
+      class="transtion-all hover:text-primarygreen-200 hover:scale-125 hover:duration-300 hover:ease-in-out"
     >
       <a
         href="https://x.com/vuejsparis"
@@ -25,7 +25,7 @@
       </a>
     </li>
     <li
-      class="transtion-all hover:scale-125 hover:text-primarygreen-200 hover:duration-300 hover:ease-in-out"
+      class="transtion-all hover:text-primarygreen-200 hover:scale-125 hover:duration-300 hover:ease-in-out"
     >
       <a
         href="https://bsky.app/profile/vuejsparis.bsky.social"
@@ -37,7 +37,7 @@
       </a>
     </li>
     <li
-      class="transtion-all hover:scale-125 hover:text-primarygreen-200 hover:duration-300 hover:ease-in-out"
+      class="transtion-all hover:text-primarygreen-200 hover:scale-125 hover:duration-300 hover:ease-in-out"
     >
       <a
         href="https://www.meetup.com/fr-FR/Vuejs-Paris/"

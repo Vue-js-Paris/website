@@ -23,7 +23,7 @@ function updatedSearch(value: string) {
 <template>
   <section v-if="!pending && talks" class="pb-10 md:px-10 md:pt-10">
     <div
-      class="background flex min-h-screen w-full flex-col items-center gap-10 border-2 border-bordercolor p-5 sm:items-start md:flex-row xl:gap-20 xl:p-20"
+      class="background border-bordercolor flex min-h-screen w-full flex-col items-center gap-10 border-2 p-5 sm:items-start md:flex-row xl:gap-20 xl:p-20"
     >
       <AppSectionTitle
         title="Les Talks"

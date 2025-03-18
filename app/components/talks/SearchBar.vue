@@ -15,8 +15,8 @@ function updatedSearch(event: Event) {
 <template>
   <input
     :value="search"
-    @input="updatedSearch"
     placeholder="Rechercher un talk..."
-    class="w-fit rounded-2xl bg-transparent p-5 font-montserrat text-white ring-2 ring-white"
+    class="font-montserrat w-fit rounded-2xl bg-transparent p-5 text-white ring-2 ring-white"
+    @input="updatedSearch"
   />
 </template>
