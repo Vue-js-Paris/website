@@ -10,7 +10,7 @@
           title="L'équipe derrière le projet"
           description="Un projet conçu avec passion et expertise par deux créatifs."
         />
-        <div class="flex flex-col items-start md:flex-row">
+        <div class="flex flex-col items-start gap-10 md:flex-row md:gap-0">
           <MakerCard
             image="/images/photoAlex.webp"
             alt="Alexis Vachet"
