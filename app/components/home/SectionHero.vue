@@ -17,14 +17,14 @@ const mousePosition = computed(() => {
   <section class="md:px-10">
     <div class="flex w-full flex-col gap-2">
       <h1
-        class="background text-nowrap border-2 border-bordercolor p-5 text-center text-4xl font-semibold leading-none text-white sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[11rem]"
+        class="background border-bordercolor border-2 p-5 text-center text-4xl leading-none font-semibold text-nowrap text-white sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[11rem]"
       >
         VUE.JS PARIS
       </h1>
       <div class="flex w-full justify-between gap-2">
         <div
           ref="backgroundRef"
-          class="background background-dots flex h-[500px] w-full justify-between gap-2 border-2 border-bordercolor p-5 lg:w-2/3 xl:w-[70%] xl:p-20"
+          class="background background-dots border-bordercolor flex h-[500px] w-full justify-between gap-2 border-2 p-5 lg:w-2/3 xl:w-[70%] xl:p-20"
           :style="{
             '--mouse-x': `${mousePosition.x}px`,
             '--mouse-y': `${mousePosition.y}px`,

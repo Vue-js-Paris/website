@@ -1,7 +1,7 @@
 <template>
   <section class="md:px-10">
     <div
-      class="background flex h-full w-full flex-col gap-10 border-2 border-bordercolor p-5 md:flex-row md:gap-20 md:p-10 xl:p-20"
+      class="background border-bordercolor flex h-full w-full flex-col gap-10 border-2 p-5 md:flex-row md:gap-20 md:p-10 xl:p-20"
     >
       <AppSectionTitle
         title="Foire aux questions"
@@ -38,7 +38,7 @@
               to="https://www.meetup.com/fr-FR/Vuejs-Paris/"
               target="_blank"
               rel="noopener noreferrer"
-              class="hover:text-tertiary hover:decoration-tertiary inline-block font-semibold text-primarygreen-200 underline decoration-primarygreen-200"
+              class="hover:text-tertiary hover:decoration-tertiary text-primarygreen-200 decoration-primarygreen-200 inline-block font-semibold underline"
             >
               groupe Meetup
             </NuxtLink>
@@ -54,7 +54,7 @@
               to="https://github.com/Vue-js-Paris/talks/issues/new?assignees=&labels=&projects=&template=new_talk_fr.yml"
               target="_blank"
               rel="noopener"
-              class="hover:text-tertiary hover:decoration-tertiary inline-block font-semibold text-primarygreen-200 underline decoration-primarygreen-200"
+              class="hover:text-tertiary hover:decoration-tertiary text-primarygreen-200 decoration-primarygreen-200 inline-block font-semibold underline"
             >
               Github
             </NuxtLink>

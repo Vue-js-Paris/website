@@ -1,14 +1,14 @@
 <template>
   <section class="md:px-10">
     <div
-      class="background flex h-full w-full flex-col-reverse gap-10 border-2 border-bordercolor p-5 md:flex-row md:gap-20 md:p-10 xl:p-20"
+      class="background border-bordercolor flex h-full w-full flex-col-reverse gap-10 border-2 p-5 md:flex-row md:gap-20 md:p-10 xl:p-20"
     >
       <div class="flex flex-col items-center justify-between gap-10 md:gap-20">
         <AppSectionTitle
           title="Les organisateurs"
           class="static! text-center!"
         />
-        <div class="flex flex-col md:flex-row">
+        <div class="flex flex-col items-start md:flex-row">
           <OrgCard
             image="/images/Eduardo.webp"
             alt="Eduardo San Martin Morote"

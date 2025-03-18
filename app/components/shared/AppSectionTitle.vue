@@ -27,7 +27,7 @@ defineProps({
       {{ description }}
     </p>
     <div :class="{ 'pt-5': $slots.default }">
-      <slot />
+      <slot ></slot>
     </div>
   </div>
 </template>

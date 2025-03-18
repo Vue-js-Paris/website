@@ -34,7 +34,7 @@ defineProps({
       class="flex items-center gap-1 bg-[length:0%_2px] bg-left-bottom bg-no-repeat text-white transition-all duration-500 ease-out group-hover:bg-[length:100%_2px]"
       :class="`bg-linear-to-r ${gradientFrom} ${gradientTo}`"
     >
-      <slot />
+      <slot ></slot>
     </span>
   </NuxtLink>
 </template>

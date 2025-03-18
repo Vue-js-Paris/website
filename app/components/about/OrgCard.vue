@@ -34,7 +34,7 @@ defineProps({
         <NuxtLink :to="linkedin" target="_blank" rel="noopener noreferrer">
           <Icon
             name="mdi:linkedin"
-            class="text-4xl text-white transition-all hover:scale-125 hover:text-primarygreen-200 hover:duration-200"
+            class="hover:text-primarygreen-200 text-4xl text-white transition-all hover:scale-125 hover:duration-200"
           />
         </NuxtLink>
       </li>
@@ -42,7 +42,7 @@ defineProps({
         <NuxtLink :to="github" target="_blank" rel="noopener noreferrer">
           <Icon
             name="mdi:github"
-            class="text-4xl text-white transition-all hover:scale-125 hover:text-primarygreen-200 hover:duration-200"
+            class="hover:text-primarygreen-200 text-4xl text-white transition-all hover:scale-125 hover:duration-200"
           />
         </NuxtLink>
       </li>

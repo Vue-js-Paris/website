@@ -4,7 +4,7 @@ const route = useRoute();
 
 <template>
   <div
-    class="fixed top-0 z-30 flex h-[100px] w-full justify-center border-b-2 border-bordercolor"
+    class="border-bordercolor fixed top-0 z-30 flex h-[100px] w-full justify-center border-b-2"
   >
     <header
       class="flex w-full items-center justify-between text-white md:w-[90%]"
@@ -23,13 +23,13 @@ const route = useRoute();
       </NuxtLink>
 
       <nav>
-        <ul class="flex items-center font-montserrat text-xl xl:gap-10">
+        <ul class="font-montserrat flex items-center text-xl xl:gap-10">
           <li>
             <NuxtLink
               to="/talks"
-              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-200"
+              class="hover:border-primarygreen-200 rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2"
               :class="{
-                'rounded-2xl border-2 border-primarygreen-200! p-3 font-bold':
+                'border-primarygreen-200! rounded-2xl border-2 p-3 font-bold':
                   route.path === '/talks',
               }"
             >
@@ -39,9 +39,9 @@ const route = useRoute();
           <li>
             <NuxtLink
               to="/sponsor"
-              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-200"
+              class="hover:border-primarygreen-200 rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2"
               :class="{
-                'rounded-2xl border-2 border-primarygreen-200! p-3 font-bold':
+                'border-primarygreen-200! rounded-2xl border-2 p-3 font-bold':
                   route.path === '/sponsor',
               }"
             >
@@ -51,9 +51,9 @@ const route = useRoute();
           <li>
             <NuxtLink
               to="/about"
-              class="rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2 hover:border-primarygreen-200"
+              class="hover:border-primarygreen-200 rounded-2xl border-2 border-transparent p-3 transition-all hover:border-2"
               :class="{
-                'rounded-2xl border-2 border-primarygreen-200! p-3 font-bold':
+                'border-primarygreen-200! rounded-2xl border-2 p-3 font-bold':
                   route.path === '/about',
               }"
             >

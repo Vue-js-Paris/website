@@ -1,7 +1,7 @@
 <template>
   <section class="md:px-10">
     <div
-      class="background flex w-full flex-col gap-10 border-2 border-bordercolor p-5 md:flex-row md:gap-20 md:p-10 xl:p-20"
+      class="background border-bordercolor flex w-full flex-col gap-10 border-2 p-5 md:flex-row md:gap-20 md:p-10 xl:p-20"
     >
       <AppSectionTitle
         title="Devenir sponsor de Vue.js Paris"

@@ -46,7 +46,7 @@ defineProps({
         ? 'noopener noreferrer'
         : undefined
     "
-    class="flex w-full flex-col gap-5 rounded-2xl border-2 border-bordercolor bg-transparent p-5 md:gap-10 lg:flex-row"
+    class="border-bordercolor flex w-full flex-col gap-5 rounded-2xl border-2 bg-transparent p-5 md:gap-10 lg:flex-row"
     :class="
       image === '/images/unknownSpeaker.webp'
         ? 'group cursor-pointer transition-all duration-200 hover:border-white'
@@ -57,7 +57,7 @@ defineProps({
       <img
         :src="image"
         :alt="alt"
-        class="h-fit w-full rounded-2xl border-2 border-bordercolor bg-transparent object-cover sm:w-1/2 md:w-full xl:h-52 2xl:h-72"
+        class="border-bordercolor h-fit w-full rounded-2xl border-2 bg-transparent object-cover sm:w-1/2 md:w-full xl:h-52 2xl:h-72"
       />
       <div
         v-if="image === '/images/unknownSpeaker.webp'"
@@ -91,7 +91,7 @@ defineProps({
             >
               <Icon
                 name="mdi:linkedin"
-                class="text-3xl text-white transition-all hover:scale-125 hover:text-primarygreen-200 hover:duration-200"
+                class="hover:text-primarygreen-200 text-3xl text-white transition-all hover:scale-125 hover:duration-200"
               />
             </NuxtLink>
           </li>
@@ -104,7 +104,7 @@ defineProps({
             >
               <Icon
                 name="mdi:github"
-                class="text-3xl text-white transition-all hover:scale-125 hover:text-primarygreen-200 hover:duration-200"
+                class="hover:text-primarygreen-200 text-3xl text-white transition-all hover:scale-125 hover:duration-200"
               />
             </NuxtLink>
           </li>

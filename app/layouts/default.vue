@@ -4,9 +4,9 @@
   <div class="background">
     <AppHeader class="background hidden md:flex" />
     <main
-      class="background-stripes border-bordercolor border-x-2 font-roboto md:mx-auto md:w-[90%] md:pt-[100px]"
+      class="background-stripes border-bordercolor font-roboto border-x-2 md:mx-auto md:w-[90%] md:pt-[100px]"
     >
-      <slot />
+      <slot ></slot>
     </main>
     <AppFooter class="background" />
 

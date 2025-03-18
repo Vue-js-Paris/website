@@ -24,7 +24,7 @@ const defaultProps = {
     :to="props.link"
     :target="props.target"
     :rel="props.rel"
-    class="flex w-fit items-center justify-center rounded-xl p-3 text-center font-montserrat text-xl transition-all hover:scale-105 hover:shadow-lg hover:duration-300 hover:ease-in-out"
+    class="font-montserrat flex w-fit items-center justify-center rounded-xl p-3 text-center text-xl transition-all hover:scale-105 hover:shadow-lg hover:duration-300 hover:ease-in-out"
     :class="[
       props.backgroundColor || defaultProps.backgroundColor,
       props.textColor || defaultProps.textColor,
@@ -33,6 +33,6 @@ const defaultProps = {
       props.hoverBorderColor || defaultProps.hoverBorderColor,
     ]"
   >
-    <slot />
+    <slot ></slot>
   </NuxtLink>
 </template>
